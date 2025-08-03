@@ -6,9 +6,12 @@ from datetime import datetime
 from typing import List, Dict, Any
 
 class NCSLSummitScraper:
-    def __init__(self, year: str = "2024"):
+    def __init__(self, year: str = "2025"):
         self.year = year
-        self.base_url = f"https://www.ncsl.org/events/{year}-summit"
+        if year == "2025":
+            self.base_url = f"https://www.ncsl.org/events/{year}-ncsl-legislative-summit"
+        else:
+            self.base_url = f"https://www.ncsl.org/events/{year}-summit"
         self.sessions = []
         self.speakers = set()
         
@@ -22,9 +25,18 @@ class NCSLSummitScraper:
             })
             response.raise_for_status()
             
-            soup = BeautifulSoup(response.content, 'html.parser')
+            soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Look for session containers
+            # For 2025, look for the specific table structure
+            tables = soup.find_all('table')
+            for table in tables:
+                rows = table.find_all('tr')
+                for row in rows:
+                    session_data = self._extract_session_from_row(row)
+                    if session_data:
+                        self.sessions.append(session_data)
+            
+            # Also look for session containers
             session_elements = soup.find_all(['div', 'article', 'section'], 
                                            class_=re.compile('session|event|agenda-item', re.I))
             
@@ -49,6 +61,63 @@ class NCSLSummitScraper:
             print(f"Error scraping agenda: {e}")
             
         return self.sessions
+    
+    def _extract_session_from_row(self, row) -> Dict[str, Any]:
+        """Extract session information from table row"""
+        cells = row.find_all(['td', 'th'])
+        if len(cells) < 2:
+            return None
+            
+        session = {}
+        
+        # First cell usually has time/date
+        if cells[0]:
+            time_text = cells[0].get_text(strip=True)
+            if time_text and not time_text.lower().startswith('time'):
+                session['time'] = time_text
+        
+        # Second cell usually has session details
+        if len(cells) > 1 and cells[1]:
+            content = cells[1]
+            
+            # Extract title (usually in strong or first line)
+            title_elem = content.find('strong')
+            if title_elem:
+                session['title'] = title_elem.get_text(strip=True)
+            else:
+                # Get first non-empty line
+                lines = content.get_text().strip().split('\n')
+                for line in lines:
+                    if line.strip():
+                        session['title'] = line.strip()
+                        break
+            
+            # Extract location
+            location_match = re.search(r'Location:\s*([^|]+)', content.get_text())
+            if location_match:
+                session['location'] = location_match.group(1).strip()
+            
+            # Extract speakers (look for lines that might be names)
+            text_lines = content.get_text().split('\n')
+            speakers = []
+            for line in text_lines:
+                line = line.strip()
+                # Skip empty lines, title, location, and common words
+                if (line and 
+                    line != session.get('title', '') and 
+                    not line.lower().startswith('location:') and
+                    not line.lower().startswith('track:') and
+                    len(line.split()) <= 6 and  # Likely a name
+                    any(char.isalpha() for char in line)):
+                    # Check if it looks like a name (has commas or typical name patterns)
+                    if ',' in line or (len(line.split()) >= 2 and line[0].isupper()):
+                        speakers.append(line)
+                        self.speakers.add(line.split(',')[0].strip())  # Add just the name part
+            
+            if speakers:
+                session['speakers'] = speakers
+        
+        return session if session.get('title') else None
     
     def _extract_session_info(self, element) -> Dict[str, Any]:
         """Extract session information from HTML element"""

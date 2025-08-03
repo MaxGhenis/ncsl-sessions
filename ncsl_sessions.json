@@ -1,185 +1,276 @@
 {
-  "year": "2024",
-  "scraped_at": "2025-08-03T12:00:00",
+  "year": "2025",
+  "location": "Boston, MA",
+  "dates": "August 2-6, 2025",
+  "scraped_at": "2025-08-03T18:00:00",
   "sessions": [
     {
-      "title": "Artificial Intelligence Is Here: Are States Ready?",
-      "time": "Monday, Aug 5, 8:30-10:00 AM",
-      "speakers": ["Jennifer Pahlka"],
-      "organization": "Code for America",
-      "tracks": ["Technology and Communications", "Artificial Intelligence"],
-      "type": "General Session",
-      "description": "Exploring how states can prepare for and leverage AI technology in government services and policy-making"
+      "title": "National Asian Pacific American Caucus of State Legislators Annual Meeting",
+      "date": "2025-08-02",
+      "time": "11:45 AM-5:00 PM",
+      "location": "Westin Boston Seaport District, 2, Harbor Ballroom",
+      "speakers": [],
+      "description": "Annual meeting of the National Asian Pacific American Caucus of State Legislators",
+      "track": "Caucus Meeting",
+      "session_type": "Caucus Meeting"
     },
     {
-      "title": "10 Lies and a Truth: Using Brain Science to Distinguish Fact From Bias",
-      "time": "Tuesday, Aug 6, 9:00-10:15 AM",
-      "speakers": ["John Medina"],
-      "role": "Molecular Biologist",
-      "track": "Professional Development",
-      "type": "General Session",
-      "description": "Understanding cognitive biases and decision-making through the lens of neuroscience"
+      "title": "LSCC Breakfast",
+      "date": "2025-08-03", 
+      "time": "7:00 AM-8:00 AM",
+      "location": "Westin Boston Seaport District, Lower, Commonwealth AB",
+      "speakers": [],
+      "description": "Legislative Staff Coordinating Committee breakfast meeting",
+      "track": "Executive Committee, LSCC and NCSL Foundation",
+      "session_type": "Breakfast Meeting"
     },
     {
-      "title": "The Cure for Stupidity: Understanding Why They Don't Understand You",
-      "time": "Tuesday, Aug 6, 4:00-5:00 PM",
-      "speakers": ["Eric Bailey"],
-      "organization": "Bailey Strategic Innovation Group",
-      "track": "Professional Development",
-      "type": "General Session",
-      "description": "Effective communication strategies for legislators and policy makers"
+      "title": "LSCC Artificial Intelligence Special Work Group",
+      "date": "2025-08-03",
+      "time": "8:00 AM-9:00 AM",
+      "location": "Westin Boston Seaport District, 1, Webster",
+      "speakers": [],
+      "description": "Working group focused on artificial intelligence strategies for legislative staff",
+      "track": "Executive Committee, LSCC and NCSL Foundation, Artificial Intelligence",
+      "session_type": "Working Group"
     },
     {
-      "title": "Democratic Breakfast",
-      "time": "Tuesday, Aug 6, 7:30-8:45 AM",
-      "speakers": ["Tom Perez"],
-      "role": "White House Senior Advisor",
-      "type": "Breakfast Session",
-      "description": "Democratic caucus breakfast featuring policy priorities and national perspectives"
+      "title": "Health Innovations Task Force Meeting",
+      "date": "2025-08-03",
+      "time": "8:00 AM-5:00 PM", 
+      "location": "Omni Boston Hotel at the Seaport, 2, Ensemble C",
+      "speakers": [],
+      "description": "NCSL's Task Force on Innovations in State Health Systems explores the issues and opportunities faced by state policymakers as they reform their own health system.",
+      "track": "Health and Human Services",
+      "session_type": "Task Force Meeting"
     },
     {
-      "title": "Republican Breakfast",
-      "time": "Tuesday, Aug 6, 7:30-8:45 AM",
-      "speakers": ["Mitch McConnell"],
-      "role": "Senate Minority Leader",
-      "type": "Breakfast Session",
-      "description": "Republican caucus breakfast discussing conservative policy initiatives"
-    },
-    {
-      "title": "Legislative Staff Breakfast",
-      "time": "Wednesday, Aug 7, 7:30-8:45 AM",
-      "speakers": ["Sarah Calhoun"],
-      "type": "Breakfast Session",
-      "description": "Professional development and networking for legislative staff members"
-    },
-    {
-      "title": "Women's Breakfast Roundtables",
-      "time": "Monday, Aug 5, 7:30-8:45 AM",
-      "type": "Breakfast Session",
-      "format": "Roundtable Discussion",
-      "description": "Networking and discussion roundtables for women legislators"
-    },
-    {
-      "title": "NCSL Business Meeting",
-      "time": "Wednesday, Aug 7, 3:00-4:30 PM",
-      "type": "Business Meeting",
-      "description": "Annual NCSL organizational business meeting and elections"
-    },
-    {
-      "title": "State Budget Challenges in the Post-Pandemic Era",
-      "time": "Monday, Aug 5, 10:30 AM-12:00 PM",
-      "speakers": ["Lucy Dadayan", "Pew Charitable Trusts"],
-      "track": "Budget and Taxes",
-      "type": "Policy Session",
-      "description": "Examining state fiscal challenges and opportunities in the evolving economic landscape"
-    },
-    {
-      "title": "Election Security: Lessons from 2020 and Beyond",
-      "time": "Tuesday, Aug 6, 10:30 AM-12:00 PM",
-      "speakers": ["Christopher Krebs", "Former CISA Director"],
+      "title": "Election SATs: Security, Accuracy and Transparency",
+      "date": "2025-08-03",
+      "time": "9:00 AM-5:00 PM",
+      "location": "Omni Boston Hotel at the Seaport, 2, Ensemble A",
+      "speakers": [],
+      "description": "Join with peers from throughout the nation to share the latest on accuracy, security and access to the ballot",
       "track": "Elections and Redistricting",
-      "type": "Policy Session",
-      "description": "Best practices for securing elections and maintaining public trust"
+      "session_type": "Workshop"
     },
     {
-      "title": "Healthcare Innovation at the State Level",
-      "time": "Monday, Aug 5, 2:00-3:30 PM",
-      "speakers": ["Dr. Ashish Jha", "Brown University"],
-      "track": "Health and Human Services",
-      "type": "Policy Session",
-      "description": "Innovative state approaches to healthcare delivery and access"
+      "title": "NCSL Executive Committee Meeting",
+      "date": "2025-08-03",
+      "time": "4:00 PM-5:30 PM",
+      "location": "Westin Boston Seaport District, 3, Grand A",
+      "speakers": [],
+      "description": "NCSL Executive Committee business meeting",
+      "track": "Executive Committee, LSCC and NCSL Foundation",
+      "session_type": "Committee Meeting"
     },
     {
-      "title": "Climate Change and State Energy Policy",
-      "time": "Tuesday, Aug 6, 2:00-3:30 PM",
-      "speakers": ["Gina McCarthy", "Natural Resources Defense Council"],
-      "track": "Energy and Environment",
-      "type": "Policy Session",
-      "description": "State strategies for addressing climate change through energy policy"
+      "title": "Welcome! It's Time to Conquer the Summit",
+      "date": "2025-08-03",
+      "time": "4:00 PM-5:30 PM",
+      "location": "BCEC, 2, 253",
+      "speakers": [
+        "Alexis Stangl, Director, Minnesota Legislature",
+        "Alice Hanlon Peisch, House Assistant Majority Leader, Massachusetts General Court"
+      ],
+      "description": "First Legislative Summit orientation to learn how to make the most of the meeting",
+      "track": "Professional Development",
+      "session_type": "Orientation Session"
     },
     {
-      "title": "Criminal Justice Reform: Progress and Challenges",
-      "time": "Wednesday, Aug 7, 10:30 AM-12:00 PM",
-      "speakers": ["Van Jones", "REFORM Alliance"],
-      "track": "Criminal Justice",
-      "type": "Policy Session",
-      "description": "Examining criminal justice reform efforts across the states"
+      "title": "Opening General Session: Getting From Division to Dialogue in State Capitals",
+      "date": "2025-08-04",
+      "time": "9:00 AM-10:30 AM",
+      "location": "BCEC, Ballroom",
+      "speakers": [
+        "Erin Murphy, Senate Majority Leader, Minnesota Legislature",
+        "Gabrielle Giffords, Former Congresswoman, U.S. House of Representatives",
+        "Michael Smerconish, Host, SiriusXM and CNN",
+        "Karen Spilka, Senate President, Massachusetts Legislature",
+        "Lisa Demuth, House Minority Leader, Minnesota Legislature",
+        "Robin Vos, Assembly Speaker, Wisconsin Legislature",
+        "Ronald J. Mariano, House Speaker, Massachusetts Legislature",
+        "Wayne A. Harper, Senate President, Utah Legislature"
+      ],
+      "description": "Explore ways to turn down political temperature and restore civility in the public square",
+      "track": "General Session, Civility",
+      "session_type": "General Session"
     },
     {
-      "title": "The Future of Transportation Infrastructure",
-      "time": "Monday, Aug 5, 2:00-3:30 PM",
-      "speakers": ["Pete Buttigieg", "U.S. Secretary of Transportation"],
-      "track": "Transportation",
-      "type": "Keynote Session",
-      "description": "Federal-state partnership in modernizing transportation infrastructure"
+      "title": "1975: The Birth of NCSL",
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "location": "BCEC, 2, 258",
+      "speakers": [
+        "Natalie Wood, NCSL Staff",
+        "Karl Kurtz, Former NCSL Director"
+      ],
+      "description": "Hear stories about NCSL's early years from those who were there.",
+      "track": "Legislative Institution, Legislative Staff, Livestream Sessions",
+      "session_type": "Historical Presentation"
     },
     {
-      "title": "Education Policy in a Digital Age",
-      "time": "Tuesday, Aug 6, 10:30 AM-12:00 PM",
-      "speakers": ["Sal Khan", "Khan Academy"],
-      "track": "Education",
-      "type": "Policy Session",
-      "description": "Leveraging technology to improve educational outcomes"
+      "title": "AI Use Inside the Legislature: What's the Latest?",
+      "date": "2025-08-04", 
+      "time": "2:45 PM-3:45 PM",
+      "location": "BCEC, 2, 210",
+      "speakers": [
+        "Jon Heining, General Counsel, Texas Legislative Council",
+        "Chad Dahl, Group Infrastructure Manager, Washington Legislature",
+        "Will Clark, Program Principal, National Conference of State Legislatures"
+      ],
+      "description": "Discuss how state legislatures are managing AI use for legislative work",
+      "track": "Legislative Institution, Artificial Intelligence",
+      "session_type": "Technology Panel"
     },
     {
-      "title": "Rural Economic Development Strategies",
-      "time": "Wednesday, Aug 7, 8:30-10:00 AM",
-      "speakers": ["Tom Vilsack", "U.S. Secretary of Agriculture"],
+      "title": "Salute to Legislative Staff Session and Lunch: SurTHRIVE! Don't Just Survive State Legislature, THRIVE!",
+      "date": "2025-08-05",
+      "time": "11:15 AM-1:00 PM",
+      "location": "BCEC, Ballroom",
+      "speakers": [
+        "Muffy Davis, Motivational Speaker & Paralympic Medalist"
+      ],
+      "description": "Honor and celebrate legislative staff contributions. Muffy Davis, a seven-time Paralympic medalist, will share insights on perseverance and strength.",
+      "track": "Legislative Staff",
+      "session_type": "Lunch Session"
+    },
+    {
+      "title": "The Supreme Court: Unpacking the Impact",
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "location": "BCEC, 2, 258",
+      "speakers": [
+        "Amy Howe, Reporter, SCOTUSBlog"
+      ],
+      "description": "Explore U.S. Supreme Court decisions' implications for states, covering topics like gun regulation, gender-affirming care, disability rights, and free speech.",
+      "track": "Law and Public Safety, Legislative Staff, Continuing Legal Education, Livestream Sessions",
+      "session_type": "Legal Analysis"
+    },
+    {
+      "title": "Women's Network Policy Roundtables",
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "location": "BCEC, 2, 206",
+      "speakers": [],
+      "description": "Policy roundtable discussions for the Women's Legislative Network",
+      "track": "Women's Legislative Network",
+      "session_type": "Policy Roundtable"
+    },
+    {
+      "title": "Budgets and Revenue Standing Committee Business Meeting",
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Develop NCSL policy positions for advocacy before Congress and administration.",
+      "track": "Budget, Taxes and Pensions, Standing Committee Business Meeting",
+      "session_type": "Committee Meeting"
+    },
+    {
+      "title": "Labor Economic Development Standing Committee Business Meeting",
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Develop NCSL policy positions for advocacy before Congress and administration.",
+      "track": "Economic Development and Labor, Standing Committee Business Meeting",
+      "session_type": "Committee Meeting"
+    },
+    {
+      "title": "Self-Care: Mission Critical",
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "location": "BCEC, 1, 104",
+      "speakers": [
+        "Mark Quiner, Director, National Conference of State Legislatures"
+      ],
+      "description": "The work of legislators and staff can be so demanding that they neglect themselves. And if you don't care for yourself, you have nothing left to give to others.",
+      "track": "Professional Development",
+      "session_type": "Professional Development"
+    },
+    {
+      "title": "Demystifying AI in Medical Devices",
+      "date": "2025-08-05",
+      "time": "11:15 AM-11:45 AM",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Artificial intelligence is rapidly transforming patient care, from earlier disease detection to improving complex procedures. But how can state legislatures wrap their arms around it without hampering innovation?",
+      "track": "Artificial Intelligence, Health and Human Services",
+      "session_type": "Learning Hub"
+    },
+    {
+      "title": "General Session: The Great Political Realignment",
+      "date": "2025-08-05",
+      "time": "9:00 AM-10:00 AM",
+      "location": "BCEC, Ballroom",
+      "speakers": [
+        "Amy Walter, Publisher & Editor-in-Chief, Cook Political Report"
+      ],
+      "description": "Analysis of current political trends and realignments",
+      "track": "General Session",
+      "session_type": "General Session"
+    },
+    {
+      "title": "A Debate on Tariffs, Free Markets and the Future of U.S. Trade Policy",
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "Expert debate on trade policy and its implications for states",
       "track": "Economic Development and Labor",
-      "type": "Policy Session",
-      "description": "Innovative approaches to rural economic revitalization"
+      "session_type": "Panel Discussion"
     },
     {
-      "title": "Cybersecurity for State Governments",
-      "time": "Monday, Aug 5, 3:45-5:15 PM",
-      "speakers": ["Jen Easterly", "CISA Director"],
-      "tracks": ["Technology and Communications", "Cybersecurity"],
-      "type": "Workshop",
-      "description": "Protecting state infrastructure from cyber threats"
-    },
-    {
-      "title": "Mental Health Crisis Response",
-      "time": "Tuesday, Aug 6, 3:45-5:15 PM",
-      "speakers": ["Dr. Vivek Murthy", "U.S. Surgeon General"],
-      "track": "Health and Human Services",
-      "type": "Policy Session",
-      "description": "State approaches to mental health crisis intervention"
-    },
-    {
-      "title": "Housing Affordability Solutions",
-      "time": "Wednesday, Aug 7, 10:30 AM-12:00 PM",
-      "speakers": ["Matthew Desmond", "Princeton University"],
-      "track": "Housing",
-      "type": "Policy Session",
-      "description": "Innovative state policies to address housing affordability"
-    },
-    {
-      "title": "Workforce Development in the AI Era",
-      "time": "Monday, Aug 5, 10:30 AM-12:00 PM",
-      "speakers": ["Andrew Yang", "Forward Party"],
-      "tracks": ["Economic Development and Labor", "Artificial Intelligence"],
-      "type": "Policy Session",
-      "description": "Preparing state workforces for technological change"
+      "title": "The Brave New World of College Athletics",
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "location": "BCEC, 1, 157",
+      "speakers": [],
+      "description": "Discussion on recent changes in college athletics including NIL and conference realignments",
+      "track": "Education",
+      "session_type": "Policy Session"
     }
   ],
   "speakers": [
-    "Andrew Yang",
-    "Ashish Jha",
-    "Christopher Krebs",
-    "Eric Bailey",
-    "Gina McCarthy",
-    "Jen Easterly",
-    "Jennifer Pahlka",
-    "John Medina",
-    "Lucy Dadayan",
-    "Matthew Desmond",
-    "Mitch McConnell",
-    "Pete Buttigieg",
-    "Sal Khan",
-    "Sarah Calhoun",
-    "Tom Perez",
-    "Tom Vilsack",
-    "Van Jones",
-    "Vivek Murthy"
+    "Alexis Stangl",
+    "Alice Hanlon Peisch",
+    "Amy Howe",
+    "Amy Walter",
+    "Chad Dahl",
+    "Erin Murphy",
+    "Gabrielle Giffords",
+    "Jon Heining",
+    "Karen Spilka",
+    "Karl Kurtz",
+    "Lisa Demuth",
+    "Mark Quiner",
+    "Michael Smerconish",
+    "Muffy Davis",
+    "Natalie Wood",
+    "Robin Vos",
+    "Ronald J. Mariano",
+    "Wayne A. Harper",
+    "Will Clark"
+  ],
+  "tracks": [
+    "Artificial Intelligence",
+    "Budget, Taxes and Pensions",
+    "Caucus Meeting",
+    "Civility",
+    "Continuing Legal Education",
+    "Economic Development and Labor",
+    "Education",
+    "Elections and Redistricting",
+    "Executive Committee, LSCC and NCSL Foundation",
+    "General Session",
+    "Health and Human Services",
+    "Law and Public Safety",
+    "Legislative Institution",
+    "Legislative Staff",
+    "Livestream Sessions",
+    "Professional Development",
+    "Standing Committee Business Meeting",
+    "Women's Legislative Network"
   ]
 }

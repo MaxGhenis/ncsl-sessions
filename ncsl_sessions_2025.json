@@ -1,0 +1,1714 @@
+{
+  "year": "2025",
+  "location": "Boston, MA",
+  "dates": "August 4-6, 2025",
+  "scraped_at": "2025-08-03T17:27:51.242428",
+  "sessions": [
+    {
+      "time": "Session Name",
+      "title": "Time/Room",
+      "type": "Session"
+    },
+    {
+      "time": "National Asian Pacific American Caucus of State Legislators Annual Meeting",
+      "title": "Saturday, Aug. 2 | 11:45 AM-5:00 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 2, Harbor Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Breakfast",
+      "title": "Sunday, Aug. 3 | 7:00 AM-8:00 AM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Commonwealth AB"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Health Innovations Task Force Meeting",
+      "title": "Sunday, Aug. 3 | 8:00 AM-5:00 PM",
+      "speakers": [
+        "Omni Boston Hotel at the Seaport, 2, Ensemble C"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Artificial Intelligence Special Work Group",
+      "title": "Sunday, Aug. 3 | 8:00 AM-9:00 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Webster"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Professional Staff Association Officers Work Group",
+      "title": "Sunday, Aug. 3 | 8:00 AM-9:00 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Hancock"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Standing Committee Officers Work Group",
+      "title": "Sunday, Aug. 3 | 8:00 AM-9:00 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Stone"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Strategic Planning Work Group",
+      "title": "Sunday, Aug. 3 | 8:00 AM-9:00 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Otis"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Military and Veterans Affairs Task Force Meeting",
+      "title": "Sunday, Aug. 3 | 8:00 AM-5:00 PM",
+      "speakers": [
+        "Omni Boston Hotel at the Seaport, 2, Ensemble B"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "National Asian Pacific American Caucus of State Legislators Annual Meeting",
+      "title": "Sunday, Aug. 3 | 8:00 AM-12:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 2, Harbor Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Election SATs: Security, Accuracy and Transparency",
+      "title": "Sunday, Aug. 3 | 9:00 AM-5:00 PM",
+      "speakers": [
+        "Omni Boston Hotel at the Seaport, 2, Ensemble A"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Prenatal-to-3 Meeting",
+      "title": "Sunday, Aug. 3 | 9:00 AM-5:00 PM",
+      "type": "Session"
+    },
+    {
+      "time": "LSCC 50th Anniversary Special Subcommittee",
+      "title": "Sunday, Aug. 3 | 9:15 AM-10:15 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Hancock"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Information Technology, Social Media, E-Learning and Outreach Subcommittee",
+      "title": "Sunday, Aug. 3 | 9:15 AM-10:15 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Stone"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Legislative Institution Subcommittee",
+      "title": "Sunday, Aug. 3 | 9:15 AM-10:15 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Otis"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC Programs and Professional Development Subcommittee",
+      "title": "Sunday, Aug. 3 | 9:15 AM-10:15 AM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Webster"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "2030 Mason's Manual Commission Business Meeting",
+      "title": "Sunday, Aug. 3 | 10:00 AM-1:00 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Paine"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Full Legislative Staff Coordinating Committee Meeting",
+      "title": "Sunday, Aug. 3 | 10:30 AM-11:30 AM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Grand CD"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "International Legislative Advisory Council",
+      "title": "Sunday, Aug. 3 | 11:30 AM-12:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Otis"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "LSCC and Executive Committee Joint Lunch",
+      "title": "Sunday, Aug. 3 | 11:45 AM-1:00 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Commonwealth AB"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "NCSL Foundation Board Meeting",
+      "title": "Sunday, Aug. 3 | 11:45 AM-1:15 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Grand B"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "East Registration",
+      "title": "Sunday, Aug. 3 | 12:00 PM-5:00 PM",
+      "type": "Session"
+    },
+    {
+      "time": "Energy Staff Network Meeting",
+      "title": "Sunday, Aug. 3 | 12:00 PM-5:00 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Marina 4"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "North Registration",
+      "title": "Sunday, Aug. 3 | 12:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, North Lobby"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Bylaws and Standing Orders Committee",
+      "title": "Sunday, Aug. 3 | 1:00 PM-1:45 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Stone"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Inside the Legislative Process Committee",
+      "title": "Sunday, Aug. 3 | 1:00 PM-1:45 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Hancock"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Site Selection Committee",
+      "title": "Sunday, Aug. 3 | 1:00 PM-1:45 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Webster"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Technology Committee",
+      "title": "Sunday, Aug. 3 | 1:00 PM-1:45 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Otis"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Executive Committee: Budget, Finance and Rules Committee Meeting",
+      "title": "Sunday, Aug. 3 | 1:30 PM-2:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Grand E"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Executive Committee: State and Federal Policy Committee Meeting",
+      "title": "Sunday, Aug. 3 | 1:30 PM-2:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Commonwealth C"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS International Communication and Development Committee",
+      "title": "Sunday, Aug. 3 | 1:45 PM-2:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Stone"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Legislative Administrator Committee",
+      "title": "Sunday, Aug. 3 | 1:45 PM-2:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Hancock"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Membership and Communication Committee",
+      "title": "Sunday, Aug. 3 | 1:45 PM-2:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Otis"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Support Staff Committee",
+      "title": "Sunday, Aug. 3 | 1:45 PM-2:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Webster"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Quad Caucus Leaders Meeting",
+      "title": "Sunday, Aug. 3 | 2:00 PM-5:00 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 2, Harbor 2"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Canadian-American Relations Committee",
+      "title": "Sunday, Aug. 3 | 2:30 PM-3:15 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Stone"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Legislative Civics Education Support",
+      "title": "Sunday, Aug. 3 | 2:30 PM-3:15 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Webster"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Professional Journal Committee",
+      "title": "Sunday, Aug. 3 | 2:30 PM-3:15 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Hancock"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Program Development Committee",
+      "title": "Sunday, Aug. 3 | 2:30 PM-3:15 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Otis"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Executive Committee: Legislative Institution Committee Meeting",
+      "title": "Sunday, Aug. 3 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Grand E"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Executive Committee: Outreach and Member Services Committee Meeting",
+      "title": "Sunday, Aug. 3 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Commonwealth C"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Budget and Revenue Committee",
+      "title": "Sunday, Aug. 3 | 3:15 PM-4:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Webster"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Strategic Planning Committee",
+      "title": "Sunday, Aug. 3 | 3:15 PM-4:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 1, Otis"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "NCSL Executive Committee Meeting",
+      "title": "Sunday, Aug. 3 | 4:00 PM-5:30 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Grand A"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Welcome! It's Time to Conquer the Summit",
+      "title": "Sunday, Aug. 3 | 4:00 PM-5:30 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Executive Committee Reception",
+      "title": "Sunday, Aug. 3 | 5:30 PM-6:30 PM",
+      "type": "Session"
+    },
+    {
+      "time": "East Registration",
+      "title": "Monday, Aug. 4 | 7:30 AM-5:00 PM",
+      "type": "Session"
+    },
+    {
+      "time": "Meditation Room",
+      "title": "Monday, Aug. 4 | 7:30 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 260"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "North Registration",
+      "title": "Monday, Aug. 4 | 7:30 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, North Lobby"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Legislative Staff Nominating Committee Meeting",
+      "title": "Monday, Aug. 4 | 8:00 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 208"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Legislator Nominating Committee Meeting",
+      "title": "Monday, Aug. 4 | 8:00 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 209"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Mothers' Room",
+      "title": "Monday, Aug. 4 | 8:00 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, 158"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "State Meet and Greets",
+      "title": "Monday, Aug. 4 | 8:00 AM-8:45 AM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Fun Run Check-In",
+      "title": "Monday, Aug. 4 | 9:00 AM-2:00 PM",
+      "speakers": [
+        "BCEC, 1, North Lobby"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Opening General Session: Getting From Division to Dialogue in State Capitals",
+      "title": "Monday, Aug. 4 | 9:00 AM-10:30 AM",
+      "speakers": [
+        "BCEC, Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "1975: The Birth of NCSL",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 258"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Agency Oversight: Getting It Right",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 254"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "How to Use NCSL's 50-State Bill Info Service and Databases",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Law and Public Safety Standing Committee Business Meeting",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Meetings and Readings and Customs, Oh My!",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Navigating the Now: Key Trends in Health Policy",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 210"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Refresh for Results: Getting the Vote Quicker",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Revolutionizing the Future: The Impact of Robotics and AI",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Secrets From Journalists: How to Write Anything Better",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Tariffs: The Impact at Home and Abroad",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Brave New World of College Athletics",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 157"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Mingle Project: Michael Smerconish’s Plan to Bring Us Back Together",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Road Out of the Red: Smart Strategies for Transportation Infrastructure",
+      "title": "Monday, Aug. 4 | 11:00 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "For Legislators Only: Democratic Lunch Featuring JB Pritzker",
+      "title": "Monday, Aug. 4 | 12:00 PM-1:00 PM",
+      "speakers": [
+        "Westin Boston Seaport District, Lower, Grand Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "For Legislators Only: Republican Lunch Featuring Chris LaCivita",
+      "title": "Monday, Aug. 4 | 12:00 PM-1:00 PM",
+      "speakers": [
+        "Westin Boston Seaport District, 2, Harbor Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Lawn on D Lunch",
+      "title": "Monday, Aug. 4 | 12:00 PM-1:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Lawn on D"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Notable Document Awards Ceremony and Lunch",
+      "title": "Monday, Aug. 4 | 12:00 PM-1:00 PM",
+      "speakers": [
+        "BCEC, 2, 211"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Steering Committee",
+      "title": "Monday, Aug. 4 | 12:00 PM-12:30 PM",
+      "speakers": [
+        "BCEC, 2, 251"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "A Capitol Conversation: Preserving a Legislative Legacy",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 258"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Beyond the Reactor: State Roles in the Nuclear Cycle",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Education Standing Committee Business Meeting",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Elections and Redistricting Standing Committee Business Meeting",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "From Coins to Code: Shaping the Future of Cryptocurrency",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "How to Have Hard Conversations",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 157"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Rock and a Hard Place: Navigating Medicaid Budgets",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Safer States: Shoring Up the Public Safety Workforce",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "State of Emergency: Bracing for Extreme Weather Costs",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Civics Education Game",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Road to Surface Transportation Funding",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Walking the Tightrope: AI's Risks and Rewards",
+      "title": "Monday, Aug. 4 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 210"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "A Debate on Tariffs, Free Markets and the Future of U.S. Trade Policy",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "AI Use Inside the Legislature: What's the Latest?",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 210"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Boosting the Base: State Support for the Military",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 206"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Civility: The Secret Legislative Sauce",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Family First at 5: Progress, Pitfalls and Paths Forward",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Health Standing Committee Business Meeting",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Looking Back, Moving Forward: Legislative Staffing Patterns",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 157"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Mastering the 3 R's: Bipartisan Strategies to Improve State Education Systems",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Natural Resources, Energy and Environment Standing Committee Business Meeting",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "State Budgets 2025: Time to Tighten the Belt?",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 258"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Stop the Scam: Foiling Financial Fraud",
+      "title": "Monday, Aug. 4 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Foreign Influence in State Politics",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 258"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Legislative Staff University: Finding an Extra Hour every Day:  Time Management Tips and Tricks for Busy Professionals",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 210"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Preparing Students for the Workforce",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Putting the Brakes on Speed Demons",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Taking the Lead: Women in Power",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, 157"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The ABCs of THCs: The Cannabinoid Conundrum",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Tech Effect: What It Does to Kids",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Weakest Links: Strengthening Cybersecurity for the Energy Supply Chain",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Unpack Your First Term: A New Legislators' Roundtable",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 206"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "What the Reconciliation Bill Means for States",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Where History Draws a Crowd",
+      "title": "Monday, Aug. 4 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Kick Off the Celebration on Canal Street",
+      "title": "Monday, Aug. 4 | 5:00 PM-7:00 PM",
+      "type": "Session"
+    },
+    {
+      "time": "Opening Celebration at TD Garden",
+      "title": "Monday, Aug. 4 | 7:00 PM-9:00 PM",
+      "type": "Session"
+    },
+    {
+      "time": "Fun Run",
+      "title": "Tuesday, Aug. 5 | 6:30 AM-8:00 AM",
+      "type": "Session"
+    },
+    {
+      "time": "National Association of Jewish Legislators Annual Breakfast",
+      "title": "Tuesday, Aug. 5 | 7:30 AM-9:00 AM",
+      "type": "Session"
+    },
+    {
+      "time": "Census Conversation",
+      "title": "Tuesday, Aug. 5 | 7:45 AM-8:45 AM",
+      "speakers": [
+        "BCEC, 1, 108"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Prayer Breakfast",
+      "title": "Tuesday, Aug. 5 | 8:00 AM-8:45 AM",
+      "speakers": [
+        "BCEC, 2, 256"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Meditation Room",
+      "title": "Tuesday, Aug. 5 | 8:30 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 2, 260"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Mothers' Room",
+      "title": "Tuesday, Aug. 5 | 8:30 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, 158"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "North Registration",
+      "title": "Tuesday, Aug. 5 | 8:30 AM-5:00 PM",
+      "speakers": [
+        "BCEC, 1, North Lobby"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "General Session: The Great Political Realignment: The New Trump Coalition and the Coming Elections",
+      "title": "Tuesday, Aug. 5 | 9:00 AM-10:00 AM",
+      "speakers": [
+        "BCEC, Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Open",
+      "title": "Tuesday, Aug. 5 | 10:00 AM-4:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Grand Opening: Time to Hit the Hall",
+      "title": "Tuesday, Aug. 5 | 10:00 AM-11:00 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Celebrating 50 Years of Cutting-Edge Cures and Policy Progress",
+      "title": "Tuesday, Aug. 5 | 10:30 AM-11:00 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Exposed Data, Real-World Risk: Why Privacy Is a Public Safety Issue",
+      "title": "Tuesday, Aug. 5 | 10:30 AM-11:00 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Demystifying AI in Medical Devices",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-11:45 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Floods, Fires and Wind: Leading in the Era of Extreme Weather",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-11:45 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Homeowners’ Insurance: Can You Get It?",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "How to Use NCSL's 50-State Bill Info Service and Databases",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Salute to Legislative Staff Session and Lunch: SurTHRIVE! Don’t Just Survive State Legislature, THRIVE!",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-1:00 PM",
+      "speakers": [
+        "BCEC, Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Self-Care: Mission Critical",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Spotlight on Housing: Innovative Answers to a Growing Crisis",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 258"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "State Action on Education Choice",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Technology and Communications Standing Committee Business Meeting",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Then and Now: The Evolution of U.S. Economic Development",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Transportation Standing Committee Business Meeting",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Voting in the Military: Stories From the Field",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "When Science Met Policy: A Fabulous Fellowship",
+      "title": "Tuesday, Aug. 5 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 206"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Train SMART: Firearms Training for Everyone",
+      "title": "Tuesday, Aug. 5 | 12:00 PM-12:30 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Using Rapid DNA to Enhance Public Safety",
+      "title": "Tuesday, Aug. 5 | 12:00 PM-12:30 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Lunch",
+      "title": "Tuesday, Aug. 5 | 12:00 PM-1:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Keep a Roof Over Your Head",
+      "title": "Tuesday, Aug. 5 | 12:45 PM-1:15 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Using AI for Success: The Impact of CoCounsel in State Lawmaking",
+      "title": "Tuesday, Aug. 5 | 12:45 PM-1:15 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "50 Years in 50 Minutes: Legislative Trivia Time",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "AI and the Grid: A Love-Hate Relationship",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "ASLCS Executive Committee Meeting",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 108"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Beyond the Finish Line: A Fireside Chat with Meb Keflezighi",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 206"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Budgets and Revenue Standing Committee Business Meeting",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Good With Words: Structure and Organization",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Higher Ed: A Value Proposition",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Labor Economic Development Standing Committee Business Meeting",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Ponderous Permits: Reforming the Process",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 254"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Redistricting: A Mid-Decade Review",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Soaring Rents: A Policy Balancing Act",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Supreme Court: Unpacking the Impact",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 2, 258"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Up, Up and Away: The Air Mobility Revolution",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Women's Network Policy Roundtables",
+      "title": "Tuesday, Aug. 5 | 1:15 PM-2:15 PM",
+      "speakers": [
+        "BCEC, 1, 157"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | mRNA Technology: Past Breakthroughs, Present Impact, Future Promise",
+      "title": "Tuesday, Aug. 5 | 1:30 PM-2:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Sustainable Solutions for Power and Mobility",
+      "title": "Tuesday, Aug. 5 | 1:30 PM-2:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Beyond the Diamond: Baseball’s Policy Priorities",
+      "title": "Tuesday, Aug. 5 | 2:15 PM-2:45 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Circular by Design: Industry Innovation That’s Changing the Lifecycle of Apparel",
+      "title": "Tuesday, Aug. 5 | 2:15 PM-2:45 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "A Calling—At What Cost?",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Banking, Financial Services and Insurance Standing Committee Business Meeting",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Children, Families and Human Services Standing Committee Business Meeting",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Investing in the Wild: The North American Model",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Life Success: The Impact of Early Learning, Afterschool and Community Schools",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Make It Count: Getting the Most Out of a Session",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "NALFO Business Meeting",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 251"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Penny-Wise: What to Do When You’ve Got No Cents",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 206"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Today’s Hottest Election Topic: Citizenship and Voting",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 258"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Universal Broadband Access: The Path Forward",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Unretirement: Rethinking Work in the Age of Longevity",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "What Works to Keep Youth Out of Trouble",
+      "title": "Tuesday, Aug. 5 | 2:45 PM-3:45 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Autonomous Vehicles and the Future Workforce: A New Era of Opportunity",
+      "title": "Tuesday, Aug. 5 | 3:00 PM-3:30 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Compliance in the States: Spotlight on Political Giving",
+      "title": "Tuesday, Aug. 5 | 3:00 PM-3:30 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "General Session: The Challenge of Change",
+      "title": "Tuesday, Aug. 5 | 4:00 PM-5:00 PM",
+      "speakers": [
+        "BCEC, Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Steering Committee",
+      "title": "Tuesday, Aug. 5 | 5:00 PM-5:30 PM",
+      "speakers": [
+        "BCEC, 2, 251"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Massachusetts Night",
+      "title": "Tuesday, Aug. 5 | 5:30 PM-8:30 PM",
+      "type": "Session"
+    },
+    {
+      "time": "Reception Celebrating 40 Years of the Women's Legislative Network",
+      "title": "Tuesday, Aug. 5 | 5:30 PM-7:00 PM",
+      "type": "Session"
+    },
+    {
+      "time": "Meditation Room",
+      "title": "Wednesday, Aug. 6 | 8:30 AM-3:00 PM",
+      "speakers": [
+        "BCEC, 2, 260"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Mothers' Room",
+      "title": "Wednesday, Aug. 6 | 8:30 AM-4:30 PM",
+      "speakers": [
+        "BCEC, 1, 158"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "North Registration",
+      "title": "Wednesday, Aug. 6 | 8:30 AM-3:00 PM",
+      "speakers": [
+        "BCEC, 1, North Lobby"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Breakfast",
+      "title": "Wednesday, Aug. 6 | 9:00 AM-9:45 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Open",
+      "title": "Wednesday, Aug. 6 | 9:00 AM-2:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | GoFundMe's Mobilizing for Crisis Response: Timely, Trusted Support",
+      "title": "Wednesday, Aug. 6 | 9:15 AM-9:45 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | What State Legislators Need to Know about Obesity",
+      "title": "Wednesday, Aug. 6 | 9:15 AM-9:45 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Building Bridges: 50 Years of NCSL's Global Partnerships",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 2, 206"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Energy Security in the Age of Foreign Land Ownership",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Food Is Medicine: How States Are Driving Health Innovation",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:30 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Solving the Housing Crisis With Property Rights and Local Control",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:30 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Federalism in Action: States’ Role in Our Constitutional Framework",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Getting Unstuck: Options When Your Professional Path Feels Stalled",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Notes and Bolts: Great Legislative Decision-Making Tools",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Soaring Home Values: A Taxing Dilemma",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Parent Trap: Child Care Out of Reach",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The PFAS Puzzle: Putting the Pieces Together",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 2, 254"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Unlocking Blockchain: Government and the Digital Transformation",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Who You Gonna Call? Coordinating Crisis Response Systems",
+      "title": "Wednesday, Aug. 6 | 10:00 AM-10:45 AM",
+      "speakers": [
+        "BCEC, 1, 157"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Meeting the Energy Demand",
+      "title": "Wednesday, Aug. 6 | 10:45 AM-11:15 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Stop Synthetics and Keep Kratom Consumers Safe in Your State",
+      "title": "Wednesday, Aug. 6 | 10:45 AM-11:15 AM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Ballot Measures as Barometers",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 254"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Building Resilience, Feeling Safe: A Guide for Women Legislators",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 253"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Carbon Capture: What's Next?",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 257"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Leading in an Infinite Game",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 204"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Let Me Run This by My Attorney First",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 2, 259"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Navigating Uncertainty: Global Approaches to Trade and Economic Cooperation",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 104"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "PL8S 101: Why License Plates Really Matter",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 157"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Spotlight on Education in Massachusetts",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 156"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "The Evolving Overdose Crisis: Strategies and Solutions",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 153"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "What the Latest Federal Tech Action​ Means for States",
+      "title": "Wednesday, Aug. 6 | 11:15 AM-12:00 PM",
+      "speakers": [
+        "BCEC, 1, 107"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | A Smarter Path for Food Safety Regulation",
+      "title": "Wednesday, Aug. 6 | 11:30 AM-12:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | From Red Tape to Real Opportunity: Regulatory Reform",
+      "title": "Wednesday, Aug. 6 | 11:30 AM-12:00 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Focus on Rare Patient Access",
+      "title": "Wednesday, Aug. 6 | 12:15 PM-12:45 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Patients as Partners in Policymaking",
+      "title": "Wednesday, Aug. 6 | 12:15 PM-12:45 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Lunch",
+      "title": "Wednesday, Aug. 6 | 12:15 PM-1:15 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Legislative Staff Lunch: Locked In: The Bold Create the Future",
+      "title": "Wednesday, Aug. 6 | 12:15 PM-1:15 PM",
+      "speakers": [
+        "BCEC, 2, 205"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Applied AI Today: Improving Safety and Efficiency",
+      "title": "Wednesday, Aug. 6 | 1:00 PM-1:30 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Exhibit Hall Learning Hub | Integrating Digital Advocacy with Direct Lobbying to Influence Policy Outcomes",
+      "title": "Wednesday, Aug. 6 | 1:00 PM-1:30 PM",
+      "speakers": [
+        "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "NCSL Business Meeting",
+      "title": "Wednesday, Aug. 6 | 1:30 PM-3:00 PM",
+      "speakers": [
+        "BCEC, 2, 210"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Closing General Session: The Room Where It Happens: Leslie Odom, Jr. on Unlocking Your True Potential",
+      "title": "Wednesday, Aug. 6 | 3:15 PM-4:30 PM",
+      "speakers": [
+        "BCEC, Ballroom"
+      ],
+      "type": "Session"
+    },
+    {
+      "time": "Closing Reception at Leader Bank Pavilion",
+      "title": "Wednesday, Aug. 6 | 6:30 PM-9:00 PM",
+      "type": "Session"
+    }
+  ],
+  "speakers": [
+    "BCEC",
+    "Omni Boston Hotel at the Seaport",
+    "Westin Boston Seaport District"
+  ],
+  "tracks": []
+}
