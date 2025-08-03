@@ -425,13 +425,30 @@
                 const response = await fetch('ncsl_sessions.json');
                 const data = await response.json();
                 sessionsData = data.sessions || [];
-                speakersData = data.speakers || [];
+                
+                // Extract unique speakers from sessions
+                const speakerSet = new Set();
+                sessionsData.forEach(session => {
+                    if (session.speakers && Array.isArray(session.speakers)) {
+                        session.speakers.forEach(speaker => {
+                            if (speaker.name) {
+                                speakerSet.add(speaker.name);
+                            }
+                        });
+                    }
+                });
+                speakersData = Array.from(speakerSet).sort();
                 
                 // Extract unique tracks
                 const trackSet = new Set();
                 sessionsData.forEach(session => {
-                    if (session.track) trackSet.add(session.track);
-                    if (session.tracks) session.tracks.forEach(t => trackSet.add(t));
+                    if (session.track) {
+                        // Split tracks by comma if multiple
+                        const tracks = session.track.split(',').map(t => t.trim());
+                        tracks.forEach(t => {
+                            if (t) trackSet.add(t);
+                        });
+                    }
                 });
                 tracksData = Array.from(trackSet).sort();
             } catch (error) {
@@ -569,26 +586,55 @@
             // Filter by query
             if (currentFilters.query) {
                 const query = currentFilters.query.toLowerCase();
-                results = results.filter(session => 
-                    (session.title && session.title.toLowerCase().includes(query)) ||
-                    (session.description && session.description.toLowerCase().includes(query)) ||
-                    (session.speakers && session.speakers.some(s => s.toLowerCase().includes(query)))
-                );
+                results = results.filter(session => {
+                    // Check title
+                    if (session.title && session.title.toLowerCase().includes(query)) return true;
+                    
+                    // Check description
+                    if (session.description && session.description.toLowerCase().includes(query)) return true;
+                    
+                    // Check speakers
+                    if (session.speakers && Array.isArray(session.speakers)) {
+                        return session.speakers.some(speaker => {
+                            if (typeof speaker === 'string') {
+                                return speaker.toLowerCase().includes(query);
+                            } else if (speaker.name) {
+                                return speaker.name.toLowerCase().includes(query);
+                            }
+                            return false;
+                        });
+                    }
+                    
+                    return false;
+                });
             }
             
             // Filter by track
             if (currentFilters.track) {
-                results = results.filter(session => 
-                    session.track === currentFilters.track ||
-                    (session.tracks && session.tracks.includes(currentFilters.track))
-                );
+                results = results.filter(session => {
+                    if (session.track) {
+                        const tracks = session.track.split(',').map(t => t.trim());
+                        return tracks.includes(currentFilters.track);
+                    }
+                    return false;
+                });
             }
             
             // Filter by speaker
             if (currentFilters.speaker) {
-                results = results.filter(session => 
-                    session.speakers && session.speakers.includes(currentFilters.speaker)
-                );
+                results = results.filter(session => {
+                    if (session.speakers && Array.isArray(session.speakers)) {
+                        return session.speakers.some(speaker => {
+                            if (typeof speaker === 'string') {
+                                return speaker === currentFilters.speaker;
+                            } else if (speaker.name) {
+                                return speaker.name === currentFilters.speaker;
+                            }
+                            return false;
+                        });
+                    }
+                    return false;
+                });
             }
             
             displaySearchResults(results);
@@ -612,27 +658,39 @@
         
         // Create session card HTML
         function createSessionCard(session) {
-            const speakers = session.speakers ? 
-                session.speakers.map(s => `<a href="#" onclick="filterBySpeaker('${s}'); return false;">${s}</a>`).join(', ') : 
-                'TBD';
+            let speakers = 'TBD';
+            if (session.speakers && session.speakers.length > 0) {
+                speakers = session.speakers.map(speaker => {
+                    if (typeof speaker === 'string') {
+                        return `<a href="#" onclick="filterBySpeaker('${speaker}'); return false;">${speaker}</a>`;
+                    } else if (speaker.name) {
+                        return `<a href="#" onclick="filterBySpeaker('${speaker.name}'); return false;">${speaker.name}</a>`;
+                    }
+                    return '';
+                }).filter(s => s).join(', ');
+            }
             
             const tracks = [];
-            if (session.track) tracks.push(session.track);
-            if (session.tracks) tracks.push(...session.tracks);
+            if (session.track) {
+                // Split tracks by comma if multiple
+                const trackList = session.track.split(',').map(t => t.trim());
+                tracks.push(...trackList);
+            }
             const uniqueTracks = [...new Set(tracks)];
             
             return `
                 <div class="session-card">
                     <div class="session-title">${session.title || 'Untitled Session'}</div>
                     <div class="session-meta">
-                        ${session.time ? `<span>📅 ${session.time}</span>` : ''}
-                        ${session.type ? `<span>📍 ${session.type}</span>` : ''}
+                        ${session.date ? `<span>📅 ${session.date}</span>` : ''}
+                        ${session.time ? `<span>⏰ ${session.time}</span>` : ''}
+                        ${session.sessionType ? `<span>📍 ${session.sessionType}</span>` : ''}
                     </div>
-                    ${speakers ? `<div class="session-speakers">👤 ${speakers}</div>` : ''}
-                    ${session.organization ? `<div style="font-size: 0.9rem; color: #666;">🏢 ${session.organization}</div>` : ''}
+                    ${session.location ? `<div style="font-size: 0.9rem; color: #666;">📍 ${session.location}</div>` : ''}
+                    ${speakers !== 'TBD' ? `<div class="session-speakers">👤 ${speakers}</div>` : ''}
                     ${session.description ? `<p style="margin-top: 0.75rem; color: #555;">${session.description}</p>` : ''}
                     ${uniqueTracks.length > 0 ? 
-                        `<div>${uniqueTracks.map(t => `<span class="track-badge">${t}</span>`).join('')}</div>` : 
+                        `<div style="margin-top: 0.5rem;">${uniqueTracks.map(t => `<span class="track-badge">${t}</span>`).join('')}</div>` : 
                         ''}
                 </div>
             `;
@@ -696,7 +754,19 @@
             const container = document.getElementById('speakers-grid');
             
             const speakerCards = speakersData.map(speaker => {
-                const sessions = sessionsData.filter(s => s.speakers && s.speakers.includes(speaker));
+                const sessions = sessionsData.filter(s => {
+                    if (s.speakers && Array.isArray(s.speakers)) {
+                        return s.speakers.some(sp => {
+                            if (typeof sp === 'string') {
+                                return sp === speaker;
+                            } else if (sp.name) {
+                                return sp.name === speaker;
+                            }
+                            return false;
+                        });
+                    }
+                    return false;
+                });
                 return `
                     <div class="speaker-card" onclick="filterBySpeaker('${speaker}'); showPage('home');">
                         <div class="speaker-name">${speaker}</div>
