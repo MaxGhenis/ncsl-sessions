@@ -1,505 +1,1780 @@
 {
-  "extraction_info": {
-    "source": "https://www.ncsl.org/events/2025-ncsl-legislative-summit/agenda",
-    "extracted_date": "2025-08-03",
-    "extraction_method": "HTML parsing from NCSL website",
-    "status": "Partial extraction completed - website uses dynamic loading",
-    "note": "Due to dynamic content loading on the NCSL website, this represents sessions that were accessible via direct HTML parsing. The site likely contains additional sessions loaded via JavaScript."
+  "event": {
+    "name": "NCSL 2025 Legislative Summit",
+    "year": "2025",
+    "location": "Boston, MA",
+    "dates": "August 2-6, 2025",
+    "venue": "Boston Convention and Exhibition Center (BCEC)"
+  },
+  "metadata": {
+    "extracted_at": "2025-08-03T18:51:41.873582",
+    "total_sessions": 174,
+    "total_unique_speakers": 0,
+    "total_tracks": 0,
+    "sessions_by_date": {
+      "2025-08-03": 9,
+      "2025-08-04": 60,
+      "2025-08-05": 65,
+      "2025-08-06": 40
+    },
+    "sessions_by_type": {
+      "Task Force Meeting": 1,
+      "Registration": 2,
+      "Business Meeting": 4,
+      "Committee Meeting": 2,
+      "Lunch Session": 8,
+      "Session": 121,
+      "Reception": 4,
+      "General Session": 2,
+      "Panel Discussion": 3,
+      "Breakfast Session": 3,
+      "Exhibit Hall Event": 24
+    },
+    "pages_scraped": 4,
+    "deduplication_enabled": true
   },
   "sessions": [
     {
-      "title": "National Asian Pacific American Caucus of State Legislators Annual Meeting",
-      "date": "Saturday, August 2, 2025",
-      "time": "11:45 AM-5:00 PM",
-      "location": "Westin Boston Seaport District, 2, Harbor Ballroom",
-      "speakers": [],
-      "description": "",
-      "track": "",
-      "sessionType": "Caucus Meeting"
-    },
-    {
-      "title": "LSCC Breakfast",
-      "date": "Sunday, August 3, 2025", 
-      "time": "7:00 AM-8:00 AM",
-      "location": "Westin Boston Seaport District, Lower, Commonwealth AB",
-      "speakers": [],
-      "description": "Join your NCSL state liaison for coffee before the General Session.",
-      "track": "Executive Committee, LSCC and NCSL Foundation",
-      "sessionType": "Breakfast Meeting"
-    },
-    {
-      "title": "Health Innovations Task Force Meeting",
-      "date": "Sunday, August 3, 2025",
-      "time": "8:00 AM-5:00 PM", 
+      "date": "2025-08-03",
+      "time": "8:00 AM-5:00 PM",
+      "title": "Summary: NCSL’s Task Force on Innovations in State Health Systems explores the issues and opportunities faced by state policymakers as they reform their own health system. The task force will discuss the role of AI in health care and members and sponsors will participate in an interactive site visit in the afternoon. Contact [email protected] for more information.",
       "location": "Omni Boston Hotel at the Seaport, 2, Ensemble C",
       "speakers": [],
-      "description": "NCSL's Task Force on Innovations in State Health Systems explores the issues and opportunities faced by state policymakers as they reform their own health system. The task force will discuss the role of AI in health care and members and sponsors will participate in an interactive site visit in the afternoon.",
-      "track": "Health and Human Services",
-      "sessionType": "Task Force Meeting"
+      "description": "NCSL’s Task Force on Innovations in State Health Systems explores the issues and opportunities faced by state policymakers as they reform their own health system. The task force will discuss the role of AI in health care and members and sponsors will participate in an interactive site visit in the afternoon. Contact [email protected] for more information.",
+      "track": "",
+      "session_type": "Task Force Meeting"
     },
     {
-      "title": "Election SATs: Security, Accuracy and Transparency",
-      "date": "Sunday, August 3, 2025",
+      "date": "2025-08-03",
       "time": "9:00 AM-5:00 PM",
+      "title": "Summary: If you’re a leader on elections policy, this precon is for you. Join with peers from throughout the nation to share the latest on accuracy, security and access to the ballot. We will have sessions on cybersecurity, primaries, funding, cast vote records, campaign finance, election consolidation and post-election audits. For registration information, please go to: https://www.ncsl.org/events/details/election-sats-security-accuracy-and-transparency",
       "location": "Omni Boston Hotel at the Seaport, 2, Ensemble A",
       "speakers": [],
-      "description": "If you're a leader on elections policy, this precon is for you. Join with peers from throughout the nation to share the latest on accuracy, security and access to the ballot. We will have sessions on cybersecurity, primaries, funding, cast vote records, campaign finance, election consolidation and post-election audits.",
-      "track": "Elections and Redistricting",
-      "sessionType": "Pre-Conference"
+      "description": "If you’re a leader on elections policy, this precon is for you. Join with peers from throughout the nation to share the latest on accuracy, security and access to the ballot. We will have sessions on cybersecurity, primaries, funding, cast vote records, campaign finance, election consolidation and post-election audits. For registration information, please go to: https://www.ncsl.org/events/details/election-sats-security-accuracy-and-transparency",
+      "track": "",
+      "session_type": "Registration"
     },
     {
-      "title": "Welcome! It's Time to Conquer the Summit",
-      "date": "Sunday, August 3, 2025",
+      "date": "2025-08-03",
+      "time": "10:00 AM-1:00 PM",
+      "title": "Summary: This business meeting of the 2030 Mason’s Manual will continue work on additions and edits to the upcoming edition.",
+      "location": "Westin Boston Seaport District, 1, Paine",
+      "speakers": [],
+      "description": "This business meeting of the 2030 Mason’s Manual will continue work on additions and edits to the upcoming edition.",
+      "track": "",
+      "session_type": "Business Meeting"
+    },
+    {
+      "date": "2025-08-03",
+      "time": "11:30 AM-12:30 PM",
+      "title": "Summary: ILAC will meet in conjunction with the Executive Committee meeting to discuss NCSL's international activities for 2025-2026 and promote continued engagement between NCSL and its international members and partners.",
+      "location": "Westin Boston Seaport District, 1, Otis",
+      "speakers": [],
+      "description": "ILAC will meet in conjunction with the Executive Committee meeting to discuss NCSL's international activities for 2025-2026 and promote continued engagement between NCSL and its international members and partners.",
+      "track": "",
+      "session_type": "Committee Meeting"
+    },
+    {
+      "date": "2025-08-03",
+      "time": "11:45 AM-1:15 PM",
+      "title": "Summary: Learn about the NCSL Foundation at the Board of Directors Meeting. The board will approve the Foundation's budget, awards to NCSL and more. All Foundation sponsors are welcome. Lunch will be provided.",
+      "location": "Westin Boston Seaport District, Lower, Grand B",
+      "speakers": [],
+      "description": "Learn about the NCSL Foundation at the Board of Directors Meeting. The board will approve the Foundation's budget, awards to NCSL and more. All Foundation sponsors are welcome. Lunch will be provided.",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-03",
+      "time": "12:00 PM-5:00 PM",
+      "title": "Summary: Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "location": "",
+      "speakers": [],
+      "description": "Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-03",
+      "time": "12:00 PM-5:00 PM",
+      "title": "Summary: Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "location": "BCEC, 1, North Lobby",
+      "speakers": [],
+      "description": "Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-03",
       "time": "4:00 PM-5:30 PM",
+      "title": "Summary: First Legislative Summit? Or maybe it's been a while since you've attended? Join this orientation to learn how to make the most of the meeting, and hear all about NCSL. The Boston Town Crier will offer a slice of Massachusetts colonial history. Stay after the presentations to network with colleagues at a light reception.",
       "location": "BCEC, 2, 253",
-      "speakers": [
-        {
-          "name": "Alexis Stangl",
-          "title": "Director",
-          "organization": "Minnesota Legislature"
-        },
-        {
-          "name": "Alice Hanlon Peisch",
-          "title": "House Assistant Majority Leader",
-          "organization": "Massachusetts General Court"
-        },
-        {
-          "name": "Donald Watson",
-          "title": "Founder",
-          "organization": "Boston Town Crier"
-        },
-        {
-          "name": "Elizabeth Bartz",
-          "title": "President & CEO",
-          "organization": "State and Federal Communications, Inc."
-        },
-        {
-          "name": "Katie Ziegler",
-          "title": "Associate Director",
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Michael Behm",
-          "title": "Co-CEO",
-          "organization": "Stateside Associates Inc"
-        },
-        {
-          "name": "Sydne Enlund",
-          "title": "State Outreach Manager",
-          "organization": "National Conference of State Legislatures"
-        }
-      ],
+      "speakers": [],
       "description": "First Legislative Summit? Or maybe it's been a while since you've attended? Join this orientation to learn how to make the most of the meeting, and hear all about NCSL. The Boston Town Crier will offer a slice of Massachusetts colonial history. Stay after the presentations to network with colleagues at a light reception.",
-      "track": "Professional Development",
-      "sessionType": "Orientation"
+      "track": "",
+      "session_type": "Reception"
     },
     {
-      "title": "Opening General Session: Getting From Division to Dialogue in State Capitals",
-      "date": "Monday, August 4, 2025",
-      "time": "9:00 AM-10:30 AM",
-      "location": "BCEC, Ballroom",
-      "speakers": [
-        {
-          "name": "Erin Murphy",
-          "title": "Senate Majority Leader",
-          "organization": "Minnesota Legislature"
-        },
-        {
-          "name": "Gabrielle Giffords",
-          "title": "Former Congresswoman",
-          "organization": "U.S. House of Representatives"
-        },
-        {
-          "name": "Karen Spilka",
-          "title": "Senate President",
-          "organization": "Massachusetts General Court"
-        },
-        {
-          "name": "Lisa Demuth",
-          "title": "Speaker of the House",
-          "organization": "Minnesota Legislature"
-        },
-        {
-          "name": "Michael Smerconish",
-          "title": "Host of 'The Michael Smerconish Program' on SiriusXM, Host of CNN's 'Smerconish', Newspaper Columnist and Best-Selling Author",
-          "organization": ""
-        },
-        {
-          "name": "Robin Vos",
-          "title": "Speaker of the Assembly",
-          "organization": "Wisconsin Legislature"
-        },
-        {
-          "name": "Ronald J. Mariano",
-          "title": "Speaker of the House",
-          "organization": "Massachusetts General Court"
-        },
-        {
-          "name": "Wayne A. Harper",
-          "title": "NCSL President, Utah Senate President Pro Tem",
-          "organization": "Utah State Legislature"
-        }
-      ],
-      "description": "The attacks on Minnesota legislators and their families continue a trend of political violence that has targeted lawmakers in both parties. Coarsened political discourse has contributed to a culture of distrust and cynicism. Join national experts and legislative leaders to explore what lawmakers, legislative staff and others can do to turn down the temperature and restore civility in the public square.",
-      "track": "General Session, Civility",
-      "sessionType": "General Session"
+      "date": "2025-08-03",
+      "time": "5:30 PM-6:30 PM",
+      "title": "Summary: Celebrate NCSL's global connections with international attendees and partners immediately following the executive committee meeting.",
+      "location": "",
+      "speakers": [],
+      "description": "Celebrate NCSL's global connections with international attendees and partners immediately following the executive committee meeting.",
+      "track": "",
+      "session_type": "Committee Meeting"
     },
     {
-      "title": "1975: The Birth of NCSL",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM",
-      "location": "BCEC, 2, 258",
-      "speakers": [
-        {
-          "name": "Natalie Wood",
-          "title": "Vice President of Policy and Research",
-          "organization": "National Conference of State Legislatures",
-          "role": "Moderator"
-        },
-        {
-          "name": "Karl Kurtz",
-          "title": "Political scientist and legislative junkie",
-          "organization": "National Conference of State Legislatures"
-        }
-      ],
-      "description": "Fifty years ago, there were three competing organizations of state legislators and staff. After five years of negotiations, three became one—the National Conference of State Legislatures. Join us to hear stories about NCSL's early years from those who were there.",
-      "track": "Legislative Institution, Legislative Staff, Livestream Sessions",
-      "sessionType": "Historical Session"
+      "date": "2025-08-04",
+      "time": "7:30 AM-5:00 PM",
+      "title": "Summary: Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "location": "",
+      "speakers": [],
+      "description": "Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "track": "",
+      "session_type": "Session"
     },
     {
-      "title": "Agency Oversight: Getting It Right",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM",
-      "location": "BCEC, 2, 254",
-      "speakers": [
-        {
-          "name": "John Bjornson",
-          "title": "Director",
-          "organization": "North Dakota Legislative Assembly",
-          "role": "Moderator"
-        },
-        {
-          "name": "Emilie Kornheiser",
-          "title": "State Representative",
-          "organization": "Vermont General Assembly"
-        },
-        {
-          "name": "John Arch",
-          "title": "Speaker of the Legislature",
-          "organization": "Nebraska Legislature"
-        },
-        {
-          "name": "Melissa Leoni",
-          "title": "Policy Analyst",
-          "organization": "Oregon Legislative Assembly"
-        }
-      ],
-      "description": "States have assessed government effectiveness for decades via legislative oversight. This year, the creation of the federal Department of Government Efficiency (DOGE) sparked a renewed emphasis in some states. Join us to learn new and improved ways state legislatures are holding agencies accountable, ensuring state programs are operating as intended.",
-      "track": "Legislative Institution, Results-Driven Governing",
-      "sessionType": "Policy Session"
+      "date": "2025-08-04",
+      "time": "7:30 AM-5:00 PM",
+      "title": "Summary: A quiet/reflection room, located in Room 260, is available to attendees who need a break from the bustle of the conference. The room provides a peaceful space with reduced lighting, comfortable seating including bean bag chairs, and optional quiet activities, such as coloring and word searches. To preserve the atmosphere, we kindly ask that all visitors refrain from conversations, phone use or other disruptive behavior.",
+      "location": "BCEC, 2, 260",
+      "speakers": [],
+      "description": "A quiet/reflection room, located in Room 260, is available to attendees who need a break from the bustle of the conference. The room provides a peaceful space with reduced lighting, comfortable seating including bean bag chairs, and optional quiet activities, such as coloring and word searches. To preserve the atmosphere, we kindly ask that all visitors refrain from conversations, phone use or other disruptive behavior.",
+      "track": "",
+      "session_type": "Session"
     },
     {
-      "title": "How to Use NCSL's 50-State Bill Info Service and Databases",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM",
-      "location": "BCEC, 2, 204",
-      "speakers": [
-        {
-          "name": "Amanda Essex",
-          "title": "Program Principal",
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Amber Widgery",
-          "title": "Program Principal", 
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Mikell Gonzales",
-          "title": "Client Manager",
-          "organization": "LexisNexis State Net"
-        }
-      ],
-      "description": "No matter what bill you're looking for, NCSL and partner LexisNexis State Net have got you covered! Come learn about this powerful research tool, along with how to utilize NCSL's 50-state legislative databases.",
-      "track": "Professional Development, Continuing Legal Education",
-      "sessionType": "Training Session"
+      "date": "2025-08-04",
+      "time": "7:30 AM-5:00 PM",
+      "title": "Summary: Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "location": "BCEC, 1, North Lobby",
+      "speakers": [],
+      "description": "Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "track": "",
+      "session_type": "Session"
     },
     {
-      "title": "Meetings and Readings and Customs, Oh My!",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM",
-      "location": "BCEC, 1, 153",
-      "speakers": [
-        {
-          "name": "Russell Humphrey",
-          "title": "Chief Clerk of the Senate",
-          "organization": "Tennessee General Assembly",
-          "role": "Moderator"
-        },
-        {
-          "name": "Heshani Wijemanne",
-          "title": "Chief Assistant Secretary of the Senate",
-          "organization": "California Legislature"
-        },
-        {
-          "name": "Joshua Babel",
-          "title": "Deputy Chief Clerk",
-          "organization": "Arizona Legislature"
-        },
-        {
-          "name": "Margaret O'Brien",
-          "title": "Assistant Secretary of the Senate", 
-          "organization": "Michigan Legislature"
-        }
-      ],
-      "description": "The 2030 Mason's Manual Commission takes you on a tour of recent cases about parliamentary procedure, featuring open meetings, third reading requirements, custom, usage and precedent.",
-      "track": "Legislative Institution, Professional Development, Continuing Legal Education",
-      "sessionType": "Educational Session"
+      "date": "2025-08-04",
+      "time": "8:00 AM-5:00 PM",
+      "title": "Summary: A mothers' lounge with soft seating, outlets and a mini fridge is located in Room 158. Additionally there is a more private Mamava nursing pod located in the foyer just outside Room 158.",
+      "location": "BCEC, 1, 158",
+      "speakers": [],
+      "description": "A mothers' lounge with soft seating, outlets and a mini fridge is located in Room 158. Additionally there is a more private Mamava nursing pod located in the foyer just outside Room 158.",
+      "track": "",
+      "session_type": "Session"
     },
     {
-      "title": "Navigating the Now: Key Trends in Health Policy",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM",
-      "location": "BCEC, 2, 210",
-      "speakers": [
-        {
-          "name": "Kate Blackman",
-          "title": "Vice President of Policy & Research",
-          "organization": "National Conference of State Legislatures",
-          "role": "Moderator"
-        },
-        {
-          "name": "Bo Watson",
-          "title": "State Senator",
-          "organization": "Tennessee General Assembly"
-        },
-        {
-          "name": "Joanna McClinton",
-          "title": "Speaker of the House",
-          "organization": "Pennsylvania General Assembly"
-        },
-        {
-          "name": "Kelly Hughes",
-          "title": "Associate Director",
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Lauren Kallins",
-          "title": "Senior Legislative Director",
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Samantha Scotti",
-          "title": "Associate Director",
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Todd Huston",
-          "title": "Speaker of the House",
-          "organization": "Indiana General Assembly"
-        }
-      ],
-      "description": "Stay ahead of the curve with a dynamic discussion on the latest health policy trends and priorities shaping the future of care. Come explore key legislative developments from statehouses nationwide, insights into the policy implications of the new administration's priorities, and other emerging health policy topics.",
-      "track": "Health and Human Services",
-      "sessionType": "Policy Session"
-    },
-    {
-      "title": "Refresh for Results: Getting the Vote Quicker",
-      "date": "Monday, August 4, 2025", 
-      "time": "11:00 AM-12:00 PM",
-      "location": "BCEC, 1, 107",
-      "speakers": [
-        {
-          "name": "Charles Stewart",
-          "title": "Professor of Political Science",
-          "organization": "Massachusetts Institute of Technology (MIT)"
-        },
-        {
-          "name": "Katy Owens Hubler",
-          "title": "Associate Director",
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Scott Krug",
-          "title": "Assembly Assistant Majority Leader",
-          "organization": "Wisconsin Legislature"
-        },
-        {
-          "name": "Wesley Wilcox",
-          "title": "Supervisor of Elections",
-          "organization": "Marion County, Florida"
-        }
-      ],
-      "description": "When it comes to elections, an accurate ballot count is paramount—but speed matters, too. What policy choices lead to quicker unofficial results reporting? Join us to learn more about some of these options, then chat with peers in other states about how they get things done.",
-      "track": "Elections and Redistricting",
-      "sessionType": "Policy Session"
-    },
-    {
-      "title": "Revolutionizing the Future: The Impact of Robotics and AI",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM",
-      "location": "BCEC, 2, 253",
-      "speakers": [
-        {
-          "name": "Austin Jenkins",
-          "title": "Journalist",
-          "organization": "Pluribus News",
-          "role": "Moderator"
-        },
-        {
-          "name": "Carolyn Kirk",
-          "title": "CEO",
-          "organization": "Massachusetts Technology Collaboration"
-        },
-        {
-          "name": "Nicol Turner Lee",
-          "title": "Senior Fellow and Director, Center for Technology Innovation",
-          "organization": "Brookings Institution"
-        },
-        {
-          "name": "Tye Brady",
-          "title": "Chief Technologist",
-          "organization": "Amazon Robotics"
-        }
-      ],
-      "description": "The integration of robotics and AI is revolutionizing how we learn, work and create. Join us to explore how responsible technological development is empowering individuals, driving economic growth and fostering innovation",
-      "track": "Technology and Communications, Artificial Intelligence",
-      "sessionType": "Technology Session"
-    },
-    {
-      "title": "Secrets From Journalists: How to Write Anything Better",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM", 
-      "location": "BCEC, 2, 259",
-      "speakers": [
-        {
-          "name": "Kelley Griffin",
-          "title": "Writer and Editor",
-          "organization": "National Conference of State Legislatures",
-          "role": "Moderator"
-        },
-        {
-          "name": "Jacque Bland",
-          "title": "Director of Communications",
-          "organization": "West Virginia Legislature"
-        },
-        {
-          "name": "John Patterson",
-          "title": "Spokesman and Strategic Media Advisor",
-          "organization": "Illinois General Assembly"
-        },
-        {
-          "name": "Lisa Ryckman",
-          "title": "Associate Director",
-          "organization": "National Conference of State Legislatures"
-        },
-        {
-          "name": "Meg Casper Sunstrom",
-          "title": "Chief Communications Officer",
-          "organization": "Louisiana Legislature"
-        }
-      ],
-      "description": "Ever wonder how to make your writing less cluttered and more compelling? Join a former Associated Press national writer and a panel of experts to gather some surefire tips and tricks to help you engage legislators, colleagues and constituents through the written word.",
-      "track": "Professional Development",
-      "sessionType": "Professional Development"
-    },
-    {
-      "title": "Tariffs: The Impact at Home and Abroad",
-      "date": "Monday, August 4, 2025",
-      "time": "11:00 AM-12:00 PM",
+      "date": "2025-08-04",
+      "time": "8:00 AM-8:45 AM",
+      "title": "Summary: Join your NCSL state liaison for coffee before the General Session.",
       "location": "BCEC, 2, 205",
-      "speakers": [
-        {
-          "name": "Melissa Minor-Brown",
-          "title": "Speaker of the House",
-          "organization": "Delaware General Assembly",
-          "role": "Moderator"
-        },
-        {
-          "name": "Claudio Irigoyen",
-          "title": "Managing Director and Head of Global Economics Research",
-          "organization": "Bank of America Global Research"
-        }
-      ],
-      "description": "Tariffs affect both the federal trade balance and the economies of individual states, which play an active role in international trade by engaging in commerce, attracting investments, and developing policies that increase competitiveness. Discover how world trade dynamics are evolving and the impact on states of an increasingly complex global market.",
-      "track": "Budget, Taxes and Pensions, Economic Development and Labor, International",
-      "sessionType": "Economic Policy Session"
+      "speakers": [],
+      "description": "Join your NCSL state liaison for coffee before the General Session.",
+      "track": "",
+      "session_type": "General Session"
     },
     {
-      "title": "The Brave New World of College Athletics",
-      "date": "Monday, August 4, 2025",
+      "date": "2025-08-04",
+      "time": "9:00 AM-2:00 PM",
+      "title": "Summary: Pick up your bib for the Fun Run during registration. Whether you run or walk, it's sure to be a morning of fitness and camaraderie! Registration is limited to 500 participants, and you must be registered for the Legislative Summit to register for the Fun Run.",
+      "location": "BCEC, 1, North Lobby",
+      "speakers": [],
+      "description": "Pick up your bib for the Fun Run during registration. Whether you run or walk, it's sure to be a morning of fitness and camaraderie! Registration is limited to 500 participants, and you must be registered for the Legislative Summit to register for the Fun Run.",
+      "track": "",
+      "session_type": "Registration"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "9:00 AM-10:30 AM",
+      "title": "Summary: The attacks on Minnesota legislators and their families continue a trend of political violence that has targeted lawmakers in both parties. Coarsened political discourse has contributed to a culture of distrust and cynicism. Join national experts and legislative leaders to explore what lawmakers, legislative staff and others can do to turn down the temperature and restore civility in the public square.",
+      "location": "BCEC, Ballroom",
+      "speakers": [],
+      "description": "The attacks on Minnesota legislators and their families continue a trend of political violence that has targeted lawmakers in both parties. Coarsened political discourse has contributed to a culture of distrust and cynicism. Join national experts and legislative leaders to explore what lawmakers, legislative staff and others can do to turn down the temperature and restore civility in the public square.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
       "time": "11:00 AM-12:00 PM",
+      "title": "Summary: Fifty years ago, there were three competing organizations of state legislators and staff. After five years of negotiations, three became one—the National Conference of State Legislatures. Join us to hear stories about NCSL’s early years from those who were there.",
+      "location": "BCEC, 2, 258",
+      "speakers": [],
+      "description": "Fifty years ago, there were three competing organizations of state legislators and staff. After five years of negotiations, three became one—the National Conference of State Legislatures. Join us to hear stories about NCSL’s early years from those who were there.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: States have assessed government effectiveness for decades via legislative oversight. This year, the creation of the federal Department of Government Efficiency (DOGE) sparked a renewed emphasis in some states. Join us to learn new and improved ways state legislatures are holding agencies accountable, ensuring state programs are operating as intended.",
+      "location": "BCEC, 2, 254",
+      "speakers": [],
+      "description": "States have assessed government effectiveness for decades via legislative oversight. This year, the creation of the federal Department of Government Efficiency (DOGE) sparked a renewed emphasis in some states. Join us to learn new and improved ways state legislatures are holding agencies accountable, ensuring state programs are operating as intended.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: No matter what bill you're looking for, NCSL and partner LexisNexis State Net have got you covered! Come learn about this powerful research tool, along with how to utilize NCSL's 50-state legislative databases.",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "No matter what bill you're looking for, NCSL and partner LexisNexis State Net have got you covered! Come learn about this powerful research tool, along with how to utilize NCSL's 50-state legislative databases.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: The 2030 Mason's Manual Commission takes you on a tour of recent cases about parliamentary procedure, featuring open meetings, third reading requirements, custom, usage and precedent.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "The 2030 Mason's Manual Commission takes you on a tour of recent cases about parliamentary procedure, featuring open meetings, third reading requirements, custom, usage and precedent.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: Stay ahead of the curve with a dynamic discussion on the latest health policy trends and priorities shaping the future of care. Come explore key legislative developments from statehouses nationwide, insights into the policy implications of the new administration's priorities, and other emerging health policy topics.",
+      "location": "BCEC, 2, 210",
+      "speakers": [],
+      "description": "Stay ahead of the curve with a dynamic discussion on the latest health policy trends and priorities shaping the future of care. Come explore key legislative developments from statehouses nationwide, insights into the policy implications of the new administration's priorities, and other emerging health policy topics.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: When it comes to elections, an accurate ballot count is paramount—but speed matters, too. What policy choices lead to quicker unofficial results reporting? Join us to learn more about some of these options, then chat with peers in other states about how they get things done.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "When it comes to elections, an accurate ballot count is paramount—but speed matters, too. What policy choices lead to quicker unofficial results reporting? Join us to learn more about some of these options, then chat with peers in other states about how they get things done.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: The integration of robotics and AI is revolutionizing how we learn, work and create. Join us to explore how responsible technological development is empowering individuals, driving economic growth and fostering innovation",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "The integration of robotics and AI is revolutionizing how we learn, work and create. Join us to explore how responsible technological development is empowering individuals, driving economic growth and fostering innovation",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: Ever wonder how to make your writing less cluttered and more compelling? Join a former Associated Press national writer and a panel of experts to gather some surefire tips and tricks to help you engage legislators, colleagues and constituents through the written word.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Ever wonder how to make your writing less cluttered and more compelling? Join a former Associated Press national writer and a panel of experts to gather some surefire tips and tricks to help you engage legislators, colleagues and constituents through the written word.",
+      "track": "",
+      "session_type": "Panel Discussion"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: Tariffs affect both the federal trade balance and the economies of individual states, which play an active role in international trade by engaging in commerce, attracting investments, and developing policies that increase competitiveness. Discover how world trade dynamics are evolving and the impact on states of an increasingly complex global market.",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "Tariffs affect both the federal trade balance and the economies of individual states, which play an active role in international trade by engaging in commerce, attracting investments, and developing policies that increase competitiveness. Discover how world trade dynamics are evolving and the impact on states of an increasingly complex global market.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: A landmark court settlement allows athletic programs to share revenue with student-athletes, bringing a host of new issues to the playing field. Come hear about the terms and viability of the settlement, and the role that states and the federal government might play in this new era.",
       "location": "BCEC, 1, 157",
-      "speakers": [
-        {
-          "name": "Austin Reid",
-          "title": "Federal Affairs Advisor",
-          "organization": "National Conference of State Legislatures",
-          "role": "Moderator"
-        },
-        {
-          "name": "Ann Millner",
-          "title": "State Senator",
-          "organization": "Utah Legislature"
-        },
-        {
-          "name": "Chuck Martin",
-          "title": "State Representative",
-          "organization": "Georgia General Assembly"
-        },
-        {
-          "name": "Mamie Locke",
-          "title": "Senate Majority Caucus Chair",
-          "organization": "Virginia General Assembly"
-        },
-        {
-          "name": "Tim Buckley",
-          "title": "Senior Vice President for External Affairs",
-          "organization": "The National Collegiate Athletic Association (NCAA)"
-        }
-      ],
+      "speakers": [],
       "description": "A landmark court settlement allows athletic programs to share revenue with student-athletes, bringing a host of new issues to the playing field. Come hear about the terms and viability of the settlement, and the role that states and the federal government might play in this new era.",
-      "track": "Education",
-      "sessionType": "Policy Session"
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "11:00 AM-12:00 PM",
+      "title": "Summary: Billions of dollars are spent annually by local and state governments on roads, bridges, transit and other transportation assets. Learn how states can adequately measure and track maintenance and investment needs for public infrastructure and explore policy tools to wisely allocate revenue to tackle infrastructure shortfalls.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "Billions of dollars are spent annually by local and state governments on roads, bridges, transit and other transportation assets. Learn how states can adequately measure and track maintenance and investment needs for public infrastructure and explore policy tools to wisely allocate revenue to tackle infrastructure shortfalls.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "12:00 PM-1:00 PM",
+      "title": "Summary: Join your Democratic colleagues for lunch featuring Illinois Gov. JB Pritzker. This lunch is for Democratic legislators only.",
+      "location": "Westin Boston Seaport District, Lower, Grand Ballroom",
+      "speakers": [],
+      "description": "Join your Democratic colleagues for lunch featuring Illinois Gov. JB Pritzker. This lunch is for Democratic legislators only.",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "12:00 PM-1:00 PM",
+      "title": "Summary: Join your GOP colleagues for lunch featuring President Trump’s 2024 co-campaign manager, Chris LaCivita. This lunch is for Republican legislators only.",
+      "location": "Westin Boston Seaport District, 2, Harbor Ballroom",
+      "speakers": [],
+      "description": "Join your GOP colleagues for lunch featuring President Trump’s 2024 co-campaign manager, Chris LaCivita. This lunch is for Republican legislators only.",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "12:00 PM-1:00 PM",
+      "title": "Summary: Everyone’s invited to a luscious lunch outdoors at the Lawn on D—a delicious way to kick off a great week at Summit!",
+      "location": "BCEC, Exhibit, Lawn on D",
+      "speakers": [],
+      "description": "Everyone’s invited to a luscious lunch outdoors at the Lawn on D—a delicious way to kick off a great week at Summit!",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "12:00 PM-1:00 PM",
+      "title": "Summary: Each year, the Legislative Research Librarians professional staff association sponsors the competition for outstanding state and legislative documents that explore topics of interest to legislators and legislative staff, present substantive material in an outstanding format and showcase the wide range of legislative information available. Join us to honor the winners during the NDA award ceremony and lunch. Presented by the Legislative Research Librarians Professional Staff Association.",
+      "location": "BCEC, 2, 211",
+      "speakers": [],
+      "description": "Each year, the Legislative Research Librarians professional staff association sponsors the competition for outstanding state and legislative documents that explore topics of interest to legislators and legislative staff, present substantive material in an outstanding format and showcase the wide range of legislative information available. Join us to honor the winners during the NDA award ceremony and lunch. Presented by the Legislative Research Librarians Professional Staff Association.",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "12:00 PM-12:30 PM",
+      "title": "Summary: Officers from each standing committee will review policy directives and resolutions for consideration.",
+      "location": "BCEC, 2, 251",
+      "speakers": [],
+      "description": "Officers from each standing committee will review policy directives and resolutions for consideration.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Come learn more about the history of state capitol buildings and the complex work to renovate and renew these architectural marvels. Hear about the yearslong photographic journey behind NCSL’s new book—\"Capitol Views\"—which captures every U.S. legislative building in 240 pages of stunning images.",
+      "location": "BCEC, 2, 258",
+      "speakers": [],
+      "description": "Come learn more about the history of state capitol buildings and the complex work to renovate and renew these architectural marvels. Hear about the yearslong photographic journey behind NCSL’s new book—\"Capitol Views\"—which captures every U.S. legislative building in 240 pages of stunning images.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Join us for a deep dive into state involvement with the nuclear fuel cycle. Come hear experts explain the process of the nuclear cycle, including mining, fuel fabrication, reactor manufacturing, transportation, and spent-fuel storage and processing, along with state policy implications.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "Join us for a deep dive into state involvement with the nuclear fuel cycle. Come hear experts explain the process of the nuclear cycle, including mining, fuel fabrication, reactor manufacturing, transportation, and spent-fuel storage and processing, along with state policy implications.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: As cryptocurrency continues to disrupt financial systems, state governments are stepping up with new legislation, commissions and innovative approaches to regulation. Come explore how states are navigating the complexities of crypto policy, balancing state and federal roles and fostering economic opportunities while ensuring consumer protection.",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "As cryptocurrency continues to disrupt financial systems, state governments are stepping up with new legislation, commissions and innovative approaches to regulation. Come explore how states are navigating the complexities of crypto policy, balancing state and federal roles and fostering economic opportunities while ensuring consumer protection.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: In a world of polarization and profound disagreement, how can you engage effectively during difficult talks? Join us to learn three tools for how to communicate better with a colleague, your boss or the guy next door—even when it's tough.",
+      "location": "BCEC, 1, 157",
+      "speakers": [],
+      "description": "In a world of polarization and profound disagreement, how can you engage effectively during difficult talks? Join us to learn three tools for how to communicate better with a colleague, your boss or the guy next door—even when it's tough.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: When it comes to Medicaid, states face competing budget pressures, dwindling revenues and an uncertain federal funding environment. Join us to discuss how states are deciding on priorities, finding creative solutions and considering tough choices to achieve balanced budgets while improving health outcomes for their constituents.",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "When it comes to Medicaid, states face competing budget pressures, dwindling revenues and an uncertain federal funding environment. Join us to discuss how states are deciding on priorities, finding creative solutions and considering tough choices to achieve balanced budgets while improving health outcomes for their constituents.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: It can be tough to attract enough employees for high-stress, high-risk professions such as law enforcement and corrections. Learn how states are thinking creatively to overcome shortages and promote the safety and well-being of current employees and the communities they serve.",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "It can be tough to attract enough employees for high-stress, high-risk professions such as law enforcement and corrections. Learn how states are thinking creatively to overcome shortages and promote the safety and well-being of current employees and the communities they serve.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Given the barrage of extreme weather events and shifts in federal funds, what can policymakers do to reduce the long-term impacts and costs? Planning and budgeting are critical mechanisms to mitigate the consequences of extreme weather. Discover what steps states can take today to get ahead of tomorrow's natural disasters.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "Given the barrage of extreme weather events and shifts in federal funds, what can policymakers do to reduce the long-term impacts and costs? Planning and budgeting are critical mechanisms to mitigate the consequences of extreme weather. Discover what steps states can take today to get ahead of tomorrow's natural disasters.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: If you never knew how fun civics education could be, it's time to find out! Join contestants from three state civics programs as they vie for the attention of \"Citizen X\" with questions about how the process works and ways they can get involved.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "If you never knew how fun civics education could be, it's time to find out! Join contestants from three state civics programs as they vie for the attention of \"Citizen X\" with questions about how the process works and ways they can get involved.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: As conversations on Capitol Hill ramp up for a new federal transportation bill, come take a deep dive into the status of IIJA programs and the highway trust fund—and the innovative steps states are taking to boost revenue.",
+      "location": "BCEC, 1, 156",
+      "speakers": [],
+      "description": "As conversations on Capitol Hill ramp up for a new federal transportation bill, come take a deep dive into the status of IIJA programs and the highway trust fund—and the innovative steps states are taking to boost revenue.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: The potential of artificial intelligence to transform our daily lives is quickly becoming reality. Come learn about the latest AI developments and their potential impact on businesses and governments. Hear from state legislators across the country about the challenges of mitigating AI's risks while unleashing its potential for innovation.",
+      "location": "BCEC, 2, 210",
+      "speakers": [],
+      "description": "The potential of artificial intelligence to transform our daily lives is quickly becoming reality. Come learn about the latest AI developments and their potential impact on businesses and governments. Hear from state legislators across the country about the challenges of mitigating AI's risks while unleashing its potential for innovation.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Join us for a debate on the effect of U.S. trade strategies on the states, including job creation, economic competitiveness, supply chains and state-level industries. Prepare for a lively and focused discussion that promises to engage and challenge you and provide new insights into U.S. trade policy.",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "Join us for a debate on the effect of U.S. trade strategies on the states, including job creation, economic competitiveness, supply chains and state-level industries. Prepare for a lively and focused discussion that promises to engage and challenge you and provide new insights into U.S. trade policy.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: As the use of generative artificial intelligence becomes the norm, legislatures are creating policies to help staff get the most out of these high-tech tools. Join us for the scoop on how state legislatures are managing AI use for legislative work and what kinds of guardrails are improving the safety of this evolving technology.",
+      "location": "BCEC, 2, 210",
+      "speakers": [],
+      "description": "As the use of generative artificial intelligence becomes the norm, legislatures are creating policies to help staff get the most out of these high-tech tools. Join us for the scoop on how state legislatures are managing AI use for legislative work and what kinds of guardrails are improving the safety of this evolving technology.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Military operations at installations contribute billions of dollars each year to state economies. State policies and funding help sustain military installations to retain jobs and preserve economic benefit. Learn how states are providing and leveraging funds for base infrastructure needs and encouraging land uses compatible with the military mission.",
+      "location": "BCEC, 2, 206",
+      "speakers": [],
+      "description": "Military operations at installations contribute billions of dollars each year to state economies. State policies and funding help sustain military installations to retain jobs and preserve economic benefit. Learn how states are providing and leveraging funds for base infrastructure needs and encouraging land uses compatible with the military mission.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Can civility really improve your legislative processes? Join a panel of legislators and staff for insights into the evolution of legislative civility, efforts to make it part of the culture and what the results have been. Learn more about why a civil legislature is an effective one.",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "Can civility really improve your legislative processes? Join a panel of legislators and staff for insights into the evolution of legislative civility, efforts to make it part of the culture and what the results have been. Learn more about why a civil legislature is an effective one.",
+      "track": "",
+      "session_type": "Panel Discussion"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: How has the Family First Prevention Services Act changed child welfare systems after five years? Come hear experts and legislators share their insights and experiences, and leave with actionable strategies to strengthen policies that prevent child maltreatment and promote child and family well-being.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "How has the Family First Prevention Services Act changed child welfare systems after five years? Come hear experts and legislators share their insights and experiences, and leave with actionable strategies to strengthen policies that prevent child maltreatment and promote child and family well-being.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Join a discussion about the evolution of legislative staffing levels, locations and roles over the last 50 years. Hear from a state legislative expert and legislative staff about the impact of changes in staffing patterns, district offices and interim work on the legislative process. Come ready to share what's happening in your state.",
+      "location": "BCEC, 1, 157",
+      "speakers": [],
+      "description": "Join a discussion about the evolution of legislative staffing levels, locations and roles over the last 50 years. Hear from a state legislative expert and legislative staff about the impact of changes in staffing patterns, district offices and interim work on the legislative process. Come ready to share what's happening in your state.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Students still struggle in the basics of reading, writing and math, especially since the pandemic. Hear from an expert about the most recent data. A bipartisan group of legislators will discuss the consequences of lower math and reading skills for this generation’s students and discuss bipartisan solutions to improving student outcomes.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "Students still struggle in the basics of reading, writing and math, especially since the pandemic. Hear from an expert about the most recent data. A bipartisan group of legislators will discuss the consequences of lower math and reading skills for this generation’s students and discuss bipartisan solutions to improving student outcomes.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: After several years of strong tax collections and state spending, state revenue growth shows signs of slowing down. What does this mean for state budgets? Learn about the state budget outlook from a leading analyst with S&P Ratings along with the results of NCSL's latest budget survey.",
+      "location": "BCEC, 2, 258",
+      "speakers": [],
+      "description": "After several years of strong tax collections and state spending, state revenue growth shows signs of slowing down. What does this mean for state budgets? Learn about the state budget outlook from a leading analyst with S&P Ratings along with the results of NCSL's latest budget survey.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Financial frauds and scams cost consumers more than $10 billion a year and pose an escalating threat to Americans' public safety and financial well-being. Come hear experts share federal, state and private sector strategies for reducing fraud, protecting consumers and exposing and prosecuting those responsible.",
+      "location": "BCEC, 1, 156",
+      "speakers": [],
+      "description": "Financial frauds and scams cost consumers more than $10 billion a year and pose an escalating threat to Americans' public safety and financial well-being. Come hear experts share federal, state and private sector strategies for reducing fraud, protecting consumers and exposing and prosecuting those responsible.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Foreign-owned corporations and lobbyists working for foreign principals who want to contribute to U.S. campaigns, buy political ads or lobby state governments must comply with special federal and state laws. Come learn about different approaches to regulating foreign involvement in state politics and see how your state compares.",
+      "location": "BCEC, 2, 258",
+      "speakers": [],
+      "description": "Foreign-owned corporations and lobbyists working for foreign principals who want to contribute to U.S. campaigns, buy political ads or lobby state governments must comply with special federal and state laws. Come learn about different approaches to regulating foreign involvement in state politics and see how your state compares.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: In this popular program on “finding an extra hour” every day, Randy Dean, “The E-mail Sanity Expert”®, uses humor and high energy as he covers many of the most common areas of productivity loss afflicting many busy professionals: e-mail and input overload, managing multiple projects/tasks, unexpected interruptions, mental and physical “clutter”, and better managing your time, people, and projects. This includes specific strategies for Microsoft and Google users so they can apply these strategies to the software they use every day. helping stressed performers find extra time, leading to (hopefully!) an extra hour of productivity and focus every day.",
+      "location": "BCEC, 2, 210",
+      "speakers": [],
+      "description": "In this popular program on “finding an extra hour” every day, Randy Dean, “The E-mail Sanity Expert”®, uses humor and high energy as he covers many of the most common areas of productivity loss afflicting many busy professionals: e-mail and input overload, managing multiple projects/tasks, unexpected interruptions, mental and physical “clutter”, and better managing your time, people, and projects. This includes specific strategies for Microsoft and Google users so they can apply these strategies to the software they use every day. helping stressed performers find extra time, leading to (hopefully!) an extra hour of productivity and focus every day.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Many states are redesigning their educational experiences to ensure a more student-centered approach and that students develop workforce skills and gain credentials that lead to economic success. Hear from experts leading this work and policymakers working on implementation.",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "Many states are redesigning their educational experiences to ensure a more student-centered approach and that students develop workforce skills and gain credentials that lead to economic success. Hear from experts leading this work and policymakers working on implementation.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Habitual super-speeders—those who regularly go more than 25 mph over the limit—are more prevalent than ever on American roadways, and more than 12,000 deaths occur each year in speeding-related traffic crashes. Learn how states can harness enforcement, technology and infrastructure strategies to curtail speeding and protect other road users.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "Habitual super-speeders—those who regularly go more than 25 mph over the limit—are more prevalent than ever on American roadways, and more than 12,000 deaths occur each year in speeding-related traffic crashes. Learn how states can harness enforcement, technology and infrastructure strategies to curtail speeding and protect other road users.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Nearly 100 women served as speaker of the House, president of the Senate, speaker pro tempore, Senate president pro tempore, majority leader or minority leader during the 2025 legislative session. Do women lead differently? Join women leaders and researcher Hannah Riley Bowles, co-director of Harvard Kennedy School's Women and Public Policy Program, to separate fact from fiction.",
+      "location": "BCEC, 1, 157",
+      "speakers": [],
+      "description": "Nearly 100 women served as speaker of the House, president of the Senate, speaker pro tempore, Senate president pro tempore, majority leader or minority leader during the 2025 legislative session. Do women lead differently? Join women leaders and researcher Hannah Riley Bowles, co-director of Harvard Kennedy School's Women and Public Policy Program, to separate fact from fiction.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Cannabis products for medical and adult use and hemp-derived products are found in nearly all states, confusing the public and legislators alike. The 2018 Farm Bill may have unintentionally created a gray area. Hear from medical experts, policy researchers and regulators about how these products differ from a consumer and policy standpoint, and state actions to regulate them.",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "Cannabis products for medical and adult use and hemp-derived products are found in nearly all states, confusing the public and legislators alike. The 2018 Farm Bill may have unintentionally created a gray area. Hear from medical experts, policy researchers and regulators about how these products differ from a consumer and policy standpoint, and state actions to regulate them.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Young people are more digitally connected than ever before, with smartphones, tablets, computers, digital apps and social media a big part of their daily lives. But what are the long-term effects? Hear perspectives from experts across sectors on how technology and social media are affecting youth.",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "Young people are more digitally connected than ever before, with smartphones, tablets, computers, digital apps and social media a big part of their daily lives. But what are the long-term effects? Hear perspectives from experts across sectors on how technology and social media are affecting youth.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: With threats growing across the energy supply chain, join us to discuss cybersecurity measures that utilities and energy producers can take. Learn more about how state legislatures can work with the energy sector to protect their systems. This session is not open to the media.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "With threats growing across the energy supply chain, join us to discuss cybersecurity measures that utilities and energy producers can take. Learn more about how state legislatures can work with the energy sector to protect their systems. This session is not open to the media.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Congratulations on making it through your first year! Now that the dust has settled, what did you think? What did you learn? Join other new lawmakers for an informal discussion to share your successes, challenges and surprises. NCSL is here to support you as you look ahead to the next session, so bring your questions!",
+      "location": "BCEC, 2, 206",
+      "speakers": [],
+      "description": "Congratulations on making it through your first year! Now that the dust has settled, what did you think? What did you learn? Join other new lawmakers for an informal discussion to share your successes, challenges and surprises. NCSL is here to support you as you look ahead to the next session, so bring your questions!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Join us for fast-paced, information-packed updates from Washington, D.C. Gain a deeper understanding of how recent federal policies and decisions on Medicaid, SNAP, education and more are shaping the landscape in your state.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "Join us for fast-paced, information-packed updates from Washington, D.C. Gain a deeper understanding of how recent federal policies and decisions on Medicaid, SNAP, education and more are shaping the landscape in your state.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Boston, New Orleans, Philadelphia— these cities are known for their historic buildings and attract thousands of tourists annually. State tax incentives have played a significant role in keeping these buildings and their history from crumbling away. Speaker/s from a historic preservation society will discuss the role state tax incentives play in preserving American history.",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "Boston, New Orleans, Philadelphia— these cities are known for their historic buildings and attract thousands of tourists annually. State tax incentives have played a significant role in keeping these buildings and their history from crumbling away. Speaker/s from a historic preservation society will discuss the role state tax incentives play in preserving American history.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "5:00 PM-7:00 PM",
+      "title": "Summary: Just a block from TD Garden, Canal Street comes alive with vibrant street parties whenever Boston sports teams make the playoffs. Before heading to the Opening Reception at TD Garden, join us on Canal Street for a lively celebration of NCSL's 50th anniversary. This exciting event promises to set the perfect tone for an unforgettable evening.",
+      "location": "",
+      "speakers": [],
+      "description": "Just a block from TD Garden, Canal Street comes alive with vibrant street parties whenever Boston sports teams make the playoffs. Before heading to the Opening Reception at TD Garden, join us on Canal Street for a lively celebration of NCSL's 50th anniversary. This exciting event promises to set the perfect tone for an unforgettable evening.",
+      "track": "",
+      "session_type": "Reception"
+    },
+    {
+      "date": "2025-08-04",
+      "time": "7:00 PM-9:00 PM",
+      "title": "Summary: Don’t miss your shot! Help us kick off the NCSL Legislative Summit at TD Garden, home to the legendary Boston Celtics and Boston Bruins. Join us to mix and mingle with food, beverages and music.",
+      "location": "",
+      "speakers": [],
+      "description": "Don’t miss your shot! Help us kick off the NCSL Legislative Summit at TD Garden, home to the legendary Boston Celtics and Boston Bruins. Join us to mix and mingle with food, beverages and music.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "6:30 AM-8:00 AM",
+      "title": "Summary: Join our race ambassador, Olympian Meb Keflezighi, for a 5K run/walk at the beautiful Castle Island on Aug. 5. Enjoy scenic waterfront views, connect with colleagues and jump-start your day with an energizing experience!",
+      "location": "",
+      "speakers": [],
+      "description": "Join our race ambassador, Olympian Meb Keflezighi, for a 5K run/walk at the beautiful Castle Island on Aug. 5. Enjoy scenic waterfront views, connect with colleagues and jump-start your day with an energizing experience!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "7:30 AM-9:00 AM",
+      "title": "Summary: Join NAJL for our annual breakfast at Summit! The National Association of Jewish Legislators (NAJL) brings together Jewish elected officials from across the country to build a strong network for sharing policy ideas, addressing common concerns, exploring opportunities, and fostering meaningful connections",
+      "location": "",
+      "speakers": [],
+      "description": "Join NAJL for our annual breakfast at Summit! The National Association of Jewish Legislators (NAJL) brings together Jewish elected officials from across the country to build a strong network for sharing policy ideas, addressing common concerns, exploring opportunities, and fostering meaningful connections",
+      "track": "",
+      "session_type": "Breakfast Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "7:45 AM-8:45 AM",
+      "title": "Summary: Join an informal conversation with the U.S. Census Bureau to learn about preparations for the 2030 census, including the status of the 2030 Redistricting Data Program, the upcoming Block Boundary Suggestion Project and implementation of the new statistical guidance on race and ethnicity.",
+      "location": "BCEC, 1, 108",
+      "speakers": [],
+      "description": "Join an informal conversation with the U.S. Census Bureau to learn about preparations for the 2030 census, including the status of the 2030 Redistricting Data Program, the upcoming Block Boundary Suggestion Project and implementation of the new statistical guidance on race and ethnicity.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "8:00 AM-8:45 AM",
+      "title": "Summary: All attendees are welcome to hear an inspirational message at the prayer breakfast as they participate in a time of bipartisan fellowship.",
+      "location": "BCEC, 2, 256",
+      "speakers": [],
+      "description": "All attendees are welcome to hear an inspirational message at the prayer breakfast as they participate in a time of bipartisan fellowship.",
+      "track": "",
+      "session_type": "Breakfast Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "8:30 AM-5:00 PM",
+      "title": "Summary: A quiet/reflection room, located in Room 260, is available to attendees who need a break from the bustle of the conference. The room provides a peaceful space with reduced lighting, comfortable seating including bean bag chairs, and optional quiet activities, such as coloring and word searches. To preserve the atmosphere, we kindly ask that all visitors refrain from conversations, phone use or other disruptive behavior.",
+      "location": "BCEC, 2, 260",
+      "speakers": [],
+      "description": "A quiet/reflection room, located in Room 260, is available to attendees who need a break from the bustle of the conference. The room provides a peaceful space with reduced lighting, comfortable seating including bean bag chairs, and optional quiet activities, such as coloring and word searches. To preserve the atmosphere, we kindly ask that all visitors refrain from conversations, phone use or other disruptive behavior.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "8:30 AM-5:00 PM",
+      "title": "Summary: A mothers' lounge with soft seating, outlets and a mini fridge is located in Room 158. Additionally there is a more private Mamava nursing pod located in the foyer just outside Room 158.",
+      "location": "BCEC, 1, 158",
+      "speakers": [],
+      "description": "A mothers' lounge with soft seating, outlets and a mini fridge is located in Room 158. Additionally there is a more private Mamava nursing pod located in the foyer just outside Room 158.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "8:30 AM-5:00 PM",
+      "title": "Summary: Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "location": "BCEC, 1, North Lobby",
+      "speakers": [],
+      "description": "Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "9:00 AM-10:00 AM",
+      "title": "Summary: Who makes up the Trump coalition? Are younger voters and voters of color moving right? If so, what’s in store for 2026 and 2028? Join renowned political analyst Amy Walter as she walks us through an exclusive look at the latest data from the 2024 election and reads the tea leaves for the midterms.",
+      "location": "BCEC, Ballroom",
+      "speakers": [],
+      "description": "Who makes up the Trump coalition? Are younger voters and voters of color moving right? If so, what’s in store for 2026 and 2028? Join renowned political analyst Amy Walter as she walks us through an exclusive look at the latest data from the 2024 election and reads the tea leaves for the midterms.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "10:00 AM-11:00 AM",
+      "title": "Summary: There’s something for everyone in the Exhibit Hall! The opening reception will include light bites and coffee, as well as music from Proper Bostonian, a four-person band playing hit songs from famous Boston acts; watercolor caricature artists painting quick portraits or scenic Boston prints; and Colonial characters such as Paul Revere and a town crier roaming the hall. Be sure to check out the great mix of nonprofits, government associations, educational institutions, and public and private companies. Don’t miss the coffee lounges, Exhibit Hall Learning Hub sessions and Launchpad pavilion highlighting emerging businesses and new exhibitors! Sponsored by Dell Technologies and Nvidia.",
+      "location": "BCEC, Exhibit, Exhibit Hall",
+      "speakers": [],
+      "description": "There’s something for everyone in the Exhibit Hall! The opening reception will include light bites and coffee, as well as music from Proper Bostonian, a four-person band playing hit songs from famous Boston acts; watercolor caricature artists painting quick portraits or scenic Boston prints; and Colonial characters such as Paul Revere and a town crier roaming the hall. Be sure to check out the great mix of nonprofits, government associations, educational institutions, and public and private companies. Don’t miss the coffee lounges, Exhibit Hall Learning Hub sessions and Launchpad pavilion highlighting emerging businesses and new exhibitors! Sponsored by Dell Technologies and Nvidia.",
+      "track": "",
+      "session_type": "Reception"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "10:30 AM-11:00 AM",
+      "title": "Summary: Join us to learn more about ground-breaking U.S. biopharmaceutical innovations, the positive impact for patients globally and the policies that can nurture and protect them for generations to come. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "Join us to learn more about ground-breaking U.S. biopharmaceutical innovations, the positive impact for patients globally and the policies that can nurture and protect them for generations to come. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "10:30 AM-11:00 AM",
+      "title": "Summary: Bad actors exploit publicly available personal information to harass, impersonate or physically target individuals, including government employees and constituents. Learn how this information is exposed and why state leaders should view privacy protection as an urgent public safety issue. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Bad actors exploit publicly available personal information to harass, impersonate or physically target individuals, including government employees and constituents. Learn how this information is exposed and why state leaders should view privacy protection as an urgent public safety issue. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-11:45 AM",
+      "title": "Summary: Artificial intelligence is rapidly transforming patient care, from earlier disease detection to improving complex procedures. But how can state legislatures wrap their arms around it without hampering innovation? Understand the role of AI in medtech now, how we got here, and how it’s shaping the future of U.S. health care. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Artificial intelligence is rapidly transforming patient care, from earlier disease detection to improving complex procedures. But how can state legislatures wrap their arms around it without hampering innovation? Understand the role of AI in medtech now, how we got here, and how it’s shaping the future of U.S. health care. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-11:45 AM",
+      "title": "Summary: With extreme weather on the rise and federal disaster funds stretched thin, learn how states are using planning and dedicated funding to build long-term resilience. Join us to unpack what sets resilience apart from mitigation—and how state legislators can lead efforts that help protect communities before disaster strikes. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "With extreme weather on the rise and federal disaster funds stretched thin, learn how states are using planning and dedicated funding to build long-term resilience. Join us to unpack what sets resilience apart from mitigation—and how state legislators can lead efforts that help protect communities before disaster strikes. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: With the recent wildfires in California and flooding and landslides from Hurricane Helene in 2024, property owners are facing increasing property losses as disasters grow in intensity and frequency. States are seeing their insurance markets shrink as insurers are opting out of certain markets or raising premiums to high levels. Join us to dig deeper and explore solutions to help states better protect and prepare their residents for future disasters, ensure the affordability and availability of insurance and the ability to rebuild after a disaster.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "With the recent wildfires in California and flooding and landslides from Hurricane Helene in 2024, property owners are facing increasing property losses as disasters grow in intensity and frequency. States are seeing their insurance markets shrink as insurers are opting out of certain markets or raising premiums to high levels. Join us to dig deeper and explore solutions to help states better protect and prepare their residents for future disasters, ensure the affordability and availability of insurance and the ability to rebuild after a disaster.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: No matter what bill you're looking for, NCSL and partner LexisNexis State Net have got you covered! Come learn about this powerful research tool, along with how to utilize NCSL's 50-state legislative databases.",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "No matter what bill you're looking for, NCSL and partner LexisNexis State Net have got you covered! Come learn about this powerful research tool, along with how to utilize NCSL's 50-state legislative databases.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-1:00 PM",
+      "title": "Summary: Come honor and celebrate the contributions of legislative staff to their legislatures and NCSL. Doors open at 11:15 a.m. Grab lunch from the buffet and find a seat. Presentations will start at 11:45 a.m. Muffy Davis, a seven-time Paralympic medalist, former state legislator, dedicated public servant, global advocate and resilient \"SurThriver\" will share insights drawn from a lifetime of extraordinary achievements and profound challenges. Her experiences offer meaningful lessons in perseverance, purpose and strength—empowering you not merely to endure adversity, but to rise above it and truly SurTHRIVE.",
+      "location": "BCEC, Ballroom",
+      "speakers": [],
+      "description": "Come honor and celebrate the contributions of legislative staff to their legislatures and NCSL. Doors open at 11:15 a.m. Grab lunch from the buffet and find a seat. Presentations will start at 11:45 a.m. Muffy Davis, a seven-time Paralympic medalist, former state legislator, dedicated public servant, global advocate and resilient \"SurThriver\" will share insights drawn from a lifetime of extraordinary achievements and profound challenges. Her experiences offer meaningful lessons in perseverance, purpose and strength—empowering you not merely to endure adversity, but to rise above it and truly SurTHRIVE.",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: The work of legislators and staff can be so demanding that they neglect themselves. And if you don't care for yourself, you have nothing left to give to others. Join us to explore ways to take proper care of yourself in a healthy and productive way to help mitigate daily stress and avoid burnout.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "The work of legislators and staff can be so demanding that they neglect themselves. And if you don't care for yourself, you have nothing left to give to others. Join us to explore ways to take proper care of yourself in a healthy and productive way to help mitigate daily stress and avoid burnout.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: How can states reduce housing costs and increase supply? Join us to learn more about innovations such as 3D printing, off-site construction and artificial intelligence that hold promise for encouraging modernization of the housing industry.",
+      "location": "BCEC, 2, 258",
+      "speakers": [],
+      "description": "How can states reduce housing costs and increase supply? Join us to learn more about innovations such as 3D printing, off-site construction and artificial intelligence that hold promise for encouraging modernization of the housing industry.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Many states are actively expanding opportunities for students to learn beyond their local public schools. Experts will provide an update on recent state actions that enhance both public and private education choices, while also exploring the key nuances between these policies.",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "Many states are actively expanding opportunities for students to learn beyond their local public schools. Experts will provide an update on recent state actions that enhance both public and private education choices, while also exploring the key nuances between these policies.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: From the Industrial Revolution to globalization and the tech boom, economic development has transformed U.S. production and workforce. Join us as we dive into our past to explore the economic development strategies that shaped the nation, and what they mean for states today.",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "From the Industrial Revolution to globalization and the tech boom, economic development has transformed U.S. production and workforce. Join us as we dive into our past to explore the economic development strategies that shaped the nation, and what they mean for states today.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Members of the military face unique challenges when it comes to voting, whether they're deployed abroad or stationed outside their home state. Hear from legislators who are former service members about what it's like to vote while serving our country—and from experts on how policymaking can ease the burden.",
+      "location": "BCEC, 1, 156",
+      "speakers": [],
+      "description": "Members of the military face unique challenges when it comes to voting, whether they're deployed abroad or stationed outside their home state. Hear from legislators who are former service members about what it's like to vote while serving our country—and from experts on how policymaking can ease the burden.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Talk about a perfect pairing—science policy fellowships have proved to be a win-win. Lawmakers gain access to technical expertise and research, while fellows gain policymaking experience. Come learn more about these innovative programs, and hear from legislators and staff who host fellows or benefit from their work.",
+      "location": "BCEC, 2, 206",
+      "speakers": [],
+      "description": "Talk about a perfect pairing—science policy fellowships have proved to be a win-win. Lawmakers gain access to technical expertise and research, while fellows gain policymaking experience. Come learn more about these innovative programs, and hear from legislators and staff who host fellows or benefit from their work.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "12:00 PM-12:30 PM",
+      "title": "Summary: Train SMART is a new approach to firearm training created by veterans and firearms experts who understand the training, safety, and accountability necessary for responsible gun ownership. Join us and be among the first to hear about how you can bring this innovative new approach to firearm safety to your state. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Train SMART is a new approach to firearm training created by veterans and firearms experts who understand the training, safety, and accountability necessary for responsible gun ownership. Join us and be among the first to hear about how you can bring this innovative new approach to firearm safety to your state. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "12:00 PM-12:30 PM",
+      "title": "Summary: Join rape survivor and national advocate Ashley Spence to hear how Rapid DNA helps deliver justice in just 90 minutes. Learn about statewide applications and how this new technology can exonerate the innocent and identify the guilty—fast. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "Join rape survivor and national advocate Ashley Spence to hear how Rapid DNA helps deliver justice in just 90 minutes. Learn about statewide applications and how this new technology can exonerate the innocent and identify the guilty—fast. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "12:00 PM-1:00 PM",
+      "title": "Summary: Enjoy a delicious lunch with your colleagues and visit exhibitors from around the nation with unique information and a wide range of policy perspectives.",
+      "location": "BCEC, Exhibit, Exhibit Hall",
+      "speakers": [],
+      "description": "Enjoy a delicious lunch with your colleagues and visit exhibitors from around the nation with unique information and a wide range of policy perspectives.",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "12:45 PM-1:15 PM",
+      "title": "Summary: This session will focus on issues impacting older adults in the areas of housing affordability, real estate fraud and homeownership security. The discussion will feature experts from AARP’s Government Affairs team who will discuss various housing issues affecting older adults, including predatory housing practices, housing options and property taxes. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "This session will focus on issues impacting older adults in the areas of housing affordability, real estate fraud and homeownership security. The discussion will feature experts from AARP’s Government Affairs team who will discuss various housing issues affecting older adults, including predatory housing practices, housing options and property taxes. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "12:45 PM-1:15 PM",
+      "title": "Summary: The integration of advanced technology in legislative processes is transforming how state legislatures operate. CoCounsel, a cutting-edge legal AI tool, offers significant advantages for attorneys supporting the legislature. This presentation will explore the key benefits, features, and potential applications of CoCounsel in enhancing legislative efficiency and effectiveness. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "The integration of advanced technology in legislative processes is transforming how state legislatures operate. CoCounsel, a cutting-edge legal AI tool, offers significant advantages for attorneys supporting the legislature. This presentation will explore the key benefits, features, and potential applications of CoCounsel in enhancing legislative efficiency and effectiveness. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Back by popular demand, this fast-paced game gives you the chance to impress your friends and colleagues with your knowledge of state legislatures—then and now. Brush up on your knowledge of NCSL's history too—you never know when you'll need bonus points!",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "Back by popular demand, this fast-paced game gives you the chance to impress your friends and colleagues with your knowledge of state legislatures—then and now. Brush up on your knowledge of NCSL's history too—you never know when you'll need bonus points!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: As demand for energy soars, artificial intelligence can help manage the grid more efficiently. At the same time, the use of AI is driving the demand for energy-consuming data centers. Join us to explore the different ways AI interacts with the grid.",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "As demand for energy soars, artificial intelligence can help manage the grid more efficiently. At the same time, the use of AI is driving the demand for energy-consuming data centers. Join us to explore the different ways AI interacts with the grid.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: The ASLCS Executive Committee will meet to discuss plans, budgets and upcoming activities for the 2024-2025 conference year.",
+      "location": "BCEC, 1, 108",
+      "speakers": [],
+      "description": "The ASLCS Executive Committee will meet to discuss plans, budgets and upcoming activities for the 2024-2025 conference year.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Olympian and Boston Marathon champion Meb Keflezighi sits down for a candid fireside chat on what it takes to lead, endure and thrive under pressure. From high-stakes races to personal reinvention, Keflezighi reflects on the mindset and habits that sustained his decades-long career at the top of one of the most grueling sports. His insights on focus, discipline and adapting to challenges offer valuable perspective for those working to lead, legislate and serve in today’s fast-changing state legislative environment.",
+      "location": "BCEC, 2, 206",
+      "speakers": [],
+      "description": "Olympian and Boston Marathon champion Meb Keflezighi sits down for a candid fireside chat on what it takes to lead, endure and thrive under pressure. From high-stakes races to personal reinvention, Keflezighi reflects on the mindset and habits that sustained his decades-long career at the top of one of the most grueling sports. His insights on focus, discipline and adapting to challenges offer valuable perspective for those working to lead, legislate and serve in today’s fast-changing state legislative environment.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Become an effective architect of information by elevating your communication skills. Join us for creative ways to use syntax, effective techniques for communicating statistics and a clever method for organizing complex information. Learn how to ensure that everyone's on the same page in all your interactions.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "Become an effective architect of information by elevating your communication skills. Join us for creative ways to use syntax, effective techniques for communicating statistics and a clever method for organizing complex information. Learn how to ensure that everyone's on the same page in all your interactions.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: How should lawmakers define and measure the worth of a degree and the postsecondary experience? Join experts and leaders for an exploration of the value proposition of a degree, debate about how to measure it, and ways that policymakers can support degrees of value.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "How should lawmakers define and measure the worth of a degree and the postsecondary experience? Join experts and leaders for an exploration of the value proposition of a degree, debate about how to measure it, and ways that policymakers can support degrees of value.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: A complicated permitting process has slowed critical infrastructure projects—especially energy projects—for decades. Join industry and congressional experts to hear about efforts to reform America's permitting processes and speed up approval of crucial projects such as electrical lines, power plants and more.",
+      "location": "BCEC, 2, 254",
+      "speakers": [],
+      "description": "A complicated permitting process has slowed critical infrastructure projects—especially energy projects—for decades. Join industry and congressional experts to hear about efforts to reform America's permitting processes and speed up approval of crucial projects such as electrical lines, power plants and more.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: It's never too soon to be thinking about 2030! The 2020 redistricting cycle and the court cases it engendered have set the stage for the next cycle. Join us for a look back and ahead at redistricting across the country, and learn more about what the current legal and political landscape means for the next cycle.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "It's never too soon to be thinking about 2030! The 2020 redistricting cycle and the court cases it engendered have set the stage for the next cycle. Join us for a look back and ahead at redistricting across the country, and learn more about what the current legal and political landscape means for the next cycle.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: About 34% of all households are renters, and nearly half of them spend more than 30% of their income on rent and utilities. What's behind the high cost of rental housing, and how can states help? Join us to learn about strategies to balance rental affordability with the needs and rights of landlords.",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "About 34% of all households are renters, and nearly half of them spend more than 30% of their income on rent and utilities. What's behind the high cost of rental housing, and how can states help? Join us to learn about strategies to balance rental affordability with the needs and rights of landlords.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: What might this term's U.S. Supreme Court's decisions mean for your state? With issues on the docket ranging from gun regulation and gender-affirming care to disability rights and free speech, there's a lot to explore. Join us for an eye-opening discussion on topics including ghost guns, the environment, the Affordable Care Act and TikTok.",
+      "location": "BCEC, 2, 258",
+      "speakers": [],
+      "description": "What might this term's U.S. Supreme Court's decisions mean for your state? With issues on the docket ranging from gun regulation and gender-affirming care to disability rights and free speech, there's a lot to explore. Join us for an eye-opening discussion on topics including ghost guns, the environment, the Affordable Care Act and TikTok.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: What's smaller than a plane and quieter than a helicopter? Come learn about the latest advanced air mobility technologies and the role the federal and state governments can play in getting them off the ground.",
+      "location": "BCEC, 1, 156",
+      "speakers": [],
+      "description": "What's smaller than a plane and quieter than a helicopter? Come learn about the latest advanced air mobility technologies and the role the federal and state governments can play in getting them off the ground.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:15 PM-2:15 PM",
+      "title": "Summary: What's on your mind? Join your women colleagues for expert-led small group policy discussions. Come ready to learn, share and connect with other women on a policy area of interest.",
+      "location": "BCEC, 1, 157",
+      "speakers": [],
+      "description": "What's on your mind? Join your women colleagues for expert-led small group policy discussions. Come ready to learn, share and connect with other women on a policy area of interest.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:30 PM-2:00 PM",
+      "title": "Summary: Explore the evolution of mRNA technology from early scientific foundations to its growing role in public health. Learn about its role in transformative therapies, including personalized cancer treatments. Discover how mRNA may shape the future of medicine and what that could mean for patients, providers and policymakers. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Explore the evolution of mRNA technology from early scientific foundations to its growing role in public health. Learn about its role in transformative therapies, including personalized cancer treatments. Discover how mRNA may shape the future of medicine and what that could mean for patients, providers and policymakers. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "1:30 PM-2:00 PM",
+      "title": "Summary: In 2025, solutions for achieving cleaner air and reducing carbon emissions are now met with a new emphasis on enhancing energy security and reliability. This session will examine policy and technical aspects of how advanced engines and renewable biofuels contribute to achieving these multiple goals in the transportation and industrial sectors. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "In 2025, solutions for achieving cleaner air and reducing carbon emissions are now met with a new emphasis on enhancing energy security and reliability. This session will examine policy and technical aspects of how advanced engines and renewable biofuels contribute to achieving these multiple goals in the transportation and industrial sectors. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:15 PM-2:45 PM",
+      "title": "Summary: Join Major League Baseball to explore the legislative issues impacting America’s pastime. From safeguarding fan data privacy to ensuring fair access to baseball tickets, discover how MLB navigates complex policy considerations in support of innovative laws that benefit fans and other stakeholders. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Join Major League Baseball to explore the legislative issues impacting America’s pastime. From safeguarding fan data privacy to ensuring fair access to baseball tickets, discover how MLB navigates complex policy considerations in support of innovative laws that benefit fans and other stakeholders. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:15 PM-2:45 PM",
+      "title": "Summary: This panel highlights how the apparel and footwear industry is advancing circularity through innovation and collaboration to close the loop and reduce environmental impact when making the next generation products. The discussion will also explore how state governments can play a critical role by harmonizing policy to support these efforts. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "This panel highlights how the apparel and footwear industry is advancing circularity through innovation and collaboration to close the loop and reduce environmental impact when making the next generation products. The discussion will also explore how state governments can play a critical role by harmonizing policy to support these efforts. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Legislative service has always demanded sacrifices, but now there’s a pressing concern: threats and violence. How can legislators and staff navigate these sacrifices and weigh the risks? Join us to explore the complexities and challenges that come with legislative duty in today's volatile environment.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "Legislative service has always demanded sacrifices, but now there’s a pressing concern: threats and violence. How can legislators and staff navigate these sacrifices and weigh the risks? Join us to explore the complexities and challenges that come with legislative duty in today's volatile environment.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Join the discussion as we develop the NCSL policy positions used to advocate before Congress and the administration. Only legislator members can vote, but everyone can add their state's voice. Snacks will be provided.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Wildlife-related recreation contributes over $150 billion to the U.S. economy annually and supports more han 480,000 jobs, making effective conservation policy an economic issue. Join us for a look at the history of the North American Model of Wildlife Conservation, and how its principles guide modern policymaking to balance wildlife conservation, sustainable use and public benefit.",
+      "location": "BCEC, 1, 156",
+      "speakers": [],
+      "description": "Wildlife-related recreation contributes over $150 billion to the U.S. economy annually and supports more han 480,000 jobs, making effective conservation policy an economic issue. Join us for a look at the history of the North American Model of Wildlife Conservation, and how its principles guide modern policymaking to balance wildlife conservation, sustainable use and public benefit.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: A number of research reports have recently confirmed that high-quality early learning, afterschool programs and community schools have positive impacts on students well beyond their school years. Hear more about this evidence and the policies that state legislators might consider to provide students with these impactful experiences.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "A number of research reports have recently confirmed that high-quality early learning, afterschool programs and community schools have positive impacts on students well beyond their school years. Hear more about this evidence and the policies that state legislators might consider to provide students with these impactful experiences.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Passing bills, responding to constituents, holding hearings—all of that has to be balanced with meeting legislative deadlines. So what can legislators, staff and lobbyists do to streamline the legislative process? Come hear their answers!",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "Passing bills, responding to constituents, holding hearings—all of that has to be balanced with meeting legislative deadlines. So what can legislators, staff and lobbyists do to streamline the legislative process? Come hear their answers!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Are you a legislative staff person with fiscal responsibilities? You are a member of the National Association of Legislative Fiscal Offices (NALFO)! Please join us for NALFO’s Annual Business Meeting where we will recognize Legislative Staff Achievement Award Winners, elect new officers, and conduct other business.",
+      "location": "BCEC, 2, 251",
+      "speakers": [],
+      "description": "Are you a legislative staff person with fiscal responsibilities? You are a member of the National Association of Legislative Fiscal Offices (NALFO)! Please join us for NALFO’s Annual Business Meeting where we will recognize Legislative Staff Achievement Award Winners, elect new officers, and conduct other business.",
+      "track": "",
+      "session_type": "Business Meeting"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: As the U.S. Treasury and Mint ends the production of the penny, state concerns include penny-rounding laws, pricing impacts and revenue effects, among other issues. Come learn about considerations and possible next steps.",
+      "location": "BCEC, 2, 206",
+      "speakers": [],
+      "description": "As the U.S. Treasury and Mint ends the production of the penny, state concerns include penny-rounding laws, pricing impacts and revenue effects, among other issues. Come learn about considerations and possible next steps.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Verifying that only U.S. citizens are registered to vote and casting ballots is a hot topic in legislatures. Learn about the latest state actions, including constitutional amendments specifying only citizens can vote; legislatures adopting documentary proof of citizenship to register (and why some states resist the trend); and the details of voter list maintenance procedures.",
+      "location": "BCEC, 2, 258",
+      "speakers": [],
+      "description": "Verifying that only U.S. citizens are registered to vote and casting ballots is a hot topic in legislatures. Learn about the latest state actions, including constitutional amendments specifying only citizens can vote; legislatures adopting documentary proof of citizenship to register (and why some states resist the trend); and the details of voter list maintenance procedures.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: Thanks to historic state and federal investments, America is closing in on providing universal broadband access—but there's more work to be done. Join us to discuss what comes next to maintain the existing networks and ensure every household has the skills and devices to make the most of our modern digital society.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "Thanks to historic state and federal investments, America is closing in on providing universal broadband access—but there's more work to be done. Join us to discuss what comes next to maintain the existing networks and ensure every household has the skills and devices to make the most of our modern digital society.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: The influx of older Americans reentering the workforce means challenges and opportunities for states, retirees and the labor market. Hear from experts and policymakers about what is driving the rise of \"unretirement\" and how state efforts to support older workers can give a critical boost to the workforce.",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "The influx of older Americans reentering the workforce means challenges and opportunities for states, retirees and the labor market. Hear from experts and policymakers about what is driving the rise of \"unretirement\" and how state efforts to support older workers can give a critical boost to the workforce.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "2:45 PM-3:45 PM",
+      "title": "Summary: What interventions actually prevent young people from committing crimes in the first place? Hear from lawmakers on both sides of the aisle and experts on effective interventions to increase public safety and help young people become more productive and accountable adults.",
+      "location": "BCEC, 2, 205",
+      "speakers": [],
+      "description": "What interventions actually prevent young people from committing crimes in the first place? Hear from lawmakers on both sides of the aisle and experts on effective interventions to increase public safety and help young people become more productive and accountable adults.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "3:00 PM-3:30 PM",
+      "title": "Summary: As autonomous vehicles become part of our reality, questions have emerged around the future of the workforce. Research shows industry advancements are making way for new and diverse opportunities. Join us to learn how the labor market is evolving with autonomous mobility and discover opportunities for the future workforce. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "As autonomous vehicles become part of our reality, questions have emerged around the future of the workforce. Research shows industry advancements are making way for new and diverse opportunities. Join us to learn how the labor market is evolving with autonomous mobility and discover opportunities for the future workforce. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "3:00 PM-3:30 PM",
+      "title": "Summary: Join Elizabeth Bartz and Nola Werren for a fast-paced, insightful session on political compliance. Learn key legal considerations for corporate political giving, session bans, pay-to-play rules, AI in campaigns and cryptocurrency contributions to keep your organization informed and election-ready. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Join Elizabeth Bartz and Nola Werren for a fast-paced, insightful session on political compliance. Learn key legal considerations for corporate political giving, session bans, pay-to-play rules, AI in campaigns and cryptocurrency contributions to keep your organization informed and election-ready. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "4:00 PM-5:00 PM",
+      "title": "Summary: Humans have learned to thrive at altitude, underwater and in outer space. So, why is it so hard to get organizations—like state governments—to adapt to new ways of doing things? Join Shankar Vedantam, host of the “Hidden Brain” podcast, for a deep dive into how the unconscious patterns that drive human behavior shape the capacity for change. How can leaders avoid common mistakes as they implement their vision?",
+      "location": "BCEC, Ballroom",
+      "speakers": [],
+      "description": "Humans have learned to thrive at altitude, underwater and in outer space. So, why is it so hard to get organizations—like state governments—to adapt to new ways of doing things? Join Shankar Vedantam, host of the “Hidden Brain” podcast, for a deep dive into how the unconscious patterns that drive human behavior shape the capacity for change. How can leaders avoid common mistakes as they implement their vision?",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "5:00 PM-5:30 PM",
+      "title": "Summary: The standing committee officers will review the policies reported from the individual standing committee’s business meetings and determines the calendar for the overall NCSL Business Meeting on Wednesday, Aug. 6 at 1:30 p.m.",
+      "location": "BCEC, 2, 251",
+      "speakers": [],
+      "description": "The standing committee officers will review the policies reported from the individual standing committee’s business meetings and determines the calendar for the overall NCSL Business Meeting on Wednesday, Aug. 6 at 1:30 p.m.",
+      "track": "",
+      "session_type": "Business Meeting"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "5:30 PM-8:30 PM",
+      "title": "Summary: Join us pier-side for this exclusive event at the historic Charlestown Navy Yard, beside the USS Constitution, the world’s oldest commissioned naval warship still afloat. Enjoy a summer evening with historical reenactments, a fife and drum presentation, and great food and drinks on Boston Harbor. Please note: Shuttles will run from BCEC to the USS Constitution from 5-6 p.m. Shuttles will not run between hotels and the USS Constitution. Return shuttles will not be available. Board the USS Constitution | 5:30-8:30 p.m. Board the world’s oldest commissioned warship still afloat, a rare chance to step onto a piece of living history from the War of 1812. Nicknamed \"Old Ironsides\" for its strong oak hull that repelled British cannon fire, the ship now serves as an active-duty Navy vessel, stationed at the Charlestown Navy Yard in Boston. The experience brings to life over 200 years of naval heritage while offering stunning views of Boston Harbor. A tour not to be missed! Board the Cassin Young at the Charlestown Navy Yard | 5:30-7:30 p.m. The USS Cassin Young (DD-793) is a Fletcher-class destroyer of the U.S. Navy named for Captain Cassin Young (1894-1942) who was awarded the Medal of Honor for his heroism at the Japanese attack on Pearl Harbor and killed in the Naval Battle of Guadalcanal in the fall of 1942. The destroyer was launched Sept. 12, 1943, and was designated a National Historic Landmark in 1986 as one of only four surviving Fletcher-class destroyers still afloat. In addition to the tour, a representative from the National Park Service Engagement with National Park Service rangers will talk about the history of the National Park.",
+      "location": "",
+      "speakers": [],
+      "description": "Join us pier-side for this exclusive event at the historic Charlestown Navy Yard, beside the USS Constitution, the world’s oldest commissioned naval warship still afloat. Enjoy a summer evening with historical reenactments, a fife and drum presentation, and great food and drinks on Boston Harbor. Please note: Shuttles will run from BCEC to the USS Constitution from 5-6 p.m. Shuttles will not run between hotels and the USS Constitution. Return shuttles will not be available. Board the USS Constitution | 5:30-8:30 p.m. Board the world’s oldest commissioned warship still afloat, a rare chance to step onto a piece of living history from the War of 1812. Nicknamed \"Old Ironsides\" for its strong oak hull that repelled British cannon fire, the ship now serves as an active-duty Navy vessel, stationed at the Charlestown Navy Yard in Boston. The experience brings to life over 200 years of naval heritage while offering stunning views of Boston Harbor. A tour not to be missed! Board the Cassin Young at the Charlestown Navy Yard | 5:30-7:30 p.m. The USS Cassin Young (DD-793) is a Fletcher-class destroyer of the U.S. Navy named for Captain Cassin Young (1894-1942) who was awarded the Medal of Honor for his heroism at the Japanese attack on Pearl Harbor and killed in the Naval Battle of Guadalcanal in the fall of 1942. The destroyer was launched Sept. 12, 1943, and was designated a National Historic Landmark in 1986 as one of only four surviving Fletcher-class destroyers still afloat. In addition to the tour, a representative from the National Park Service Engagement with National Park Service rangers will talk about the history of the National Park.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-05",
+      "time": "5:30 PM-7:00 PM",
+      "title": "Summary: Join us at Committee Restaurant (50 Northern Ave.) for a joint reception with Women in Government and the Massachusetts Caucus of Women Legislators celebrating 40 years of women making their place at the NCSL Legislative Summit. Details were emailed to all registered women legislators and legislative staff. If you'd like more information, please reach out to [email protected].",
+      "location": "",
+      "speakers": [],
+      "description": "Join us at Committee Restaurant (50 Northern Ave.) for a joint reception with Women in Government and the Massachusetts Caucus of Women Legislators celebrating 40 years of women making their place at the NCSL Legislative Summit. Details were emailed to all registered women legislators and legislative staff. If you'd like more information, please reach out to [email protected].",
+      "track": "",
+      "session_type": "Reception"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "8:30 AM-3:00 PM",
+      "title": "Summary: A quiet/reflection room, located in Room 260, is available to attendees who need a break from the bustle of the conference. The room provides a peaceful space with reduced lighting, comfortable seating including bean bag chairs, and optional quiet activities, such as coloring and word searches. To preserve the atmosphere, we kindly ask that all visitors refrain from conversations, phone use or other disruptive behavior.",
+      "location": "BCEC, 2, 260",
+      "speakers": [],
+      "description": "A quiet/reflection room, located in Room 260, is available to attendees who need a break from the bustle of the conference. The room provides a peaceful space with reduced lighting, comfortable seating including bean bag chairs, and optional quiet activities, such as coloring and word searches. To preserve the atmosphere, we kindly ask that all visitors refrain from conversations, phone use or other disruptive behavior.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "8:30 AM-4:30 PM",
+      "title": "Summary: A mothers' lounge with soft seating, outlets and a mini fridge is located in Room 158. Additionally there is a more private Mamava nursing pod located in the foyer just outside Room 158.",
+      "location": "BCEC, 1, 158",
+      "speakers": [],
+      "description": "A mothers' lounge with soft seating, outlets and a mini fridge is located in Room 158. Additionally there is a more private Mamava nursing pod located in the foyer just outside Room 158.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "8:30 AM-3:00 PM",
+      "title": "Summary: Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "location": "BCEC, 1, North Lobby",
+      "speakers": [],
+      "description": "Get registered! Bring your photo ID to a kiosk and print your Summit badge, which you’ll need for all NCSL events. Pick up a tote bag and Summit magazine, and say hello to our friendly staff—we’re always happy to help!",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "9:00 AM-9:45 AM",
+      "title": "Summary: Enjoy a delicious breakfast with your colleagues and visit exhibitors from around the nation with unique information and a wide range of policy perspectives.",
+      "location": "BCEC, Exhibit, Exhibit Hall",
+      "speakers": [],
+      "description": "Enjoy a delicious breakfast with your colleagues and visit exhibitors from around the nation with unique information and a wide range of policy perspectives.",
+      "track": "",
+      "session_type": "Breakfast Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "9:15 AM-9:45 AM",
+      "title": "Summary: State and local leaders are critical in disaster response. This session explores how partnerships accelerate aid, featuring GoFundMe’s Crisis Response Playbook and its community-driven approach. Learn how GoFundMe and All Hands and Hearts mobilize rapid, effective support to help communities recover and rebuild in times of urgent need and beyond.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "State and local leaders are critical in disaster response. This session explores how partnerships accelerate aid, featuring GoFundMe’s Crisis Response Playbook and its community-driven approach. Learn how GoFundMe and All Hands and Hearts mobilize rapid, effective support to help communities recover and rebuild in times of urgent need and beyond.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "9:15 AM-9:45 AM",
+      "title": "Summary: It’s critical for legislators to understand the rapidly evolving obesity landscape to make informed decisions about coverage. Join obesity expert Katherine Saunders for a crash course that includes the biology of weight regulation, the latest FDA-approved medications, compounded products, state coverage and more. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "It’s critical for legislators to understand the rapidly evolving obesity landscape to make informed decisions about coverage. Join obesity expert Katherine Saunders for a crash course that includes the biology of weight regulation, the latest FDA-approved medications, compounded products, state coverage and more. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: Representatives from NCSL's affiliate members—Alberta, Quebec and Ghana—share their perspectives on the benefits of their partnerships with NCSL, including examples of mutual learning, shared successes and ongoing initiatives. Come for the history and insights, stay for a trivia challenge about NCSL's international reach and impact.",
+      "location": "BCEC, 2, 206",
+      "speakers": [],
+      "description": "Representatives from NCSL's affiliate members—Alberta, Quebec and Ghana—share their perspectives on the benefits of their partnerships with NCSL, including examples of mutual learning, shared successes and ongoing initiatives. Come for the history and insights, stay for a trivia challenge about NCSL's international reach and impact.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: More U.S. land is in foreign hands than ever before, and states have worked to address potential security implications. Join us to explore the latest trends in foreign land ownership and potential impacts on energy infrastructure and safety.",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "More U.S. land is in foreign hands than ever before, and states have worked to address potential security implications. Join us to explore the latest trends in foreign land ownership and potential impacts on energy infrastructure and safety.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:30 AM",
+      "title": "Summary: States are changing the way they address chronic disease with Food Is Medicine—an impactful food-based strategy to improving health. Join us to discover how states are integrating nutrition into health care through tools like Medicaid 1115 waivers, and how promising results are paving the way for lasting policy change. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "States are changing the way they address chronic disease with Food Is Medicine—an impactful food-based strategy to improving health. Join us to discover how states are integrating nutrition into health care through tools like Medicaid 1115 waivers, and how promising results are paving the way for lasting policy change. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:30 AM",
+      "title": "Summary: Learn about new legislation that enhances housing affordability and availability while maintaining local control of land use decisions. Hear from attorneys with the firm behind the landmark 2024 Supreme Court case that threw inclusionary zoning programs into constitutional doubt—and find out more about possible solutions. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "Learn about new legislation that enhances housing affordability and availability while maintaining local control of land use decisions. Hear from attorneys with the firm behind the landmark 2024 Supreme Court case that threw inclusionary zoning programs into constitutional doubt—and find out more about possible solutions. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: This session provides state legislators with an in-depth exploration of the changing landscape of American federalism and the critical role states play in influencing national policy. Participants will examine the constitutional foundations of federalism, navigate current intergovernmental challenges, and explore strategies for asserting state authority in key areas such as health care, education, infrastructure and more. Through interactive discussions legislators will gain valuable insights into how states can both collaborate with and push back against the federal government to safeguard local priorities and strengthen democratic governance. Attendees will leave with a clearer understanding of their constitutional responsibilities and practical approaches to exercising state power in today’s complex federal system.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "This session provides state legislators with an in-depth exploration of the changing landscape of American federalism and the critical role states play in influencing national policy. Participants will examine the constitutional foundations of federalism, navigate current intergovernmental challenges, and explore strategies for asserting state authority in key areas such as health care, education, infrastructure and more. Through interactive discussions legislators will gain valuable insights into how states can both collaborate with and push back against the federal government to safeguard local priorities and strengthen democratic governance. Attendees will leave with a clearer understanding of their constitutional responsibilities and practical approaches to exercising state power in today’s complex federal system.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: If you find yourself spinning your wheels at work, it might be time to shake things up. Whether you're currently feeling stuck or just want to avoid it, join us to learn how to recognize the impact thoughts and feelings have on actions. Explore five options that are always available, even when a professional path hits a plateau.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "If you find yourself spinning your wheels at work, it might be time to shake things up. Whether you're currently feeling stuck or just want to avoid it, join us to learn how to recognize the impact thoughts and feelings have on actions. Explore five options that are always available, even when a professional path hits a plateau.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: From fiscal notes to evidence ratings and performance dashboards, countless evidence-informed tools exist to support legislative decision-making. Learn from experts about innovative strategies to help state legislators make fast and informed choices.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "From fiscal notes to evidence ratings and performance dashboards, countless evidence-informed tools exist to support legislative decision-making. Learn from experts about innovative strategies to help state legislators make fast and informed choices.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: Since 2020, property values and property tax bills have soared. But how can legislators provide relief without bankrupting state and local governments? Come hear from experts about property tax issues and relief options lawmakers might consider.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "Since 2020, property values and property tax bills have soared. But how can legislators provide relief without bankrupting state and local governments? Come hear from experts about property tax issues and relief options lawmakers might consider.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: Child care now costs more than rent and college tuition in many states, a burden parents often shoulder alone. Join leaders and innovators in the field for a deep dive into why child care is currently unaffordable and what it will take from both the public and private sectors to ensure all families have access to the help they need to care for their kids.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "Child care now costs more than rent and college tuition in many states, a burden parents often shoulder alone. Join leaders and innovators in the field for a deep dive into why child care is currently unaffordable and what it will take from both the public and private sectors to ensure all families have access to the help they need to care for their kids.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: Recent regulation changes for PFAS have raised new issues and concerns for state and local governments about public communication and education, liability, monitoring and clean up. Join us for a deep dive into how states are managing PFAS water contamination, and what’s in store for future PFAS regulation, mitigation and funding.",
+      "location": "BCEC, 2, 254",
+      "speakers": [],
+      "description": "Recent regulation changes for PFAS have raised new issues and concerns for state and local governments about public communication and education, liability, monitoring and clean up. Join us for a deep dive into how states are managing PFAS water contamination, and what’s in store for future PFAS regulation, mitigation and funding.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: Come explore the potential of blockchain technology in the public sector. How are state and local governments experimenting with blockchain to increase transparency, improve public services, and create secure, efficient systems? Experts will unpack real-world use cases where blockchain is already making a difference.",
+      "location": "BCEC, 1, 156",
+      "speakers": [],
+      "description": "Come explore the potential of blockchain technology in the public sector. How are state and local governments experimenting with blockchain to increase transparency, improve public services, and create secure, efficient systems? Experts will unpack real-world use cases where blockchain is already making a difference.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:00 AM-10:45 AM",
+      "title": "Summary: Since its launch in 2022, the 988 lifeline has received more than 10 million contacts from those dealing with a mental health crisis. Join us to discuss how such crisis response systems—including 911, EMS, law enforcement and mobile crisis teams—integrate complex traffic safety, behavioral health and emergency response systems to provide crisis care.",
+      "location": "BCEC, 1, 157",
+      "speakers": [],
+      "description": "Since its launch in 2022, the 988 lifeline has received more than 10 million contacts from those dealing with a mental health crisis. Join us to discuss how such crisis response systems—including 911, EMS, law enforcement and mobile crisis teams—integrate complex traffic safety, behavioral health and emergency response systems to provide crisis care.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:45 AM-11:15 AM",
+      "title": "Summary: Join Dominion Energy’s senior vice president of corporate affairs, Bill Murray, for a conversation on the current dynamic energy landscape, and how the company plans to meet the growing demand for power. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "Join Dominion Energy’s senior vice president of corporate affairs, Bill Murray, for a conversation on the current dynamic energy landscape, and how the company plans to meet the growing demand for power. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "10:45 AM-11:15 AM",
+      "title": "Summary: Join the nearly two dozen states that have already acted to protect consumers with the Kratom Consumer Protection Act. Don’t let your state fall behind—learn how this commonsense legislation sets clear standards and preserves access for informed adults. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Join the nearly two dozen states that have already acted to protect consumers with the Kratom Consumer Protection Act. Don’t let your state fall behind—learn how this commonsense legislation sets clear standards and preserves access for informed adults. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Join state legislators and state legislative expert Peverill Squire for a discussion about the ways ballot measures reflect the public's attitude toward legislative institutions. Squire's research of more than 1,500 ballot propositions on legislative organization tells the story of public opinion toward legislatures over time—and a panel of legislators consider what it means for lawmakers today.",
+      "location": "BCEC, 2, 254",
+      "speakers": [],
+      "description": "Join state legislators and state legislative expert Peverill Squire for a discussion about the ways ballot measures reflect the public's attitude toward legislative institutions. Squire's research of more than 1,500 ballot propositions on legislative organization tells the story of public opinion toward legislatures over time—and a panel of legislators consider what it means for lawmakers today.",
+      "track": "",
+      "session_type": "Panel Discussion"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Dr. Aparna Ghosh reveals what women legislators need to feel safe. Learn practical strategies and innovative solutions for navigating both digital and in-person challenges. Leave empowered with actionable tools to strengthen your resilience.",
+      "location": "BCEC, 2, 253",
+      "speakers": [],
+      "description": "Dr. Aparna Ghosh reveals what women legislators need to feel safe. Learn practical strategies and innovative solutions for navigating both digital and in-person challenges. Leave empowered with actionable tools to strengthen your resilience.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Join us to explore the expanding role of carbon capture in the United States, even as the current administration prioritizes fossil fuel production. Experts will highlight the commercial readiness of carbon capture technologies, their potential role in reducing greenhouse gas emissions, and market forces impacting advancement and deployment.",
+      "location": "BCEC, 2, 257",
+      "speakers": [],
+      "description": "Join us to explore the expanding role of carbon capture in the United States, even as the current administration prioritizes fossil fuel production. Experts will highlight the commercial readiness of carbon capture technologies, their potential role in reducing greenhouse gas emissions, and market forces impacting advancement and deployment.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Too often, our leadership mindsets are fixed within the world of finite competitions—beating our foes in the next game, or the next election. But the legislative world is actually an infinite game, with rules and objectives that require a new model of leadership. Come explore how a shift to an infinite mindset can enhance your ability to lead your chamber on a course for long-term success.",
+      "location": "BCEC, 2, 204",
+      "speakers": [],
+      "description": "Too often, our leadership mindsets are fixed within the world of finite competitions—beating our foes in the next game, or the next election. But the legislative world is actually an infinite game, with rules and objectives that require a new model of leadership. Come explore how a shift to an infinite mindset can enhance your ability to lead your chamber on a course for long-term success.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Learn how clear communication, mutual respect and collaboration between your team's communications and legal experts can help navigate sensitive issues, mitigate risks and achieve your legislature's goals. Whether drafting a press release, managing a crisis or responding to media inquiries, discover practical strategies to build a stronger, more cohesive partnership.",
+      "location": "BCEC, 2, 259",
+      "speakers": [],
+      "description": "Learn how clear communication, mutual respect and collaboration between your team's communications and legal experts can help navigate sensitive issues, mitigate risks and achieve your legislature's goals. Whether drafting a press release, managing a crisis or responding to media inquiries, discover practical strategies to build a stronger, more cohesive partnership.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: As global economic uncertainty challenges trade and economic stability, this session offers a unique opportunity to explore how representatives from Canada, the European Union, and Massachusetts are addressing these issues. Through a combination of brief, insightful presentations and collaborative group activities, attendees will dive into the trade strategies, challenges, and opportunities shaping global partnerships. Following opening remarks from each speaker, participants will work in small groups to tackle real-world trade challenges, brainstorm actionable solutions, and explore opportunities for deeper collaboration between U.S. states and international partners. Groups will then share their findings in a facilitated debrief, with speakers reflecting on the proposed solutions and providing additional insights.",
+      "location": "BCEC, 1, 104",
+      "speakers": [],
+      "description": "As global economic uncertainty challenges trade and economic stability, this session offers a unique opportunity to explore how representatives from Canada, the European Union, and Massachusetts are addressing these issues. Through a combination of brief, insightful presentations and collaborative group activities, attendees will dive into the trade strategies, challenges, and opportunities shaping global partnerships. Following opening remarks from each speaker, participants will work in small groups to tackle real-world trade challenges, brainstorm actionable solutions, and explore opportunities for deeper collaboration between U.S. states and international partners. Groups will then share their findings in a facilitated debrief, with speakers reflecting on the proposed solutions and providing additional insights.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: From missing persons and car theft to traffic enforcement and tolling, license plates and new camera technology help ensure public safety. Learn how states are using these tools and addressing new concerns.",
+      "location": "BCEC, 1, 157",
+      "speakers": [],
+      "description": "From missing persons and car theft to traffic enforcement and tolling, license plates and new camera technology help ensure public safety. Learn how states are using these tools and addressing new concerns.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Massachusetts has long been regarded as having among the best education systems in the world. Come learn about the policies and practices in place to achieve such success and how the state plans to address the challenges that lie ahead.",
+      "location": "BCEC, 1, 156",
+      "speakers": [],
+      "description": "Massachusetts has long been regarded as having among the best education systems in the world. Come learn about the policies and practices in place to achieve such success and how the state plans to address the challenges that lie ahead.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Drug overdose deaths have surged fivefold in the last 25 years, claiming over a million U.S. lives. But in in 2023, overdose deaths fell for the first time in five years. Join experts and state legislative leaders as they reflect on the policies that might be fueling this turnaround and explore policy options to meet the challenges moving forward.",
+      "location": "BCEC, 1, 153",
+      "speakers": [],
+      "description": "Drug overdose deaths have surged fivefold in the last 25 years, claiming over a million U.S. lives. But in in 2023, overdose deaths fell for the first time in five years. Join experts and state legislative leaders as they reflect on the policies that might be fueling this turnaround and explore policy options to meet the challenges moving forward.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:15 AM-12:00 PM",
+      "title": "Summary: Join us for a quick update on the latest federal developments in technology-related legislation focused on emerging issues such as artificial intelligence, privacy, cybersecurity, fintech and broadband. Gain an understanding of how federal tech policy is shaping the future and what actions states can take to stay ahead of the curve.",
+      "location": "BCEC, 1, 107",
+      "speakers": [],
+      "description": "Join us for a quick update on the latest federal developments in technology-related legislation focused on emerging issues such as artificial intelligence, privacy, cybersecurity, fintech and broadband. Gain an understanding of how federal tech policy is shaping the future and what actions states can take to stay ahead of the curve.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:30 AM-12:00 PM",
+      "title": "Summary: Join the Food Ingredient Safety Coalition (FISC) in a session exploring why food safety should remain a federal responsibility. Presenters will outline how a consistent, science-based system protects consumers, avoids costly state patchworks, and ensures access to safe, affordable food nationwide, including in schools. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Join the Food Ingredient Safety Coalition (FISC) in a session exploring why food safety should remain a federal responsibility. Presenters will outline how a consistent, science-based system protects consumers, avoids costly state patchworks, and ensures access to safe, affordable food nationwide, including in schools. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "11:30 AM-12:00 PM",
+      "title": "Summary: State and local occupational licensing disproportionately affects women, who are more likely to work in licensed occupations and less likely to have the time and resources to satisfy licensing requirements. This panel explores the impact of regulations that burden women entrepreneurs and ways state legislators can reduce regulatory barriers. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "State and local occupational licensing disproportionately affects women, who are more likely to work in licensed occupations and less likely to have the time and resources to satisfy licensing requirements. This panel explores the impact of regulations that burden women entrepreneurs and ways state legislators can reduce regulatory barriers. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "12:15 PM-12:45 PM",
+      "title": "Summary: Rare disease patients often navigate years of misdiagnosis, but the lucky ones find care and therapies that improve their lives. Learn more about challenges faced by rare patients and innovative solutions to lower patient out-of-pocket costs and improve access to therapies. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "Rare disease patients often navigate years of misdiagnosis, but the lucky ones find care and therapies that improve their lives. Learn more about challenges faced by rare patients and innovative solutions to lower patient out-of-pocket costs and improve access to therapies. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "12:15 PM-12:45 PM",
+      "title": "Summary: Health policy is complex, but what really matters is how policies impact patients’ access, affordability and quality of care. Join us to learn about the depth and breadth of the patient community, how to effectively engage and partner with patients, and what policy areas matter the most to patients. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Health policy is complex, but what really matters is how policies impact patients’ access, affordability and quality of care. Join us to learn about the depth and breadth of the patient community, how to effectively engage and partner with patients, and what policy areas matter the most to patients. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "12:15 PM-1:15 PM",
+      "title": "Summary: Enjoy a delicious lunch with your colleagues and visit exhibitors from around the nation with unique information and a wide range of policy perspectives.",
+      "location": "BCEC, Exhibit, Exhibit Hall",
+      "speakers": [],
+      "description": "Enjoy a delicious lunch with your colleagues and visit exhibitors from around the nation with unique information and a wide range of policy perspectives.",
+      "track": "",
+      "session_type": "Lunch Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "1:00 PM-1:30 PM",
+      "title": "Summary: Governments work to boost services, protect workers and improve road safety—all while operating efficiently. Join us to learn more about how AI-powered technologies can empower frontline workers with data-driven insights and unlock gains in safety and government efficiency. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 801",
+      "speakers": [],
+      "description": "Governments work to boost services, protect workers and improve road safety—all while operating efficiently. Join us to learn more about how AI-powered technologies can empower frontline workers with data-driven insights and unlock gains in safety and government efficiency. Learning Hubs are 30-minute informational sessions held in the Exhibit Hall. The content presented at these sponsored discussions is at the sole discretion of exhibitors. NCSL does not endorse the content. For more information, visit https://www.ncsl.org/summit/learning-hub.",
+      "track": "",
+      "session_type": "Exhibit Hall Event"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "1:00 PM-1:30 PM",
+      "title": "Summary: Working on legislation in your state that could grow or cripple your organization? Discover strategies to integrate your direct lobbying efforts with the latest grassroots advocacy technology to boost advocate engagement, influence lawmakers and their staff, acquire new supporters at scale, streamline legislative outreach, and track campaign effectiveness.",
+      "location": "BCEC, Exhibit, Exhibit Hall Learning Hub Booth 881",
+      "speakers": [],
+      "description": "Working on legislation in your state that could grow or cripple your organization? Discover strategies to integrate your direct lobbying efforts with the latest grassroots advocacy technology to boost advocate engagement, influence lawmakers and their staff, acquire new supporters at scale, streamline legislative outreach, and track campaign effectiveness.",
+      "track": "",
+      "session_type": "Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "1:30 PM-3:00 PM",
+      "title": "Summary: Make your state’s voice heard. All legislators and legislative staff are encouraged to attend the annual NCSL Business Meeting, which will consider policy directives and resolutions that will guide NCSL's advocacy efforts before Congress and the administration, elect NCSL officers and Executive Committee members, consider amendments to NCSL's Bylaws and Rules of Procedures, and approve the NCSL budget. All Summit attendees are welcome to observe. Parliamentarians: Tom Bottern, Secretary of the Minnesota Senate and Jennifer Novack, Secretary of the Idaho Senate.",
+      "location": "BCEC, 2, 210",
+      "speakers": [],
+      "description": "Make your state’s voice heard. All legislators and legislative staff are encouraged to attend the annual NCSL Business Meeting, which will consider policy directives and resolutions that will guide NCSL's advocacy efforts before Congress and the administration, elect NCSL officers and Executive Committee members, consider amendments to NCSL's Bylaws and Rules of Procedures, and approve the NCSL budget. All Summit attendees are welcome to observe. Parliamentarians: Tom Bottern, Secretary of the Minnesota Senate and Jennifer Novack, Secretary of the Idaho Senate.",
+      "track": "",
+      "session_type": "Business Meeting"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "3:15 PM-4:30 PM",
+      "title": "Summary: You’re going to want to be in the room where it happens—the Legislative Summit’s closing general session where Tony and Grammy award winner Leslie Odom, Jr. will perform and inspire. On the eve of reprising his iconic role of Aaron Burr on Broadway, Odom will bring his life lessons on following your passions, discovering your own potential, and surrounding yourself with the right people. And he just might perform a few of his iconic songs, too. Don’t throw away your shot—join us for this spectacular closing general session.",
+      "location": "BCEC, Ballroom",
+      "speakers": [],
+      "description": "You’re going to want to be in the room where it happens—the Legislative Summit’s closing general session where Tony and Grammy award winner Leslie Odom, Jr. will perform and inspire. On the eve of reprising his iconic role of Aaron Burr on Broadway, Odom will bring his life lessons on following your passions, discovering your own potential, and surrounding yourself with the right people. And he just might perform a few of his iconic songs, too. Don’t throw away your shot—join us for this spectacular closing general session.",
+      "track": "",
+      "session_type": "General Session"
+    },
+    {
+      "date": "2025-08-06",
+      "time": "6:30 PM-9:00 PM",
+      "title": "Summary: Wrap up the NCSL Legislative Summit at Leader Bank Pavilion on Boston Harbor with a performance by the iconic Boston Pops and legendary R&B group Boyz II Men. Enjoy an evening under a tent with food, drinks and live music, along with an unforgettable view of Boston Harbor at sunset. This is an event you won’t want to miss! Please note there will be a fireworks display following the concert. Presented by Live Nation.",
+      "location": "",
+      "speakers": [],
+      "description": "Wrap up the NCSL Legislative Summit at Leader Bank Pavilion on Boston Harbor with a performance by the iconic Boston Pops and legendary R&B group Boyz II Men. Enjoy an evening under a tent with food, drinks and live music, along with an unforgettable view of Boston Harbor at sunset. This is an event you won’t want to miss! Please note there will be a fireworks display following the concert. Presented by Live Nation.",
+      "track": "",
+      "session_type": "Session"
     }
   ],
-  "summary": {
-    "total_sessions_extracted": 18,
-    "total_unique_speakers": 66,
-    "extraction_completeness": "Partial - Website uses dynamic content loading",
-    "date_range": "August 2-6, 2025",
-    "venues": [
-      "Westin Boston Seaport District",
-      "Omni Boston Hotel at the Seaport", 
-      "BCEC (Boston Convention and Exhibition Center)"
-    ],
-    "tracks_identified": [
-      "Executive Committee, LSCC and NCSL Foundation",
-      "Health and Human Services",
-      "Elections and Redistricting", 
-      "Professional Development",
-      "General Session",
-      "Civility",
-      "Legislative Institution",
-      "Legislative Staff",
-      "Livestream Sessions",
-      "Results-Driven Governing",
-      "Continuing Legal Education",
-      "Technology and Communications",
-      "Artificial Intelligence",
-      "Budget, Taxes and Pensions",
-      "Economic Development and Labor",
-      "International",
-      "Education"
-    ]
-  },
-  "technical_notes": {
-    "extraction_challenges": [
-      "Website uses dynamic JavaScript loading for session content",
-      "Cloudflare protection limits automated access",
-      "Full session table requires user interaction to load completely"
-    ],
-    "data_completeness": "This extraction captures sessions that were statically loaded in the HTML. The website indicates 200+ sessions, suggesting many more are loaded dynamically.",
-    "recommended_approach": "For complete data extraction, consider using browser automation tools like Selenium or Playwright to handle dynamic content loading."
-  }
+  "speakers": [],
+  "tracks": []
 }
