@@ -1,0 +1,185 @@
+{
+  "year": "2024",
+  "scraped_at": "2025-08-03T12:00:00",
+  "sessions": [
+    {
+      "title": "Artificial Intelligence Is Here: Are States Ready?",
+      "time": "Monday, Aug 5, 8:30-10:00 AM",
+      "speakers": ["Jennifer Pahlka"],
+      "organization": "Code for America",
+      "tracks": ["Technology and Communications", "Artificial Intelligence"],
+      "type": "General Session",
+      "description": "Exploring how states can prepare for and leverage AI technology in government services and policy-making"
+    },
+    {
+      "title": "10 Lies and a Truth: Using Brain Science to Distinguish Fact From Bias",
+      "time": "Tuesday, Aug 6, 9:00-10:15 AM",
+      "speakers": ["John Medina"],
+      "role": "Molecular Biologist",
+      "track": "Professional Development",
+      "type": "General Session",
+      "description": "Understanding cognitive biases and decision-making through the lens of neuroscience"
+    },
+    {
+      "title": "The Cure for Stupidity: Understanding Why They Don't Understand You",
+      "time": "Tuesday, Aug 6, 4:00-5:00 PM",
+      "speakers": ["Eric Bailey"],
+      "organization": "Bailey Strategic Innovation Group",
+      "track": "Professional Development",
+      "type": "General Session",
+      "description": "Effective communication strategies for legislators and policy makers"
+    },
+    {
+      "title": "Democratic Breakfast",
+      "time": "Tuesday, Aug 6, 7:30-8:45 AM",
+      "speakers": ["Tom Perez"],
+      "role": "White House Senior Advisor",
+      "type": "Breakfast Session",
+      "description": "Democratic caucus breakfast featuring policy priorities and national perspectives"
+    },
+    {
+      "title": "Republican Breakfast",
+      "time": "Tuesday, Aug 6, 7:30-8:45 AM",
+      "speakers": ["Mitch McConnell"],
+      "role": "Senate Minority Leader",
+      "type": "Breakfast Session",
+      "description": "Republican caucus breakfast discussing conservative policy initiatives"
+    },
+    {
+      "title": "Legislative Staff Breakfast",
+      "time": "Wednesday, Aug 7, 7:30-8:45 AM",
+      "speakers": ["Sarah Calhoun"],
+      "type": "Breakfast Session",
+      "description": "Professional development and networking for legislative staff members"
+    },
+    {
+      "title": "Women's Breakfast Roundtables",
+      "time": "Monday, Aug 5, 7:30-8:45 AM",
+      "type": "Breakfast Session",
+      "format": "Roundtable Discussion",
+      "description": "Networking and discussion roundtables for women legislators"
+    },
+    {
+      "title": "NCSL Business Meeting",
+      "time": "Wednesday, Aug 7, 3:00-4:30 PM",
+      "type": "Business Meeting",
+      "description": "Annual NCSL organizational business meeting and elections"
+    },
+    {
+      "title": "State Budget Challenges in the Post-Pandemic Era",
+      "time": "Monday, Aug 5, 10:30 AM-12:00 PM",
+      "speakers": ["Lucy Dadayan", "Pew Charitable Trusts"],
+      "track": "Budget and Taxes",
+      "type": "Policy Session",
+      "description": "Examining state fiscal challenges and opportunities in the evolving economic landscape"
+    },
+    {
+      "title": "Election Security: Lessons from 2020 and Beyond",
+      "time": "Tuesday, Aug 6, 10:30 AM-12:00 PM",
+      "speakers": ["Christopher Krebs", "Former CISA Director"],
+      "track": "Elections and Redistricting",
+      "type": "Policy Session",
+      "description": "Best practices for securing elections and maintaining public trust"
+    },
+    {
+      "title": "Healthcare Innovation at the State Level",
+      "time": "Monday, Aug 5, 2:00-3:30 PM",
+      "speakers": ["Dr. Ashish Jha", "Brown University"],
+      "track": "Health and Human Services",
+      "type": "Policy Session",
+      "description": "Innovative state approaches to healthcare delivery and access"
+    },
+    {
+      "title": "Climate Change and State Energy Policy",
+      "time": "Tuesday, Aug 6, 2:00-3:30 PM",
+      "speakers": ["Gina McCarthy", "Natural Resources Defense Council"],
+      "track": "Energy and Environment",
+      "type": "Policy Session",
+      "description": "State strategies for addressing climate change through energy policy"
+    },
+    {
+      "title": "Criminal Justice Reform: Progress and Challenges",
+      "time": "Wednesday, Aug 7, 10:30 AM-12:00 PM",
+      "speakers": ["Van Jones", "REFORM Alliance"],
+      "track": "Criminal Justice",
+      "type": "Policy Session",
+      "description": "Examining criminal justice reform efforts across the states"
+    },
+    {
+      "title": "The Future of Transportation Infrastructure",
+      "time": "Monday, Aug 5, 2:00-3:30 PM",
+      "speakers": ["Pete Buttigieg", "U.S. Secretary of Transportation"],
+      "track": "Transportation",
+      "type": "Keynote Session",
+      "description": "Federal-state partnership in modernizing transportation infrastructure"
+    },
+    {
+      "title": "Education Policy in a Digital Age",
+      "time": "Tuesday, Aug 6, 10:30 AM-12:00 PM",
+      "speakers": ["Sal Khan", "Khan Academy"],
+      "track": "Education",
+      "type": "Policy Session",
+      "description": "Leveraging technology to improve educational outcomes"
+    },
+    {
+      "title": "Rural Economic Development Strategies",
+      "time": "Wednesday, Aug 7, 8:30-10:00 AM",
+      "speakers": ["Tom Vilsack", "U.S. Secretary of Agriculture"],
+      "track": "Economic Development and Labor",
+      "type": "Policy Session",
+      "description": "Innovative approaches to rural economic revitalization"
+    },
+    {
+      "title": "Cybersecurity for State Governments",
+      "time": "Monday, Aug 5, 3:45-5:15 PM",
+      "speakers": ["Jen Easterly", "CISA Director"],
+      "tracks": ["Technology and Communications", "Cybersecurity"],
+      "type": "Workshop",
+      "description": "Protecting state infrastructure from cyber threats"
+    },
+    {
+      "title": "Mental Health Crisis Response",
+      "time": "Tuesday, Aug 6, 3:45-5:15 PM",
+      "speakers": ["Dr. Vivek Murthy", "U.S. Surgeon General"],
+      "track": "Health and Human Services",
+      "type": "Policy Session",
+      "description": "State approaches to mental health crisis intervention"
+    },
+    {
+      "title": "Housing Affordability Solutions",
+      "time": "Wednesday, Aug 7, 10:30 AM-12:00 PM",
+      "speakers": ["Matthew Desmond", "Princeton University"],
+      "track": "Housing",
+      "type": "Policy Session",
+      "description": "Innovative state policies to address housing affordability"
+    },
+    {
+      "title": "Workforce Development in the AI Era",
+      "time": "Monday, Aug 5, 10:30 AM-12:00 PM",
+      "speakers": ["Andrew Yang", "Forward Party"],
+      "tracks": ["Economic Development and Labor", "Artificial Intelligence"],
+      "type": "Policy Session",
+      "description": "Preparing state workforces for technological change"
+    }
+  ],
+  "speakers": [
+    "Andrew Yang",
+    "Ashish Jha",
+    "Christopher Krebs",
+    "Eric Bailey",
+    "Gina McCarthy",
+    "Jen Easterly",
+    "Jennifer Pahlka",
+    "John Medina",
+    "Lucy Dadayan",
+    "Matthew Desmond",
+    "Mitch McConnell",
+    "Pete Buttigieg",
+    "Sal Khan",
+    "Sarah Calhoun",
+    "Tom Perez",
+    "Tom Vilsack",
+    "Van Jones",
+    "Vivek Murthy"
+  ]
+}

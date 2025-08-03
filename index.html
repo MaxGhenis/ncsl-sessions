@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCSL Summit Sessions Explorer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            background-color: #2563eb;
+            padding: 0.5rem 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        
+        nav a:hover, nav a.active {
+            background-color: rgba(255,255,255,0.2);
+        }
+        
+        main {
+            padding: 2rem 0;
+            min-height: calc(100vh - 300px);
+        }
+        
+        .search-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .search-box h2 {
+            margin-bottom: 1rem;
+            color: #1e3a8a;
+        }
+        
+        .search-form {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+        
+        .form-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.25rem;
+            font-size: 0.875rem;
+            color: #666;
+        }
+        
+        input[type="text"], select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        button {
+            padding: 0.75rem 2rem;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #1e3a8a;
+        }
+        
+        .clear-btn {
+            background-color: #6b7280;
+            padding: 0.75rem 1.5rem;
+        }
+        
+        .clear-btn:hover {
+            background-color: #4b5563;
+        }
+        
+        .session-card {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .session-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        .session-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #1e3a8a;
+            margin-bottom: 0.5rem;
+        }
+        
+        .session-meta {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: #666;
+            flex-wrap: wrap;
+        }
+        
+        .session-speakers {
+            color: #2563eb;
+            font-weight: 500;
+        }
+        
+        .session-speakers a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        
+        .session-speakers a:hover {
+            text-decoration: underline;
+        }
+        
+        .track-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: #e0e7ff;
+            color: #1e3a8a;
+            border-radius: 12px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2563eb;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 0.5rem;
+        }
+        
+        .speaker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .speaker-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        
+        .speaker-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        .speaker-name {
+            font-weight: bold;
+            color: #1e3a8a;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .speaker-sessions {
+            font-size: 0.875rem;
+            color: #666;
+        }
+        
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: #666;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .page {
+            display: none;
+        }
+        
+        .page.active {
+            display: block;
+        }
+        
+        #results-count {
+            margin-bottom: 1rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .filter-tags {
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.25rem 0.75rem;
+            background-color: #ddd;
+            border-radius: 12px;
+            font-size: 0.875rem;
+        }
+        
+        .filter-tag button {
+            background: none;
+            border: none;
+            color: #666;
+            cursor: pointer;
+            padding: 0;
+            font-size: 1.2rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>NCSL Summit Sessions Explorer</h1>
+            <p style="margin-top: 0.5rem; opacity: 0.8;">Browse and search sessions from the NCSL Legislative Summit</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#sessions" class="nav-link" data-page="sessions">All Sessions</a></li>
+                <li><a href="#speakers" class="nav-link" data-page="speakers">Speakers</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <!-- Home Page -->
+            <div id="home" class="page active">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-sessions">0</div>
+                        <div class="stat-label">Total Sessions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-speakers">0</div>
+                        <div class="stat-label">Total Speakers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-tracks">0</div>
+                        <div class="stat-label">Session Tracks</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="session-types">0</div>
+                        <div class="stat-label">Session Types</div>
+                    </div>
+                </div>
+                
+                <div class="search-box">
+                    <h2>Search Sessions</h2>
+                    <form class="search-form" id="search-form">
+                        <div class="form-group">
+                            <label for="search-query">Search by title, description, or speaker</label>
+                            <input type="text" id="search-query" placeholder="Enter search terms...">
+                        </div>
+                        <div class="form-group">
+                            <label for="track-filter">Filter by track</label>
+                            <select id="track-filter">
+                                <option value="">All tracks</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="speaker-filter">Filter by speaker</label>
+                            <select id="speaker-filter">
+                                <option value="">All speakers</option>
+                            </select>
+                        </div>
+                        <button type="submit">Search</button>
+                        <button type="button" class="clear-btn" id="clear-filters">Clear</button>
+                    </form>
+                </div>
+                
+                <div id="filter-tags" class="filter-tags"></div>
+                <div id="results-count"></div>
+                <div id="search-results"></div>
+            </div>
+            
+            <!-- Sessions Page -->
+            <div id="sessions" class="page">
+                <h2 style="margin-bottom: 1rem;">All Sessions</h2>
+                <div id="all-sessions-list"></div>
+            </div>
+            
+            <!-- Speakers Page -->
+            <div id="speakers" class="page">
+                <h2 style="margin-bottom: 1rem;">All Speakers</h2>
+                <div id="speakers-grid" class="speaker-grid"></div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>NCSL Summit Sessions Explorer | Data from NCSL Website</p>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem; opacity: 0.8;">
+                Created to make summit sessions more accessible and searchable
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        // Data storage
+        let sessionsData = [];
+        let speakersData = [];
+        let tracksData = [];
+        
+        // Current filters
+        let currentFilters = {
+            query: '',
+            track: '',
+            speaker: ''
+        };
+        
+        // Initialize the app
+        async function init() {
+            await loadData();
+            setupNavigation();
+            setupSearch();
+            updateStats();
+            displayAllSessions();
+            displaySpeakers();
+            populateFilters();
+        }
+        
+        // Load data from JSON file
+        async function loadData() {
+            try {
+                const response = await fetch('ncsl_sessions.json');
+                const data = await response.json();
+                sessionsData = data.sessions || [];
+                speakersData = data.speakers || [];
+                
+                // Extract unique tracks
+                const trackSet = new Set();
+                sessionsData.forEach(session => {
+                    if (session.track) trackSet.add(session.track);
+                    if (session.tracks) session.tracks.forEach(t => trackSet.add(t));
+                });
+                tracksData = Array.from(trackSet).sort();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                // Use sample data if file not found
+                useSampleData();
+            }
+        }
+        
+        // Sample data fallback
+        function useSampleData() {
+            sessionsData = [
+                {
+                    "title": "Artificial Intelligence Is Here: Are States Ready?",
+                    "time": "Monday, Aug 5, 8:30-10:00 AM",
+                    "speakers": ["Jennifer Pahlka"],
+                    "organization": "Code for America",
+                    "tracks": ["Technology and Communications", "Artificial Intelligence"],
+                    "type": "General Session",
+                    "description": "Exploring how states can prepare for and leverage AI technology"
+                },
+                {
+                    "title": "10 Lies and a Truth: Using Brain Science to Distinguish Fact From Bias",
+                    "time": "Tuesday, Aug 6, 9:00-10:15 AM",
+                    "speakers": ["John Medina"],
+                    "role": "Molecular Biologist",
+                    "track": "Professional Development",
+                    "type": "General Session",
+                    "description": "Understanding cognitive biases and decision-making"
+                },
+                {
+                    "title": "The Cure for Stupidity: Understanding Why They Don't Understand You",
+                    "time": "Tuesday, Aug 6, 4:00-5:00 PM",
+                    "speakers": ["Eric Bailey"],
+                    "organization": "Bailey Strategic Innovation Group",
+                    "track": "Professional Development",
+                    "type": "General Session"
+                },
+                {
+                    "title": "Democratic Breakfast",
+                    "time": "Tuesday Morning",
+                    "speakers": ["Tom Perez"],
+                    "role": "White House Senior Advisor",
+                    "type": "Breakfast Session"
+                },
+                {
+                    "title": "Republican Breakfast",
+                    "time": "Tuesday Morning",
+                    "speakers": ["Mitch McConnell"],
+                    "type": "Breakfast Session"
+                },
+                {
+                    "title": "Legislative Staff Breakfast",
+                    "speakers": ["Sarah Calhoun"],
+                    "type": "Breakfast Session"
+                },
+                {
+                    "title": "Women's Breakfast Roundtables",
+                    "type": "Breakfast Session",
+                    "format": "Roundtable Discussion"
+                }
+            ];
+            
+            // Extract speakers
+            const speakerSet = new Set();
+            sessionsData.forEach(session => {
+                if (session.speakers) {
+                    session.speakers.forEach(speaker => speakerSet.add(speaker));
+                }
+            });
+            speakersData = Array.from(speakerSet).sort();
+            
+            // Extract tracks
+            const trackSet = new Set();
+            sessionsData.forEach(session => {
+                if (session.track) trackSet.add(session.track);
+                if (session.tracks) session.tracks.forEach(t => trackSet.add(t));
+            });
+            tracksData = Array.from(trackSet).sort();
+        }
+        
+        // Setup navigation
+        function setupNavigation() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const page = link.dataset.page;
+                    showPage(page);
+                    
+                    // Update active state
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    link.classList.add('active');
+                });
+            });
+        }
+        
+        // Show specific page
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+        }
+        
+        // Setup search functionality
+        function setupSearch() {
+            const form = document.getElementById('search-form');
+            const clearBtn = document.getElementById('clear-filters');
+            
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                performSearch();
+            });
+            
+            clearBtn.addEventListener('click', () => {
+                document.getElementById('search-query').value = '';
+                document.getElementById('track-filter').value = '';
+                document.getElementById('speaker-filter').value = '';
+                currentFilters = { query: '', track: '', speaker: '' };
+                performSearch();
+            });
+            
+            // Initial search to show all sessions
+            performSearch();
+        }
+        
+        // Perform search
+        function performSearch() {
+            currentFilters.query = document.getElementById('search-query').value;
+            currentFilters.track = document.getElementById('track-filter').value;
+            currentFilters.speaker = document.getElementById('speaker-filter').value;
+            
+            let results = sessionsData;
+            
+            // Filter by query
+            if (currentFilters.query) {
+                const query = currentFilters.query.toLowerCase();
+                results = results.filter(session => 
+                    (session.title && session.title.toLowerCase().includes(query)) ||
+                    (session.description && session.description.toLowerCase().includes(query)) ||
+                    (session.speakers && session.speakers.some(s => s.toLowerCase().includes(query)))
+                );
+            }
+            
+            // Filter by track
+            if (currentFilters.track) {
+                results = results.filter(session => 
+                    session.track === currentFilters.track ||
+                    (session.tracks && session.tracks.includes(currentFilters.track))
+                );
+            }
+            
+            // Filter by speaker
+            if (currentFilters.speaker) {
+                results = results.filter(session => 
+                    session.speakers && session.speakers.includes(currentFilters.speaker)
+                );
+            }
+            
+            displaySearchResults(results);
+            updateFilterTags();
+        }
+        
+        // Display search results
+        function displaySearchResults(results) {
+            const container = document.getElementById('search-results');
+            const countDiv = document.getElementById('results-count');
+            
+            countDiv.textContent = `Found ${results.length} session${results.length !== 1 ? 's' : ''}`;
+            
+            if (results.length === 0) {
+                container.innerHTML = '<div class="no-results">No sessions found matching your criteria.</div>';
+                return;
+            }
+            
+            container.innerHTML = results.map(session => createSessionCard(session)).join('');
+        }
+        
+        // Create session card HTML
+        function createSessionCard(session) {
+            const speakers = session.speakers ? 
+                session.speakers.map(s => `<a href="#" onclick="filterBySpeaker('${s}'); return false;">${s}</a>`).join(', ') : 
+                'TBD';
+            
+            const tracks = [];
+            if (session.track) tracks.push(session.track);
+            if (session.tracks) tracks.push(...session.tracks);
+            const uniqueTracks = [...new Set(tracks)];
+            
+            return `
+                <div class="session-card">
+                    <div class="session-title">${session.title || 'Untitled Session'}</div>
+                    <div class="session-meta">
+                        ${session.time ? `<span>📅 ${session.time}</span>` : ''}
+                        ${session.type ? `<span>📍 ${session.type}</span>` : ''}
+                    </div>
+                    ${speakers ? `<div class="session-speakers">👤 ${speakers}</div>` : ''}
+                    ${session.organization ? `<div style="font-size: 0.9rem; color: #666;">🏢 ${session.organization}</div>` : ''}
+                    ${session.description ? `<p style="margin-top: 0.75rem; color: #555;">${session.description}</p>` : ''}
+                    ${uniqueTracks.length > 0 ? 
+                        `<div>${uniqueTracks.map(t => `<span class="track-badge">${t}</span>`).join('')}</div>` : 
+                        ''}
+                </div>
+            `;
+        }
+        
+        // Filter by speaker
+        function filterBySpeaker(speaker) {
+            document.getElementById('speaker-filter').value = speaker;
+            performSearch();
+            showPage('home');
+        }
+        
+        // Update filter tags
+        function updateFilterTags() {
+            const container = document.getElementById('filter-tags');
+            const tags = [];
+            
+            if (currentFilters.query) {
+                tags.push(`<div class="filter-tag">Search: "${currentFilters.query}" <button onclick="clearFilter('query')">×</button></div>`);
+            }
+            if (currentFilters.track) {
+                tags.push(`<div class="filter-tag">Track: ${currentFilters.track} <button onclick="clearFilter('track')">×</button></div>`);
+            }
+            if (currentFilters.speaker) {
+                tags.push(`<div class="filter-tag">Speaker: ${currentFilters.speaker} <button onclick="clearFilter('speaker')">×</button></div>`);
+            }
+            
+            container.innerHTML = tags.join('');
+        }
+        
+        // Clear specific filter
+        function clearFilter(filterType) {
+            if (filterType === 'query') {
+                document.getElementById('search-query').value = '';
+            } else if (filterType === 'track') {
+                document.getElementById('track-filter').value = '';
+            } else if (filterType === 'speaker') {
+                document.getElementById('speaker-filter').value = '';
+            }
+            performSearch();
+        }
+        
+        // Update statistics
+        function updateStats() {
+            document.getElementById('total-sessions').textContent = sessionsData.length;
+            document.getElementById('total-speakers').textContent = speakersData.length;
+            document.getElementById('total-tracks').textContent = tracksData.length;
+            
+            const types = new Set(sessionsData.map(s => s.type || 'Session'));
+            document.getElementById('session-types').textContent = types.size;
+        }
+        
+        // Display all sessions
+        function displayAllSessions() {
+            const container = document.getElementById('all-sessions-list');
+            container.innerHTML = sessionsData.map(session => createSessionCard(session)).join('');
+        }
+        
+        // Display speakers
+        function displaySpeakers() {
+            const container = document.getElementById('speakers-grid');
+            
+            const speakerCards = speakersData.map(speaker => {
+                const sessions = sessionsData.filter(s => s.speakers && s.speakers.includes(speaker));
+                return `
+                    <div class="speaker-card" onclick="filterBySpeaker('${speaker}'); showPage('home');">
+                        <div class="speaker-name">${speaker}</div>
+                        <div class="speaker-sessions">${sessions.length} session${sessions.length !== 1 ? 's' : ''}</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = speakerCards.join('');
+        }
+        
+        // Populate filter dropdowns
+        function populateFilters() {
+            // Populate tracks
+            const trackSelect = document.getElementById('track-filter');
+            tracksData.forEach(track => {
+                const option = document.createElement('option');
+                option.value = track;
+                option.textContent = track;
+                trackSelect.appendChild(option);
+            });
+            
+            // Populate speakers
+            const speakerSelect = document.getElementById('speaker-filter');
+            speakersData.forEach(speaker => {
+                const option = document.createElement('option');
+                option.value = speaker;
+                option.textContent = speaker;
+                speakerSelect.appendChild(option);
+            });
+        }
+        
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
