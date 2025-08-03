@@ -422,35 +422,45 @@
         // Load data from JSON file
         async function loadData() {
             try {
-                const response = await fetch('ncsl_sessions.json');
+                const response = await fetch(`ncsl_sessions.json?v=${Date.now()}`);
                 const data = await response.json();
                 sessionsData = data.sessions || [];
                 
-                // Extract unique speakers from sessions
-                const speakerSet = new Set();
-                sessionsData.forEach(session => {
-                    if (session.speakers && Array.isArray(session.speakers)) {
-                        session.speakers.forEach(speaker => {
-                            if (speaker.name) {
-                                speakerSet.add(speaker.name);
-                            }
-                        });
-                    }
-                });
-                speakersData = Array.from(speakerSet).sort();
+                // Use speakers from the dedicated speakers array in JSON
+                if (data.speakers && Array.isArray(data.speakers)) {
+                    speakersData = data.speakers.map(speaker => speaker.name).sort();
+                } else {
+                    // Fallback: Extract unique speakers from sessions
+                    const speakerSet = new Set();
+                    sessionsData.forEach(session => {
+                        if (session.speakers && Array.isArray(session.speakers)) {
+                            session.speakers.forEach(speaker => {
+                                if (speaker.name) {
+                                    speakerSet.add(speaker.name);
+                                }
+                            });
+                        }
+                    });
+                    speakersData = Array.from(speakerSet).sort();
+                }
                 
-                // Extract unique tracks
-                const trackSet = new Set();
-                sessionsData.forEach(session => {
-                    if (session.track) {
-                        // Split tracks by comma if multiple
-                        const tracks = session.track.split(',').map(t => t.trim());
-                        tracks.forEach(t => {
-                            if (t) trackSet.add(t);
-                        });
-                    }
-                });
-                tracksData = Array.from(trackSet).sort();
+                // Use tracks from the dedicated tracks array in JSON
+                if (data.tracks && Array.isArray(data.tracks)) {
+                    tracksData = data.tracks.sort();
+                } else {
+                    // Fallback: Extract unique tracks from sessions
+                    const trackSet = new Set();
+                    sessionsData.forEach(session => {
+                        if (session.track) {
+                            // Split tracks by comma if multiple
+                            const tracks = session.track.split(',').map(t => t.trim());
+                            tracks.forEach(t => {
+                                if (t) trackSet.add(t);
+                            });
+                        }
+                    });
+                    tracksData = Array.from(trackSet).sort();
+                }
             } catch (error) {
                 console.error('Error loading data:', error);
                 // Use sample data if file not found
