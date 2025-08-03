@@ -9,8 +9,8 @@
   "metadata": {
     "extracted_at": "2025-08-03T18:51:41.873582",
     "total_sessions": 174,
-    "total_unique_speakers": 0,
-    "total_tracks": 0,
+    "total_unique_speakers": 305,
+    "total_tracks": 17,
     "sessions_by_date": {
       "2025-08-03": 9,
       "2025-08-04": 60,
@@ -31,7 +31,8 @@
       "Exhibit Hall Event": 24
     },
     "pages_scraped": 4,
-    "deduplication_enabled": true
+    "deduplication_enabled": true,
+    "updated_at": "2025-08-03T19:44:09.930627"
   },
   "sessions": [
     {
@@ -1775,6 +1776,1855 @@
       "session_type": "Session"
     }
   ],
-  "speakers": [],
-  "tracks": []
+  "speakers": [
+    {
+      "name": "Adam Burkhammer",
+      "title": "State Delegate",
+      "organization": "West Virginia Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Adam DeMella",
+      "title": "Leader of Global Government Affairs",
+      "organization": "GE Vernova Hitachi Nuclear Energy",
+      "sessions": []
+    },
+    {
+      "name": "Adam Smith",
+      "title": "State Representative",
+      "organization": "Kansas Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Alan Roberson",
+      "title": "Senior Advisor",
+      "organization": "Association of State Drinking Water Administrators",
+      "sessions": []
+    },
+    {
+      "name": "Alexis Stangl",
+      "title": "Director",
+      "organization": "Minnesota Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Alice Hanlon Peisch",
+      "title": "House Assistant Majority Leader",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Alison Griffin",
+      "title": "Senior Advisor",
+      "organization": "Whiteboard Advisors",
+      "sessions": []
+    },
+    {
+      "name": "Allison Arwady",
+      "title": "Director",
+      "organization": "National Center for Injury Prevention and Control, Centers for Disease Control and Prevention (CDC)",
+      "sessions": []
+    },
+    {
+      "name": "Amanda Essex",
+      "title": "Program Principal",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Amber Widgery",
+      "title": "Program Principal",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Amy Cohen",
+      "title": "Executive Director",
+      "organization": "National Association of State Election Directors",
+      "sessions": []
+    },
+    {
+      "name": "Amy Howe",
+      "title": "Reporter",
+      "organization": "Howe on the Court",
+      "sessions": []
+    },
+    {
+      "name": "Amy Walter",
+      "title": "publisher and editor-in-chief",
+      "organization": "The Cook Political Report With Amy Walter",
+      "sessions": []
+    },
+    {
+      "name": "Andrea Aggertt",
+      "title": "Director",
+      "organization": "Office of the Architect of the Capitol, State of Illinois",
+      "sessions": []
+    },
+    {
+      "name": "Andrea Jimenez",
+      "title": "Policy Associate",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Andrew Butcher",
+      "title": "President",
+      "organization": "Maine Connectivity Authority",
+      "sessions": []
+    },
+    {
+      "name": "Andrew Gradison",
+      "title": "Acting Assistant Secretary",
+      "organization": "Administration for Children & Families (HHS)",
+      "sessions": []
+    },
+    {
+      "name": "Angela Andrews",
+      "title": "Professional Development Senior Partner",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Angela Rowe",
+      "title": "Policy Specialist",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Ann Millner",
+      "title": "State Senator",
+      "organization": "Utah Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Anne Teigen",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Anne Ziaja",
+      "title": "Executive Director",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Aparna Ghosh",
+      "title": "Founder and Executive Director",
+      "organization": "Ghosh Innovation Lab",
+      "sessions": []
+    },
+    {
+      "name": "April Kees",
+      "title": "Staff Director",
+      "organization": "Virginia Senate Finance and Appropriations Committee",
+      "sessions": []
+    },
+    {
+      "name": "Arielle Geismar",
+      "title": "Board of Directors",
+      "organization": "HopeLab",
+      "sessions": []
+    },
+    {
+      "name": "Austin Jenkins",
+      "title": "Journalist",
+      "organization": "Pluribus News",
+      "sessions": []
+    },
+    {
+      "name": "Austin Reid",
+      "title": "Federal Affairs Advisor",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Barrie Tabin",
+      "title": "Sr. Legislative Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Barry Finegold",
+      "title": "State Senator",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Barry Usher",
+      "title": "Senate Majority Whip",
+      "organization": "Montana Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Ben Kelahan",
+      "title": "Founding Partner",
+      "organization": "RenUSA",
+      "sessions": []
+    },
+    {
+      "name": "Ben Nasta",
+      "title": "Legislative Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Bernard Dean",
+      "title": "Chief Clerk",
+      "organization": "Washington Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Beth Huebner",
+      "title": "Professor",
+      "organization": "Arizona State University",
+      "sessions": []
+    },
+    {
+      "name": "Bethany Paquin",
+      "title": "Senior Research Analyst",
+      "organization": "Lincoln Institute of Land Policy",
+      "sessions": []
+    },
+    {
+      "name": "Bo Watson",
+      "title": "State Senator",
+      "organization": "Tennessee General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Bob Peterson",
+      "title": "State Representative",
+      "organization": "Ohio General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Bob Pinnegar",
+      "title": "President and CEO",
+      "organization": "National Apartment Association",
+      "sessions": []
+    },
+    {
+      "name": "Brad Setser",
+      "title": "Senior Fellow",
+      "organization": "Council on Foreign Relations",
+      "sessions": []
+    },
+    {
+      "name": "Brandon Beach",
+      "title": "Treasurer of the United States",
+      "organization": "U.S. Department of Treasury",
+      "sessions": []
+    },
+    {
+      "name": "Brandon Storm",
+      "title": "State Senator",
+      "organization": "Kentucky General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Brian Goetz",
+      "title": "Administrator",
+      "organization": "Rye Water District",
+      "sessions": []
+    },
+    {
+      "name": "Brian Gootkin",
+      "title": "Director",
+      "organization": "Montana Department of Corrections",
+      "sessions": []
+    },
+    {
+      "name": "Brian Oliner",
+      "title": "General Counsel",
+      "organization": "Federation of Tax Administrators",
+      "sessions": []
+    },
+    {
+      "name": "Brian Patrick Kennedy",
+      "title": "House Speaker Pro Tempore",
+      "organization": "Rhode Island General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Brian Weberg",
+      "title": "National Conference of State Legislatures",
+      "organization": "Retired NCSL Staffer",
+      "sessions": []
+    },
+    {
+      "name": "Bruce Starr",
+      "title": "State Senator",
+      "organization": "Oregon Legislative Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Bryce Reeves",
+      "title": "Senate Minority Whip",
+      "organization": "Virginia General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Camille Crittenden",
+      "title": "Executive Director",
+      "organization": "CITRIS / Banatao Institute",
+      "sessions": []
+    },
+    {
+      "name": "Carly Roszkowski",
+      "title": "Vice President of Financial Resilience Programming",
+      "organization": "AARP",
+      "sessions": []
+    },
+    {
+      "name": "Carole Fiola",
+      "title": "State Representative",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Carolyn Kirk",
+      "title": "CEO",
+      "organization": "Massachusetts Technology Collaboration",
+      "sessions": []
+    },
+    {
+      "name": "Carrington Skinner",
+      "title": "Senior Policy Specialist",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Cecilia Aguiar-Curry",
+      "title": "Assembly Majority Leader",
+      "organization": "California Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Chad Dahl",
+      "title": "Group Infrastructure Manager",
+      "organization": "Washington Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Charles Stewart",
+      "title": "Professor of Political Science",
+      "organization": "Massachusetts Institute of Technology (MIT)",
+      "sessions": []
+    },
+    {
+      "name": "Chris Cantey",
+      "title": "Information Systems Manager",
+      "organization": "Minnesota Legislative Coordinating Commission",
+      "sessions": []
+    },
+    {
+      "name": "Chris Jones",
+      "title": "Senior Advisor to the CMS Administrator",
+      "organization": "U.S. Department of Health and Human Services",
+      "sessions": []
+    },
+    {
+      "name": "Chris LaCivita",
+      "title": "Co-Campaign Manager for Donald Trump’s 2024 Campaign",
+      "organization": "-",
+      "sessions": []
+    },
+    {
+      "name": "Chris Lee",
+      "title": "Senate Assistant Majority Whip",
+      "organization": "Hawaii Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Christian Cunnie",
+      "title": "Director of Emergency Management",
+      "organization": "Suffolk University",
+      "sessions": []
+    },
+    {
+      "name": "Christine Cohen",
+      "title": "Senate Deputy President Pro Tempore",
+      "organization": "Connecticut General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Christopher W. Kelly",
+      "title": "Director",
+      "organization": "Digital Evidence Laboratory, Office of the Massachusetts Attorney General",
+      "sessions": []
+    },
+    {
+      "name": "Chuck Martin",
+      "title": "State Representative",
+      "organization": "Georgia General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Cindy Ryu",
+      "title": "State Representative",
+      "organization": "Washington Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Claudio Irigoyen",
+      "title": "Managing Director and Head of Global Economics Research",
+      "organization": "Bank of America Global Research",
+      "sessions": []
+    },
+    {
+      "name": "Clyde Vanel",
+      "title": "State Assemblymember",
+      "organization": "New York Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Colleen Pehar",
+      "title": "Deputy Secretary of the Senate",
+      "organization": "Washington Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Connie Utada",
+      "title": "Senior Manager",
+      "organization": "The Pew Charitable Trusts",
+      "sessions": []
+    },
+    {
+      "name": "Connor Torossian",
+      "title": "Deputy Assistant Secretary for Intergovernmental Affairs",
+      "organization": "U.S. Department of Transportation",
+      "sessions": []
+    },
+    {
+      "name": "Craig Johnson",
+      "title": "Executive Director",
+      "organization": "Streamlined Sales Tax Governing Board",
+      "sessions": []
+    },
+    {
+      "name": "Cristina Castro",
+      "title": "Majority Whip",
+      "organization": "Illinois General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Curt Stedron",
+      "title": "Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Cyrus Anderson",
+      "title": "Senate Chief Clerk & Director of Operations",
+      "organization": "Wisconsin Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Daniel Linville",
+      "title": "State Delegate",
+      "organization": "West Virginia Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Daniel Singh",
+      "title": "State Representative",
+      "organization": "Wyoming Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Danny Munch",
+      "title": "Economist",
+      "organization": "American Farm Bureau Federation",
+      "sessions": []
+    },
+    {
+      "name": "Darius Kingsley",
+      "title": "Head of Consumer Banking Practices",
+      "organization": "JPMorgan Chase",
+      "sessions": []
+    },
+    {
+      "name": "Darshana Patel",
+      "title": "State Assemblymember",
+      "organization": "California Legislature",
+      "sessions": []
+    },
+    {
+      "name": "David Draine",
+      "title": "Principal Officer",
+      "organization": "The Pew Charitable Trusts",
+      "sessions": []
+    },
+    {
+      "name": "David Hansell",
+      "title": "Senior Advisor for Child Welfare Policy",
+      "organization": "Casey Family Programs",
+      "sessions": []
+    },
+    {
+      "name": "David Manz",
+      "title": "Principal Cyber Security Scientist",
+      "organization": "Pacific Northwest National Laboratory",
+      "sessions": []
+    },
+    {
+      "name": "David Snyder",
+      "title": "Vice President",
+      "organization": "International Policy and Counsel, American Property Casualty Insurance Association",
+      "sessions": []
+    },
+    {
+      "name": "DeAnn Vaught",
+      "title": "State Representative",
+      "organization": "Arkansas General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Diana Noel",
+      "title": "Chief Development Officer",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Donald Watson",
+      "title": "Founder",
+      "organization": "Boston Town Crier",
+      "sessions": []
+    },
+    {
+      "name": "Donnell Drinks",
+      "title": "Leadership Development and Engagement Coordinator",
+      "organization": "Campaign for the Fair Sentencing of Youth",
+      "sessions": []
+    },
+    {
+      "name": "Doug Little",
+      "title": "Director of Conservation Operations for the East Region",
+      "organization": "National Wild Turkey Federation",
+      "sessions": []
+    },
+    {
+      "name": "Doug Shinkle",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Doug Smith",
+      "title": "State Delegate",
+      "organization": "West Virginia Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Douglas Kelleher",
+      "title": "Principal",
+      "organization": "Epsilon Associates",
+      "sessions": []
+    },
+    {
+      "name": "Douglas Shinkle",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Ed Osienski",
+      "title": "House Majority Whip",
+      "organization": "Delaware General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Elizabeth Bartz",
+      "title": "President & CEO",
+      "organization": "State and Federal Communications, Inc.",
+      "sessions": []
+    },
+    {
+      "name": "Elizabeth Burke Bryant",
+      "title": "Professor of the Practice of Health Services",
+      "organization": "Policy & Practice, Brown University",
+      "sessions": []
+    },
+    {
+      "name": "Emilie Kornheiser",
+      "title": "State Representative",
+      "organization": "Vermont General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Emily Katz",
+      "title": "Associate Legislative Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Eric Koch",
+      "title": "State Senator",
+      "organization": "Indiana General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Erica Gallion",
+      "title": "Youth Coordinator",
+      "organization": "North Carolina General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Erica MacKellar",
+      "title": "Program Principal",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Erin Murphy",
+      "title": "Senate Majority Leader",
+      "organization": "Minnesota Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Evan Vickers",
+      "title": "State Senator",
+      "organization": "Utah Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Fabian Donate",
+      "title": "Senate Deputy Majority Whip",
+      "organization": "Nevada Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Gabrielle Giffords",
+      "title": "Former Congresswoman",
+      "organization": "U.S. House of Representatives",
+      "sessions": []
+    },
+    {
+      "name": "Gary Stevens",
+      "title": "Senate President",
+      "organization": "Alaska Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Giovanni Capriglione",
+      "title": "State Representative",
+      "organization": "Texas Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Goeffrey Buswick",
+      "title": "Managing Director and Sector Leader",
+      "organization": "S&P Global Market Intelligence",
+      "sessions": []
+    },
+    {
+      "name": "Greg Schildwachter",
+      "title": "Chief Executive Officer",
+      "organization": "Watershed Results LLC, Boone and Crockett Club",
+      "sessions": []
+    },
+    {
+      "name": "Harrison Pittman",
+      "title": "Director",
+      "organization": "The National Agricultural Law Center",
+      "sessions": []
+    },
+    {
+      "name": "Heshani Wijemanne",
+      "title": "Chief Assistant Secretary of the Senate",
+      "organization": "California Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Ingrid Hernquist",
+      "title": "Manager",
+      "organization": "OLS Library Services, New Jersey Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Isabel Warner",
+      "title": "MOST Education and Workforce Development Fellow",
+      "organization": "MOST Policy Initiative",
+      "sessions": []
+    },
+    {
+      "name": "J. Sandy Bartlett",
+      "title": "State Delegate",
+      "organization": "Maryland General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "JB Pritzker",
+      "title": "Governor of Illinois",
+      "organization": "-",
+      "sessions": []
+    },
+    {
+      "name": "Jacob Hamilton",
+      "title": "Interim Regulatory Innovation Officer",
+      "organization": "Illinois Department of Financial and Professional Regulation",
+      "sessions": []
+    },
+    {
+      "name": "Jacque Bland",
+      "title": "Director of Communications",
+      "organization": "West Virginia Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Jake Varn",
+      "title": "Manager",
+      "organization": "The Pew Charitable Trusts",
+      "sessions": []
+    },
+    {
+      "name": "James Holloway",
+      "title": "Vice President",
+      "organization": "Nuclear Engineering and Fleet Support, Dominion Energy, Inc.",
+      "sessions": []
+    },
+    {
+      "name": "James Maroney",
+      "title": "Senate Deputy Majority Leader",
+      "organization": "Connecticut General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Janie Dunning",
+      "title": "former Rural Development Missouri State Director",
+      "organization": "USDA",
+      "sessions": []
+    },
+    {
+      "name": "Jared Solomon",
+      "title": "Deputy Speaker Pro Tempore of the House",
+      "organization": "Maryland General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Jason Dougal",
+      "title": "President and COO",
+      "organization": "National Center on Education and the Economy",
+      "sessions": []
+    },
+    {
+      "name": "Jay Allen",
+      "title": "Minister",
+      "organization": "Embassy of Canada",
+      "sessions": []
+    },
+    {
+      "name": "Jean Sinzdak",
+      "title": "Associate Director",
+      "organization": "Center For American Women and Politics",
+      "sessions": []
+    },
+    {
+      "name": "Jeevan Ramapriya",
+      "title": "Executive Director",
+      "organization": "Massachusetts Office of International Trade and Investment",
+      "sessions": []
+    },
+    {
+      "name": "Jeffery Patterson",
+      "title": "Chief Executive Officer",
+      "organization": "Cuyahoga Metropolitan Housing Authority",
+      "sessions": []
+    },
+    {
+      "name": "Jenna Bannon",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Jenny Schuetz",
+      "title": "Vice President of Infrastructure",
+      "organization": "Housing, Arnold Ventures",
+      "sessions": []
+    },
+    {
+      "name": "Jessica Cicchino",
+      "title": "Senior Vice President",
+      "organization": "Behavior and Infrastructure Research, Insurance Institute for Highway Safety",
+      "sessions": []
+    },
+    {
+      "name": "Jessica Rudden-Dube",
+      "title": "Executive Director",
+      "organization": "Preservation Massachusetts",
+      "sessions": []
+    },
+    {
+      "name": "Jessica Sharpe",
+      "title": "Committee Staff Administrator",
+      "organization": "Kentucky General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Jim Lake",
+      "title": "Director",
+      "organization": "Charleston County Consolidated Emergency Communications Center",
+      "sessions": []
+    },
+    {
+      "name": "Jim Pressel",
+      "title": "State Representative",
+      "organization": "Indiana General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Joan Wasser Gish",
+      "title": "Director of Systemic Impact",
+      "organization": "Boston College Center for Thriving Children",
+      "sessions": []
+    },
+    {
+      "name": "Joanna McClinton",
+      "title": "Speaker of the House",
+      "organization": "Pennsylvania General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "John Arch",
+      "title": "Speaker of the Legislature",
+      "organization": "Nebraska Legislature",
+      "sessions": []
+    },
+    {
+      "name": "John Barron",
+      "title": "Chief of Staff & General Counsel",
+      "organization": "Ohio General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "John Bjornson",
+      "title": "Director",
+      "organization": "North Dakota Legislative Assembly",
+      "sessions": []
+    },
+    {
+      "name": "John Breyault",
+      "title": "Vice President",
+      "organization": "Public Policy, Telecom & Fraud, National Consumers League",
+      "sessions": []
+    },
+    {
+      "name": "John Eunice",
+      "title": "Deputy Assistant Administrator of Intergovernmental Relations",
+      "organization": "U.S. Environmental Protection Agency",
+      "sessions": []
+    },
+    {
+      "name": "John Haste",
+      "title": "State Senator",
+      "organization": "Oklahoma Legislature",
+      "sessions": []
+    },
+    {
+      "name": "John Hudak",
+      "title": "Director",
+      "organization": "Maine Office of Cannabis Regulation",
+      "sessions": []
+    },
+    {
+      "name": "John Patterson",
+      "title": "Spokesman and Strategic Media Advisor",
+      "organization": "Illinois General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "John Snyder",
+      "title": "NCSL Staff Chair",
+      "organization": "Committee Staff Administrator, Kentucky General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Jon Courtney",
+      "title": "Deputy Director",
+      "organization": "New Mexico Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Jon Heining",
+      "title": "General Counsel",
+      "organization": "Texas Legislative Council",
+      "sessions": []
+    },
+    {
+      "name": "Jonathan Ball",
+      "title": "Legislative Fiscal Analyst",
+      "organization": "Utah Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Jonathan Noble",
+      "title": "Director",
+      "organization": "State Government Affairs, Microsoft Corporation",
+      "sessions": []
+    },
+    {
+      "name": "Joshua Babel",
+      "title": "Deputy Chief Clerk",
+      "organization": "Arizona Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Judy Aron",
+      "title": "State Representative",
+      "organization": "General Court of New Hampshire",
+      "sessions": []
+    },
+    {
+      "name": "Julia Jackson",
+      "title": "Policy and Research Manager",
+      "organization": "Ballot Analysis Lead, Colorado General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Julie Fahey",
+      "title": "Speaker of the House",
+      "organization": "Oregon Legislative Assembly",
+      "sessions": []
+    },
+    {
+      "name": "K.L. Allen",
+      "title": "Regional Vice President",
+      "organization": "Western Governors University",
+      "sessions": []
+    },
+    {
+      "name": "Karen Spilka",
+      "title": "Senate President",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Karl Frieden",
+      "title": "VP/ General Counsel",
+      "organization": "Council On State Taxation (COST)",
+      "sessions": []
+    },
+    {
+      "name": "Karl Kurtz",
+      "title": "Political scientist and legislative junkie",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Kate Blackman",
+      "title": "Vice President of Policy & Research",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Kate Charlet",
+      "title": "Director",
+      "organization": "Privacy, Safety and Security Center of Excellence, Google",
+      "sessions": []
+    },
+    {
+      "name": "Kate Hogan",
+      "title": "Speaker Pro Tempore of the House",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Kate McKnight",
+      "title": "Attorney",
+      "organization": "Baker & Hostetler",
+      "sessions": []
+    },
+    {
+      "name": "Katia Veraza",
+      "title": "Manager of Government Affairs & Regional Relations",
+      "organization": "Vertical Aviation International",
+      "sessions": []
+    },
+    {
+      "name": "Katie Ziegler",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Katy Anthes",
+      "title": "Director",
+      "organization": "Forward Initiative and Former CO Commissioner of Education, Public Education & Business Coalition",
+      "sessions": []
+    },
+    {
+      "name": "Katy Owens Hubler",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Kay Kirkpatrick",
+      "title": "State Senator",
+      "organization": "Georgia General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Kelley Griffin",
+      "title": "Writer and Editor",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Kelly Hughes",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Kensey Bergdorf-Smith",
+      "title": "Executive Director",
+      "organization": "West Virginia State Science and Technology Policy Fellowship",
+      "sessions": []
+    },
+    {
+      "name": "Kent Keene",
+      "title": "Senior Manager",
+      "organization": "Western States & Agriculture Policy, Congressional Sportsmen's Foundation",
+      "sessions": []
+    },
+    {
+      "name": "Kimberly Burnett",
+      "title": "Executive Director",
+      "organization": "Ivory Innovations",
+      "sessions": []
+    },
+    {
+      "name": "Kirk Cullimore",
+      "title": "Senate Majority Leader",
+      "organization": "Utah Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Kristan Uhlenbrock",
+      "title": "Executive Director",
+      "organization": "The Institute for Science & Policy",
+      "sessions": []
+    },
+    {
+      "name": "Kristiane Huber",
+      "title": "Officer",
+      "organization": "U.S. Conservation, The Pew Charitable Trusts",
+      "sessions": []
+    },
+    {
+      "name": "Laura Ringling",
+      "title": "Senior Policy Advisor",
+      "organization": "South Dakota Governor's Office",
+      "sessions": []
+    },
+    {
+      "name": "Lauren Gendill",
+      "title": "Policy Analyst",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Lauren Kallins",
+      "title": "Senior Legislative Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Leslie Odom",
+      "title": "Jr.",
+      "organization": "vocalist, songwriter, author, and actor",
+      "sessions": []
+    },
+    {
+      "name": "Lisa Demuth",
+      "title": "Speaker of the House",
+      "organization": "Minnesota Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Lisa Ryckman",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Llew Jones",
+      "title": "State Representative",
+      "organization": "Montana Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Logan Seacrest",
+      "title": "Resident Fellow",
+      "organization": "Criminal Justice and Civil Liberties, R Street Institute",
+      "sessions": []
+    },
+    {
+      "name": "Mamie Locke",
+      "title": "Senate Majority Caucus Chair",
+      "organization": "Virginia General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Manuela Ekowo",
+      "title": "Public Policy Associate",
+      "organization": "Insurance Institute for Business & Home Safety",
+      "sessions": []
+    },
+    {
+      "name": "Marc Krupanski",
+      "title": "Director of Criminal Justice Policy",
+      "organization": "Arnold Ventures",
+      "sessions": []
+    },
+    {
+      "name": "Marc Nichol",
+      "title": "Senior Director",
+      "organization": "New Reactors, Nuclear Energy Institute",
+      "sessions": []
+    },
+    {
+      "name": "Marcus C. Evans Jr",
+      "title": "House Assistant Majority Leader",
+      "organization": "Illinois General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Marcus C. Evans Jr.",
+      "title": "House Assistant Majority Leader",
+      "organization": "Illinois General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Marcy Coleman",
+      "title": "Vehicle Program Manager",
+      "organization": "American Association of Motor Vehicle Administrators",
+      "sessions": []
+    },
+    {
+      "name": "Margaret O'Brien",
+      "title": "Assistant Secretary of the Senate",
+      "organization": "Michigan Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Maria Flynn",
+      "title": "President and CEO",
+      "organization": "Jobs for the Future (JFF)",
+      "sessions": []
+    },
+    {
+      "name": "Mark Quiner",
+      "title": "Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Mark White",
+      "title": "State Representative",
+      "organization": "Tennessee General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Martin West",
+      "title": "Vice-Chair",
+      "organization": "National Assessment Governing Board",
+      "sessions": []
+    },
+    {
+      "name": "Marvin Yates",
+      "title": "Vice President",
+      "organization": "Strategic Government Relations, MultiState Associates Inc",
+      "sessions": []
+    },
+    {
+      "name": "Mary Block",
+      "title": "Deputy Commissioner",
+      "organization": "Vermont Department of Financial Regulation",
+      "sessions": []
+    },
+    {
+      "name": "Matt Boehnke",
+      "title": "State Senator",
+      "organization": "Washington Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Matt Borron",
+      "title": "Executive Director",
+      "organization": "Association of Defense Communities",
+      "sessions": []
+    },
+    {
+      "name": "Matt Huffman",
+      "title": "Speaker of the House",
+      "organization": "Ohio General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Matthew Rohrbach",
+      "title": "Speaker Pro Tempore of the House",
+      "organization": "West Virginia Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Matthew Sanderson",
+      "title": "Member of Caplin & Drysdale",
+      "organization": "Caplin & Drysdale",
+      "sessions": []
+    },
+    {
+      "name": "Maura Healey",
+      "title": "Governor",
+      "organization": "Massachusetts",
+      "sessions": []
+    },
+    {
+      "name": "Meb Keflezighi",
+      "title": "-",
+      "organization": "Four Time Olympian",
+      "sessions": []
+    },
+    {
+      "name": "Meg Casper Sunstrom",
+      "title": "Chief Communications Officer",
+      "organization": "Louisiana Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Melissa Leoni",
+      "title": "Policy Analyst",
+      "organization": "Oregon Legislative Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Melissa Minor-Brown",
+      "title": "Speaker of the House",
+      "organization": "Delaware General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Melissa Wintrow",
+      "title": "Senate Minority Leader",
+      "organization": "Idaho Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Meredith Dixon",
+      "title": "State Representative",
+      "organization": "New Mexico Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Michael Behm",
+      "title": "Co-CEO",
+      "organization": "Stateside Associates Inc",
+      "sessions": []
+    },
+    {
+      "name": "Michael Bronstein",
+      "title": "Co-Founder and President",
+      "organization": "American Trade Association for Cannabis and Hemp",
+      "sessions": []
+    },
+    {
+      "name": "Michael Smerconish",
+      "title": "Host of \"The Michael Smerconish Program\" on SiriusXM",
+      "organization": "Host of CNN's \"Smerconish\", Newspaper Columnist and Best-Selling Author",
+      "sessions": []
+    },
+    {
+      "name": "Michelle Caruso-Cabrera",
+      "title": "Contributor",
+      "organization": "CNBC",
+      "sessions": []
+    },
+    {
+      "name": "Michelle Fontenot",
+      "title": "Chief Clerk",
+      "organization": "Louisiana Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Michelle Lopes Maldonado",
+      "title": "State Delegate",
+      "organization": "Virginia General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Michelle Tassinari",
+      "title": "Director and Legal Counsel of the Elections Division",
+      "organization": "Secretary of State",
+      "sessions": []
+    },
+    {
+      "name": "Mikell Gonzales",
+      "title": "Client Manager",
+      "organization": "LexisNexis State Net",
+      "sessions": []
+    },
+    {
+      "name": "Molly Gold",
+      "title": "Program Principal",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Molly McAllister",
+      "title": "CPTD & CPC",
+      "organization": "Training & Staff Development Coordinator, Connecticut General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Molly Ramsdell",
+      "title": "Vice President of State Federal Affairs",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Muffy Davis",
+      "title": "Motivational Speaker // World Class Athlete",
+      "organization": "Muffy Davis- SurThriver",
+      "sessions": []
+    },
+    {
+      "name": "Natalie Castle",
+      "title": "director of the nonpartisan Colorado Legislative Council Staff",
+      "organization": "Colorado General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Natalie Wood",
+      "title": "Vice President of Policy and Research",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Nicol Turner Lee",
+      "title": "Senior Fellow and Director",
+      "organization": "Center for Technology Innovation, Brookings Institution",
+      "sessions": []
+    },
+    {
+      "name": "Nikki Ghorpade",
+      "title": "Director of Public Policy",
+      "organization": "Ducks Unlimited",
+      "sessions": []
+    },
+    {
+      "name": "Noe Ortega",
+      "title": "Commissioner of Higher Education",
+      "organization": "State of Massachusetts",
+      "sessions": []
+    },
+    {
+      "name": "Oren Cass",
+      "title": "Executive Director",
+      "organization": "American Compass",
+      "sessions": []
+    },
+    {
+      "name": "Oz Shy",
+      "title": "Senior Policy Adviser and Economist",
+      "organization": "Federal Reserve Bank of Atlanta",
+      "sessions": []
+    },
+    {
+      "name": "Patrice Lahlum",
+      "title": "Vice President",
+      "organization": "Industrial Innovation & Carbon Management, Great Plains Institute",
+      "sessions": []
+    },
+    {
+      "name": "Patrick Barry",
+      "title": "Clinical Assistant Professor",
+      "organization": "University of Michigan Law School",
+      "sessions": []
+    },
+    {
+      "name": "Paul Cutler",
+      "title": "State Representative",
+      "organization": "Utah Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Paul Reville",
+      "title": "Francis Keppel Professor of Practice of Educational Policy and Administration",
+      "organization": "Harvard Graduate School of Education",
+      "sessions": []
+    },
+    {
+      "name": "Paul Rosino",
+      "title": "Senate Majority Assistant Floor Leader",
+      "organization": "Oklahoma Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Paul Smith",
+      "title": "Clerk of the House",
+      "organization": "General Court of New Hampshire",
+      "sessions": []
+    },
+    {
+      "name": "Pedro Martinez",
+      "title": "Commissioner",
+      "organization": "MA Dept of Elementary and Secondary Education",
+      "sessions": []
+    },
+    {
+      "name": "Peter Muller",
+      "title": "Senior Officer",
+      "organization": "Managing Fiscal Risks, The Pew Charitable Trusts",
+      "sessions": []
+    },
+    {
+      "name": "Peverill Squire",
+      "title": "Professor",
+      "organization": "University of Missouri, Truman School of Government and Public Affairs",
+      "sessions": []
+    },
+    {
+      "name": "Puneet Bhullar",
+      "title": "Director of Policy Engagement",
+      "organization": "California Council on Science & Technology",
+      "sessions": []
+    },
+    {
+      "name": "Randi Weingarten",
+      "title": "President",
+      "organization": "American Federation of Teachers",
+      "sessions": []
+    },
+    {
+      "name": "Randy Dean",
+      "title": "Randy Dean",
+      "organization": "MBA, “The E-mail Sanity Expert”®, Speaker Exchange",
+      "sessions": []
+    },
+    {
+      "name": "Raumesh Akbari",
+      "title": "Senate Minority Leader",
+      "organization": "Tennessee General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Richard Vague",
+      "title": "Author",
+      "organization": "Businessman, Self-Employed",
+      "sessions": []
+    },
+    {
+      "name": "Rob Creager",
+      "title": "Executive Director",
+      "organization": "Wyoming Energy Authority",
+      "sessions": []
+    },
+    {
+      "name": "Robert Behning",
+      "title": "State Representative",
+      "organization": "Indiana General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Robert Lynn",
+      "title": "State Representative",
+      "organization": "General Court of New Hampshire",
+      "sessions": []
+    },
+    {
+      "name": "Robert Thormeyer",
+      "title": "Director",
+      "organization": "State, International, & Tribal Affairs Division, Federal Energy Regulatory Commission",
+      "sessions": []
+    },
+    {
+      "name": "Robin Grace",
+      "title": "Chief of AAM Integration & Strategy",
+      "organization": "MassDOT Aeronautics",
+      "sessions": []
+    },
+    {
+      "name": "Robin Vos",
+      "title": "Speaker of the Assembly",
+      "organization": "Wisconsin Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Robin Webb",
+      "title": "State Senator",
+      "organization": "Kentucky General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Roger Goodman",
+      "title": "State Representative",
+      "organization": "Washington Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Roger Hanshaw",
+      "title": "Speaker of the House",
+      "organization": "West Virginia Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Ronald D. Kouchi",
+      "title": "Senate President",
+      "organization": "Hawaii Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Ronald J. Mariano",
+      "title": "Speaker of the House",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Ruby Bolaria Shifrin",
+      "title": "Chief Investment and Partnership Officer",
+      "organization": "Terner Labs",
+      "sessions": []
+    },
+    {
+      "name": "Russell Humphrey",
+      "title": "Chief Clerk of the Senate",
+      "organization": "Tennessee General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Ruth Bajada",
+      "title": "Deputy Chief of Mission",
+      "organization": "European Union",
+      "sessions": []
+    },
+    {
+      "name": "Ruth Greenwood",
+      "title": "Assistant Clinical Professor of Law",
+      "organization": "Harvard University",
+      "sessions": []
+    },
+    {
+      "name": "Sabrina Bergen",
+      "title": "Chief of Staff for Policy and Supervision",
+      "organization": "Conference of State Bank Supervisors",
+      "sessions": []
+    },
+    {
+      "name": "Sal DiDomenico",
+      "title": "Senate Assistant Majority Leader",
+      "organization": "Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Samantha Scotti",
+      "title": "Associate Director",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Sanam Hooshidary",
+      "title": "Legislative Specialist",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Sandra Simpkins",
+      "title": "Professor",
+      "organization": "School of Education, University of California- Irvine",
+      "sessions": []
+    },
+    {
+      "name": "Sarah Stewart",
+      "title": "Chief Counsel to the Senate",
+      "organization": "West Virginia Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Sarah Willie-LeBreton",
+      "title": "President",
+      "organization": "Smith College",
+      "sessions": []
+    },
+    {
+      "name": "Scott Bedke",
+      "title": "Lt. Governor",
+      "organization": "Idaho Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Scott Harden",
+      "title": "Chief Technology Officer",
+      "organization": "Schneider Electric",
+      "sessions": []
+    },
+    {
+      "name": "Scott Krug",
+      "title": "Assembly Assistant Majority Leader",
+      "organization": "Wisconsin Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Scott Wiedmann",
+      "title": "Director",
+      "organization": "Federal Voting Assistance Program, Department of Defense",
+      "sessions": []
+    },
+    {
+      "name": "Sean McSpaden",
+      "title": "Principal Legislative IT Analyst",
+      "organization": "Oregon Legislative Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Shankar Vedantam",
+      "title": "Host & Executive Editor",
+      "organization": "Hidden Brain podcast",
+      "sessions": []
+    },
+    {
+      "name": "Shannon Francis",
+      "title": "State Representative",
+      "organization": "Kansas Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Sharon Carson",
+      "title": "Senate President",
+      "organization": "General Court of New Hampshire",
+      "sessions": []
+    },
+    {
+      "name": "Sixto Cancel",
+      "title": "Chief Executive Officer and Founder",
+      "organization": "Think of Us",
+      "sessions": []
+    },
+    {
+      "name": "Staci Gruber",
+      "title": "Director",
+      "organization": "Marijuana Investigations for Neuroscientific Discovery (MIND), McLean Hospital",
+      "sessions": []
+    },
+    {
+      "name": "Steph Tatham",
+      "title": "Senior Drinking Water / Water Quality Expert (PFAS)",
+      "organization": "Eastern Research Group",
+      "sessions": []
+    },
+    {
+      "name": "Stephanie Kifowit",
+      "title": "State Representative",
+      "organization": "Illinois General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Stephen Bowen",
+      "title": "Distinguished Policy Fellow",
+      "organization": "Hoover Institution, Stanford University",
+      "sessions": []
+    },
+    {
+      "name": "Stephen Redfearn",
+      "title": "Chief of Police",
+      "organization": "Boulder Police Department",
+      "sessions": []
+    },
+    {
+      "name": "Susan Frederick",
+      "title": "Sr Fed Affairs Counsel",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Susan Gale Perry",
+      "title": "Chief Executive Officer",
+      "organization": "Child Care Aware of America",
+      "sessions": []
+    },
+    {
+      "name": "Susan Howard",
+      "title": "Director of Policy and Government Relations",
+      "organization": "American Association of State Highway and Transportation Officials",
+      "sessions": []
+    },
+    {
+      "name": "Susan Parnas Frederick",
+      "title": "Sr Fed Affairs Counsel",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Sydne Enlund",
+      "title": "State Outreach Manager",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Tammy Wehrle",
+      "title": "Legislative Education and Outreach Officer",
+      "organization": "Wisconsin Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Terri Cortvriend",
+      "title": "State Representative",
+      "organization": "Rhode Island General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Theresa Gavarone",
+      "title": "Senate Majority Floor Leader",
+      "organization": "Ohio General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Thomas Hicks",
+      "title": "Commissioner",
+      "organization": "U.S. Election Assistance Commission",
+      "sessions": []
+    },
+    {
+      "name": "Tim Buckley",
+      "title": "Senior Vice President for External Affairs",
+      "organization": "The National Collegiate Athletic Association (NCAA)",
+      "sessions": []
+    },
+    {
+      "name": "Tim Parr",
+      "title": "Deputy General Counsel",
+      "organization": "American Gas Association",
+      "sessions": []
+    },
+    {
+      "name": "Tim Sekerak",
+      "title": "Chief Clerk",
+      "organization": "Oregon Legislative Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Tim Storey",
+      "title": "CEO",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Timothy G. Sekerak",
+      "title": "Chief Clerk",
+      "organization": "Oregon Legislative Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Timothy Knowles",
+      "title": "President",
+      "organization": "Carnegie Foundation for the Advancement of Teaching",
+      "sessions": []
+    },
+    {
+      "name": "Tina Orwall",
+      "title": "State Senator",
+      "organization": "Washington Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Todd Huston",
+      "title": "Speaker of the House",
+      "organization": "Indiana General Assembly",
+      "sessions": []
+    },
+    {
+      "name": "Travis Swallow",
+      "title": "Chief Financial Officer",
+      "organization": "Accounting & Human Resources, Arizona Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Tye Brady",
+      "title": "Chief Technologist",
+      "organization": "Amazon Robotics",
+      "sessions": []
+    },
+    {
+      "name": "W. Stuart Loosemore",
+      "title": "Esq.",
+      "organization": "Manager of Talent and Engagement, Massachusetts General Court",
+      "sessions": []
+    },
+    {
+      "name": "Wayne A. Harper",
+      "title": "NCSL President",
+      "organization": "",
+      "sessions": []
+    },
+    {
+      "name": "Wayne Harper",
+      "title": "NCSL President",
+      "organization": "",
+      "sessions": []
+    },
+    {
+      "name": "Wesley Wilcox",
+      "title": "Supervisor of Elections",
+      "organization": "Marion County, Florida",
+      "sessions": []
+    },
+    {
+      "name": "Whitney Airgood-Obrycki",
+      "title": "Senior Research Associate",
+      "organization": "Harvard Joint Center for Housing Studies",
+      "sessions": []
+    },
+    {
+      "name": "Will Clark",
+      "title": "Program Principal",
+      "organization": "National Conference of State Legislatures",
+      "sessions": []
+    },
+    {
+      "name": "Willie Jones",
+      "title": "CEO",
+      "organization": "Dependable Source Corporation",
+      "sessions": []
+    },
+    {
+      "name": "Yu Chen",
+      "title": "Electrical and Computer Engineering Professor",
+      "organization": "Binghamton University (SUNY)",
+      "sessions": []
+    },
+    {
+      "name": "Zach Duckworth",
+      "title": "State Senator",
+      "organization": "Minnesota Legislature",
+      "sessions": []
+    },
+    {
+      "name": "Zachary Rausch",
+      "title": "Chief Researcher to Social Psychologist Jonathan Haidt",
+      "organization": "NYU-Stern School of Business",
+      "sessions": []
+    }
+  ],
+  "tracks": [
+    "Banking, Financial Services and Insurance",
+    "Budget, Taxes and Pensions",
+    "Civility",
+    "Economic Development and Labor",
+    "Education",
+    "Elections and Redistricting",
+    "General Session",
+    "Health and Human Services",
+    "Law and Public Safety",
+    "Legislative Institution",
+    "Legislative Staff",
+    "Military and Veterans",
+    "Natural Resources, Energy and Environment",
+    "Professional Development",
+    "Technology and Communications",
+    "Transportation",
+    "Women's Legislative Network"
+  ]
 }

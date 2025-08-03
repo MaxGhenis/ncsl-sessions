@@ -111,6 +111,45 @@ class FinalNCSLScraper:
         
         return speakers
     
+    def extract_speakers_from_structured_text(self, text: str) -> Dict[str, Any]:
+        """Extract speakers and track from structured text like 'Moderator: Name, Title, Org'"""
+        speakers = []
+        track = ""
+        
+        # Look for track information
+        track_match = re.search(r'Track:\s*([^\n<]+)', text)
+        if track_match:
+            track = track_match.group(1).strip()
+        
+        # Look for speaker patterns
+        # Pattern: "Speaker: Name, Title, Organization"
+        speaker_matches = re.findall(r'(?:Speaker|Moderator|Presenter|Panelist):\s*([^\n<]+)', text)
+        
+        for match in speaker_matches:
+            # Parse the speaker information
+            speaker_text = match.strip()
+            if not speaker_text:
+                continue
+            
+            # Split by comma to separate name, title, organization
+            parts = [p.strip() for p in speaker_text.split(',')]
+            
+            name = parts[0] if parts else ""
+            title = parts[1] if len(parts) > 1 else ""
+            organization = ', '.join(parts[2:]) if len(parts) > 2 else ""
+            
+            if name:  # Only add if we have at least a name
+                speakers.append({
+                    'name': name,
+                    'title': title,
+                    'organization': organization
+                })
+        
+        return {
+            'speakers': speakers,
+            'track': track
+        }
+    
     def determine_session_type(self, title: str) -> str:
         """Determine session type based on title"""
         title_lower = title.lower()
@@ -151,30 +190,35 @@ class FinalNCSLScraper:
         return hashlib.md5(unique_string.encode()).hexdigest()
     
     def extract_session_from_cell(self, date_cell) -> Optional[Dict[str, Any]]:
-        """Extract session information from a date cell"""
+        """Extract session information from a date cell and its row"""
         try:
-            # Get the date from data-value
+            # Get the parent row to access all cells
+            row = date_cell.find_parent('tr')
+            if not row:
+                return None
+            
+            # Get all cells in the row
+            cells = row.find_all('td')
+            if len(cells) < 3:  # Need at least title, date, description
+                return None
+            
+            # Parse date from date_cell
             date_value = date_cell.get('data-value', '')
             if not date_value:
                 return None
             
-            # Convert date format
             try:
                 date_obj = datetime.strptime(date_value, '%m/%d/%Y')
                 date = date_obj.strftime('%Y-%m-%d')
             except ValueError:
                 date = date_value
             
-            # Get cell content
-            cell_text = self.clean_text(date_cell.get_text())
-            if not cell_text:
-                return None
-            
-            lines = [line.strip() for line in cell_text.split('\n') if line.strip()]
+            # Parse time and location from date cell
+            date_cell_text = self.clean_text(date_cell.get_text())
+            lines = [line.strip() for line in date_cell_text.split('\n') if line.strip()]
             if not lines:
                 return None
             
-            # Parse time and location from first line
             first_line = lines[0]
             _, time, location = self.parse_time_location(first_line)
             
@@ -186,58 +230,49 @@ class FinalNCSLScraper:
                 elif additional_location and location:
                     location = f"{location}, {additional_location}"
             
-            # Find session details in next cell
-            session_cell = date_cell.find_next_sibling('td')
-            if not session_cell:
-                return None
-            
-            session_text = self.clean_text(session_cell.get_text())
-            if not session_text:
-                return None
-            
-            # Parse session details
-            session_lines = [line.strip() for line in session_text.split('\n') if line.strip()]
-            if not session_lines:
-                return None
-            
-            # Extract title - first meaningful line
+            # Find title cell (usually the one before date cell)
             title = ""
-            for line in session_lines:
-                if line and not line.lower().startswith('summary:'):
-                    title = line
-                    break
+            title_cell = date_cell.find_previous_sibling('td')
+            if title_cell:
+                title = self.clean_text(title_cell.get_text())
             
-            if not title and session_lines:
-                title = session_lines[0]
+            # Find description cell (usually after date cell)
+            description = ""
+            desc_cell = date_cell.find_next_sibling('td')
+            if desc_cell:
+                desc_text = self.clean_text(desc_cell.get_text())
+                # Extract description (remove "Summary:" prefix if present)
+                if desc_text.startswith('Summary:'):
+                    description = desc_text[8:].strip()
+                else:
+                    description = desc_text
             
-            # Create session
+            # Find speaker cell (look for cells containing "Speaker:" or "Moderator:")
+            speakers = []
+            track = ""
+            
+            for cell in cells:
+                cell_text = cell.get_text()
+                if 'Speaker:' in cell_text or 'Moderator:' in cell_text or 'Track:' in cell_text:
+                    # Parse speakers from this cell
+                    speakers_data = self.extract_speakers_from_structured_text(cell_text)
+                    speakers.extend(speakers_data['speakers'])
+                    if speakers_data['track']:
+                        track = speakers_data['track']
+            
+            if not title:
+                return None
+            
             session = {
                 'date': date,
                 'time': time,
                 'title': title,
                 'location': location.strip(),
-                'speakers': [],
-                'description': '',
-                'track': '',
+                'speakers': speakers,
+                'description': description,
+                'track': track,
                 'session_type': self.determine_session_type(title)
             }
-            
-            # Extract additional info
-            full_text = session_text
-            
-            # Look for track info
-            track_match = re.search(r'Track:\s*([^\n]+)', full_text)
-            if track_match:
-                session['track'] = track_match.group(1).strip()
-            
-            # Extract description (summary)
-            if 'Summary:' in full_text:
-                desc_match = re.search(r'Summary:\s*([^\n]+(?:\n[^\n]+)*)', full_text)
-                if desc_match:
-                    session['description'] = desc_match.group(1).strip()
-            
-            # Extract speakers
-            session['speakers'] = self.extract_speakers_from_text(full_text)
             
             return session
             
